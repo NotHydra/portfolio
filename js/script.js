@@ -26,7 +26,7 @@ let swiperPortfolio = new Swiper(".portfolio_container", {
     grabCursor: true,
     spaceBetween: 48,
     autoplay: {
-        delay: 1000,
+        delay: 2500,
         disableOnInteraction: false,
     },
 

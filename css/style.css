@@ -239,6 +239,7 @@ section {
 }
 
 .row {
+    height: 360px;
     background: #0b0b13;
     padding: 60px 35px;
     border-radius: 5px;
@@ -350,7 +351,13 @@ section {
     align-items: center;
 }
 .container {
-    max-width: 768px; /* anomali */
+    max-width: 100%; /* anomali */
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.container2 {
+    max-width: 80%; /* anomali */
     margin-left: 1.5rem;
     margin-right: 1.5rem;
 }
@@ -620,7 +627,7 @@ section {
     }
     .navbar {
         position: absolute;
-        top: -500px;
+        top: -700px;
         left: 0;
         right: 0;
         display: flex;
@@ -693,6 +700,14 @@ section {
         width: 300px;
         height: auto;
     }
+
+    .qualification_tabs .qualification_button {
+        font-size: 12px;
+    }
+
+    .qualification_tabs .qualification_button i {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -745,7 +760,7 @@ section {
     }
 
     .portfolio_img {
-        width: 320px;
+        width: 500px;
     }
 
     .portfolio_content {
@@ -772,5 +787,9 @@ section {
 
     .swiper-container-horizontal > .swiper-pagination-bullets {
         bottom: -4.5rem;
+    }
+
+    .portfolio {
+        height: 100vh;
     }
 }
