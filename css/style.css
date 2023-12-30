@@ -793,3 +793,11 @@ section {
         height: 100vh;
     }
 }
+
+.project-link {
+    color: var(--main-color);
+}
+
+.project-link:hover {
+    color: var(--text-color);
+}
