@@ -357,7 +357,7 @@ section {
 }
 
 .container2 {
-    max-width: 80%; /* anomali */
+    max-width: 100%; /* anomali */
     margin-left: 1.5rem;
     margin-right: 1.5rem;
 }
@@ -500,11 +500,13 @@ section {
 }
 
 .portfolio_title {
+    text-align: center;
     font-size: 1.125rem;
     margin-bottom: 0.5rem;
 }
 
 .portfolio_description {
+    text-align: center;
     margin-bottom: 0.75rem;
 }
 
@@ -722,8 +724,8 @@ section {
 }
 
 @media screen and (min-width: 568px) {
-    .portfolio_content {
-        grid-template-columns: repeat(2, 1fr);
+    .container2 {
+        max-width: 80%;
     }
 
     .qualification_sections {
@@ -734,6 +736,10 @@ section {
 }
 
 @media screen and (min-width: 768px) {
+    .container2 {
+        max-width: 70%;
+    }
+
     .container {
         margin-left: auto;
         margin-right: auto;
@@ -769,6 +775,10 @@ section {
 }
 
 @media screen and (min-width: 1024px) {
+    .container2 {
+        max-width: 55%;
+    }
+
     .portfolio_content {
         column-gap: 5rem;
     }
@@ -791,6 +801,24 @@ section {
 
     .portfolio {
         height: 100vh;
+    }
+}
+
+@media screen and (min-width: 1408px) {
+    .container2 {
+        max-width: 80%;
+    }
+
+    .portfolio_title {
+        text-align: left;
+    }
+
+    .portfolio_content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .portfolio_description {
+        text-align: justify;
     }
 }
 
