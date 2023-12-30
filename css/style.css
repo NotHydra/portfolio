@@ -829,3 +829,14 @@ section {
 .project-link:hover {
     color: var(--text-color);
 }
+
+.badges {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.badge {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
