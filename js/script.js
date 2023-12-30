@@ -40,7 +40,7 @@ let swiperPortfolio = new Swiper(".portfolio_container", {
 // type text
 
 var typed = new Typed(".typing", {
-    strings: ["Data Science", "Back-End Development", "Database Engineering"], //bisa tambahin sendiri kalo mau
+    strings: ["Software Engineering", "Back-End Development", "Database Engineering"], //bisa tambahin sendiri kalo mau
     typeSpeed: 30,
     backSpeed: 5,
     loop: true,
