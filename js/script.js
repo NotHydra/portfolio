@@ -72,8 +72,8 @@ ScrollReveal({ origin: "bottom", distance: "61px", duration: 2000, reset: false 
 ScrollReveal({ origin: "bottom", distance: "61px", duration: 2000, reset: false }).reveal(".main-btn", { delay: 2000 });
 ScrollReveal({ origin: "top", distance: "61px", duration: 2000, reset: false }).reveal(".scroll-4", { delay: 200 });
 ScrollReveal({ origin: "bottom", distance: "61px", duration: 2000, reset: false }).reveal(".scroll-5", { delay: 1400 });
-ScrollReveal({ origin: "bottom", distance: "61px", duration: 2000, reset: false }).reveal(".scroll-6", { delay: 1800 });
-ScrollReveal({ origin: "bottom", distance: "61px", duration: 2000, reset: false }).reveal(".scroll-7", { delay: 2200 });
+ScrollReveal({ origin: "bottom", distance: "61px", duration: 2000, reset: false }).reveal(".scroll-6", { delay: 1600 });
+ScrollReveal({ origin: "bottom", distance: "61px", duration: 2000, reset: false }).reveal(".scroll-7", { delay: 1800 });
 ScrollReveal({ origin: "top", distance: "61px", duration: 2000, reset: false }).reveal(".section_title", { delay: 200 });
 ScrollReveal({ origin: "top", distance: "61px", duration: 2000, reset: false }).reveal(".section_subtitle", { delay: 200 });
 // ScrollReveal({ origin: "bottom", distance: "61px", duration: 2000, reset: false }).reveal(".skill-item", { delay: 1200 });
