@@ -410,6 +410,10 @@ section {
     color: var(--main-color);
 }
 
+.qualification-link:hover {
+    color: var(--text-color) !important;
+}
+
 .qualification_rounder {
     display: inline-block;
     width: 13px;
