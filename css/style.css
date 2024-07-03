@@ -417,6 +417,24 @@ section {
     font-weight: bold;
 }
 
+.qualification-list {
+    margin-left: 1rem;
+}
+
+.qualification-list li {
+    margin-bottom: 0.1rem;
+
+    list-style-type: disc;
+}
+
+.qualification-list-calendar {
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+
+    font-size: 0.75rem;
+    color: var(--second-main-color);
+}
+
 .qualification_calender {
     font-size: 0.75rem;
     color: var(--main-color);
