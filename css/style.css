@@ -397,12 +397,24 @@ section {
 .qualification_title {
     font-size: 0.938rem;
     font-weight: 500;
+    text-align: justify;
 }
 
 .qualification_subtitle {
-    display: inline-block;
-    font-size: 0.813rem;
     margin-bottom: 1rem;
+
+    font-size: 0.813rem;
+    text-align: justify;
+
+    display: inline-block;
+}
+
+.qualification_subtitle li {
+    margin-bottom: 0.5rem;
+}
+
+.qualification-point {
+    font-weight: bold;
 }
 
 .qualification_calender {
