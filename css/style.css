@@ -534,9 +534,25 @@ section {
 }
 
 .portfolio_title {
-    text-align: center;
+    margin-bottom: 0.1rem;
+
     font-size: 1.125rem;
+    text-align: center;
+}
+
+.portfolio-subtitle {
     margin-bottom: 0.5rem;
+
+    font-size: 0.813rem;
+    text-align: center;
+}
+
+.portfolio-link {
+    color: var(--main-color);
+}
+
+.portfolio-link:hover {
+    color: var(--text-color);
 }
 
 .portfolio_description {
@@ -844,6 +860,10 @@ section {
     }
 
     .portfolio_title {
+        text-align: left;
+    }
+
+    .portfolio-subtitle {
         text-align: left;
     }
 
