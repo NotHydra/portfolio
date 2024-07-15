@@ -890,6 +890,10 @@ section {
     color: var(--text-color);
 }
 
+.project-link i {
+    font-size: 0.9rem;
+}
+
 .badges {
     display: flex;
     justify-content: center;
