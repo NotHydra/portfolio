@@ -529,6 +529,14 @@ section {
     width: 265px;
     border-radius: 0.5rem;
     justify-self: center;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.portfolio_img:hover {
+    opacity: 50%;
 }
 
 .portfolio_title {
