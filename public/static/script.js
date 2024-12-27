@@ -1,0 +1,16 @@
+ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".home-text", { delay: 200 });
+ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".home-img", { delay: 200 });
+ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".about-img", { delay: 200 });
+ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll", { delay: 200 });
+ScrollReveal({ origin: "bottom", distance: "61px", duration: 2000, reset: false }).reveal(".scroll-2", { delay: 1000 });
+ScrollReveal({ origin: "bottom", distance: "61px", duration: 2000, reset: false }).reveal(".scroll-3", { delay: 1200 });
+ScrollReveal({ origin: "bottom", distance: "61px", duration: 2000, reset: false }).reveal(".main-btn", { delay: 2000 });
+ScrollReveal({ origin: "top", distance: "61px", duration: 2000, reset: false }).reveal(".scroll-4", { delay: 200 });
+ScrollReveal({ origin: "bottom", distance: "61px", duration: 2000, reset: false }).reveal(".scroll-5", { delay: 1400 });
+ScrollReveal({ origin: "bottom", distance: "61px", duration: 2000, reset: false }).reveal(".scroll-6", { delay: 1600 });
+ScrollReveal({ origin: "bottom", distance: "61px", duration: 2000, reset: false }).reveal(".scroll-7", { delay: 1800 });
+ScrollReveal({ origin: "top", distance: "61px", duration: 2000, reset: false }).reveal(".section_title", { delay: 200 });
+ScrollReveal({ origin: "top", distance: "61px", duration: 2000, reset: false }).reveal(".section_subtitle", { delay: 200 });
+ScrollReveal({ origin: "bottom", distance: "61px", duration: 2000, reset: false }).reveal(".qualification_container", { delay: 1200 });
+ScrollReveal({ origin: "bottom", distance: "61px", duration: 2000, reset: false }).reveal(".qualification_sections", { delay: 1200 });
+ScrollReveal({ origin: "top", distance: "61px", duration: 2000, reset: false }).reveal(".portfolio_container", { delay: 200 });
