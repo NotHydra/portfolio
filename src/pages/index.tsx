@@ -3,6 +3,7 @@ import { Rubik } from "next/font/google";
 import Head from "next/head";
 import Script from "next/script";
 import { JSX, useEffect, useState } from "react";
+import { ReactTyped } from "react-typed";
 
 const rubik: NextFont = Rubik({
     subsets: ["latin"],
@@ -10,6 +11,8 @@ const rubik: NextFont = Rubik({
 });
 
 export default function Home(): JSX.Element {
+    const skills: string[] = ["Web Development", "Desktop Development", "Back-End Development", "Database Engineering", "Internet of Things Engineering"];
+
     const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
     const toggleMenu = () => {
@@ -79,7 +82,10 @@ export default function Home(): JSX.Element {
                     </h1>
 
                     <h6>
-                        Experienced in <span className="typing"></span>
+                        Experienced in{" "}
+                        <span>
+                            <ReactTyped strings={skills} typeSpeed={30} backSpeed={5} loop />
+                        </span>
                     </h6>
 
                     <p style={{ textAlign: "justify", fontSize: "1rem", fontWeight: 400 }}>
