@@ -1,5 +1,7 @@
 import { JSX } from "react";
 
+import AboutItem from "./item.component";
+
 export default function About(): JSX.Element {
     return (
         <section className="about" id="about">
@@ -17,21 +19,13 @@ export default function About(): JSX.Element {
                 </p>
 
                 <div className="count">
-                    <div className="scroll-bottom-1000">
-                        <span>4</span> Years of Experience
-                    </div>
+                    <AboutItem count={4} text="Years of Experience" delay={1000} />
 
-                    <div className="scroll-bottom-1200">
-                        <span>1</span> Internship Program
-                    </div>
+                    <AboutItem count={1} text="Internship Programs" delay={1200} />
 
-                    <div className="scroll-bottom-1400">
-                        <span>2</span> National Certificates of Competence
-                    </div>
+                    <AboutItem count={2} text="National Certificates of Competence" delay={1400} />
 
-                    <div className="scroll-bottom-1600">
-                        <span>8</span> Projects
-                    </div>
+                    <AboutItem count={8} text="Projects" delay={1600} />
                 </div>
 
                 <div className="scroll-bottom-2000">
