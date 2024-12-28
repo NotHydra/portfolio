@@ -27,7 +27,7 @@ export default function HeaderNavigation(): JSX.Element {
 
                 <HeaderNavigationItem href="#about" text="About" />
 
-                <HeaderNavigationItem href="#experience" text="Qualification" />
+                <HeaderNavigationItem href="#qualification" text="Qualification" />
 
                 <HeaderNavigationItem href="#project" text="Project" />
 
