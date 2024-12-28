@@ -6,6 +6,7 @@ import { JSX } from "react";
 
 import Header from "@/components/header/index.component";
 import Home from "@/components/home/index.component";
+import About from "@/components/about/index.component";
 
 const rubik: NextFont = Rubik({
     subsets: ["latin"],
@@ -26,6 +27,8 @@ export default function Index(): JSX.Element {
             <Header />
 
             <Home />
+
+            <About />
 
             <br />
             <br />
