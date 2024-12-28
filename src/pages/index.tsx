@@ -7,6 +7,7 @@ import { JSX } from "react";
 import Header from "@/components/header/index.component";
 import Home from "@/components/home/index.component";
 import About from "@/components/about/index.component";
+import Qualification from "@/components/qualifications/index.component";
 
 const rubik: NextFont = Rubik({
     subsets: ["latin"],
@@ -30,9 +31,7 @@ export default function Index(): JSX.Element {
 
             <About />
 
-            <br />
-            <br />
-            <br />
+            <Qualification />
 
             <script src="https://unpkg.com/scrollreveal" referrerPolicy="no-referrer" />
             <Script src="static/script.js" />

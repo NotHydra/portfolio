@@ -17,6 +17,8 @@
 
 // ScrollReveal({ origin: "top", distance: "61px", duration: 2000, reset: false }).reveal(".portfolio_container", { delay: 200 });
 
+ScrollReveal({ origin: "top", distance: "61px", duration: 2000, reset: false }).reveal(".scroll-top-200", { delay: 200 });
+
 ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-bottom-200", { delay: 200 });
 ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-bottom-400", { delay: 400 });
 ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-bottom-600", { delay: 600 });
