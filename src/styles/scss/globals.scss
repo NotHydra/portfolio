@@ -434,11 +434,13 @@ span {
 }
 
 @media (max-width: 400px) {
-    .image {
-        img {
-            max-width: 100%;
-            width: 300px;
-            height: auto;
+    .home {
+        .image {
+            img {
+                max-width: 100%;
+                width: 300px;
+                height: auto;
+            }
         }
     }
 }
