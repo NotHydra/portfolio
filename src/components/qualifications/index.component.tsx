@@ -1,14 +1,14 @@
 import { JSX } from "react";
 
 import QualificationTimeline from "./timeline";
-import QualificationTimelineItemCalendarMultiple from "./timeline/item/calendar-multiple.component";
-import QualificationTimelineItemCalendar from "./timeline/item/calendar.component";
-import QualificationTimelineItemDescriptionPoint from "./timeline/item/description-point.component";
-import QualificationTimelineItemDescriptionText from "./timeline/item/description-text.component";
-import QualificationTimelineItemDescription from "./timeline/item/description.component";
 import QualificationTimelineItem from "./timeline/item/index.component";
-import QualificationTimelineItemSubtitleLink from "./timeline/item/subtitle-link.component";
-import QualificationTimelineItemSubtitle from "./timeline/item/subtitle.component";
+import QualificationTimelineItemSubtitle from "./timeline/item/subtitle/index.component";
+import QualificationTimelineItemSubtitleLink from "./timeline/item/subtitle/link.component";
+import QualificationTimelineItemDescription from "./timeline/item/description/index.component";
+import QualificationTimelineItemDescriptionText from "./timeline/item/description/text.component";
+import QualificationTimelineItemDescriptionPoint from "./timeline/item/description/point.component";
+import QualificationTimelineItemCalendar from "./timeline/item/calendar/index.component";
+import QualificationTimelineItemCalendarMultiple from "./timeline/item/calendar/multiple.component";
 
 export default function Qualification(): JSX.Element {
     return (
