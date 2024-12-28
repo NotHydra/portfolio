@@ -35,12 +35,6 @@ export default function Home(): JSX.Element {
                 <meta name="description" content="Rizky Irswanda's Portofolio Website" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-                <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
-                <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
-
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerPolicy="no-referrer" />
-                <script src="https://unpkg.com/scrollreveal" />
-
                 <link rel="shortcut icon" href="image/icon.png" type="image/x-icon" />
                 <title>Rizky Irswanda | Portofolio</title>
             </Head>
@@ -111,6 +105,7 @@ export default function Home(): JSX.Element {
             <br />
             <br />
 
+            <script src="https://unpkg.com/scrollreveal" referrerPolicy="no-referrer" />
             <Script src="static/script.js" />
         </>
     );
