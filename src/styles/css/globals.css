@@ -37,6 +37,30 @@ header {
   padding: 24px 11%;
   transition: 0.3s;
 }
+header .logo {
+  color: var(--color-text);
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+header #navigation-bar-icon {
+  font-size: 28px;
+  z-index: 10001;
+  cursor: pointer;
+  display: none;
+}
+header .navigation-bar {
+  display: flex;
+}
+header .navigation-bar a {
+  color: var(--color-text);
+  font-size: 1rem;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+header .navigation-bar a:hover {
+  background: var(--color-main);
+  transition: 0.3s;
+}
 
 section {
   padding: 120px 11%;
@@ -161,26 +185,6 @@ span {
   transition: all is ease-in-out;
 }
 
-.logo {
-  color: var(--color-text);
-  font-size: 1.8rem;
-  font-weight: 600;
-}
-
-.navigation-bar {
-  display: flex;
-}
-.navigation-bar a {
-  color: var(--color-text);
-  font-size: 1rem;
-  padding: 10px 20px;
-  font-weight: 500;
-}
-.navigation-bar a:hover {
-  background: var(--color-main);
-  transition: 0.3s;
-}
-
 .timeline {
   padding: 6rem 0 4rem 0 !important;
 }
@@ -252,13 +256,6 @@ span {
   transform: translate(6px, -7px);
 }
 
-#navigation-bar-icon {
-  font-size: 28px;
-  z-index: 10001;
-  cursor: pointer;
-  display: none;
-}
-
 @keyframes animate {
   0% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
@@ -303,10 +300,10 @@ span {
   header {
     padding: 18px 3%;
   }
-  #navigation-bar-icon {
+  header #navigation-bar-icon {
     display: block;
   }
-  .navigation-bar {
+  header .navigation-bar {
     position: absolute;
     top: -700px;
     left: 0;
@@ -318,10 +315,10 @@ span {
     text-align: left;
     transition: 0.2s ease;
   }
-  .navigation-bar.active {
+  header .navigation-bar.active {
     top: 100%;
   }
-  .navigation-bar a {
+  header .navigation-bar a {
     display: block;
     padding: 1rem;
     border-left: 2px solid var(--color-main);
