@@ -46,7 +46,7 @@ span {
   color: var(--color-main);
 }
 
-.btn {
+.button {
   background: var(--color-main);
   color: var(--color-text);
   box-shadow: 4px 4px var(--color-text);
@@ -59,10 +59,13 @@ span {
   letter-spacing: 2px;
   transition: ease all 0.35s;
 }
-.btn:hover {
+.button:hover {
   background-color: var(--color-text);
   color: var(--color-main);
   box-shadow: 4px 4px var(--color-main);
+}
+.button.bigger-margin-right {
+  margin-right: 20px !important;
 }
 
 .home {
@@ -74,26 +77,26 @@ span {
   grid-gap: 6rem;
   align-items: center;
 }
-.home .home-text h1 {
+.home .text h1 {
   font-size: var(--font-big);
   color: var(--color-text);
   font-weight: 700;
   line-height: 1;
   margin: 0 0 20px;
 }
-.home .home-text h5 {
+.home .text h5 {
   color: var(--color-text);
   font-size: 20px;
   font-weight: 500;
   margin: 0 0 20px;
 }
-.home .home-text h6 {
+.home .text h6 {
   color: var(--color-text);
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 25px;
 }
-.home .home-text p {
+.home .text p {
   max-width: 470px;
   font-size: var(--font-p);
   font-weight: 300;
@@ -101,7 +104,7 @@ span {
   margin-bottom: 1rem;
   color: var(--color-second-main);
 }
-.home .home-img img {
+.home .image img {
   max-width: 100%;
   width: 430px;
   height: auto;
@@ -114,10 +117,6 @@ span {
   color: var(--color-text);
   font-size: 1.8rem;
   font-weight: 600;
-}
-
-.main-btn .btn {
-  margin-right: 20px;
 }
 
 .navigation-bar {
@@ -212,17 +211,17 @@ span {
     margin-top: 80px;
     height: 100vh;
   }
-  .home-img img {
+  .home .image img {
     max-width: 100%;
     width: 490px;
     height: auto;
   }
-  .home-text p {
+  .home .text p {
     max-width: 100%;
   }
 }
 @media (max-width: 400px) {
-  .home-img img {
+  .image img {
     max-width: 100%;
     width: 300px;
     height: auto;

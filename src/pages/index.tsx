@@ -76,7 +76,7 @@ export default function Home(): JSX.Element {
             </header>
 
             <section className="home" id="home">
-                <div className="home-text">
+                <div className="text">
                     <h1>
                         Rizky <span>Irswanda</span>
                     </h1>
@@ -93,16 +93,16 @@ export default function Home(): JSX.Element {
                         Engineering
                     </p>
 
-                    <a style={{ marginRight: "1rem" }} href="#about" className="btn">
+                    <a style={{ marginRight: "1rem" }} href="#about" className="button bigger-margin-right">
                         Read More
                     </a>
 
-                    <a target="_blank" href="https://drive.google.com/file/d/1f3naCSF5b0VDV5cROJFspEJlFaARyASP/view?usp=sharing" className="btn">
+                    <a target="_blank" href="https://drive.google.com/file/d/1f3naCSF5b0VDV5cROJFspEJlFaARyASP/view?usp=sharing" className="button">
                         View CV
                     </a>
                 </div>
 
-                <div className="home-img">
+                <div className="image">
                     <img src="image/profile.jpg" alt="Profile" />
                 </div>
             </section>

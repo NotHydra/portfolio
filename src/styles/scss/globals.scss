@@ -47,7 +47,7 @@ span {
     color: var(--color-main);
 }
 
-.btn {
+.button {
     background: var(--color-main);
     color: var(--color-text);
     box-shadow: 4px 4px var(--color-text);
@@ -65,6 +65,10 @@ span {
         color: var(--color-main);
         box-shadow: 4px 4px var(--color-main);
     }
+
+    &.bigger-margin-right {
+        margin-right: 20px !important;
+    }
 }
 
 .home {
@@ -76,7 +80,7 @@ span {
     grid-gap: 6rem;
     align-items: center;
 
-    .home-text {
+    .text {
         h1 {
             font-size: var(--font-big);
             color: var(--color-text);
@@ -109,7 +113,7 @@ span {
         }
     }
 
-    .home-img {
+    .image {
         img {
             max-width: 100%;
             width: 430px;
@@ -125,10 +129,6 @@ span {
     color: var(--color-text);
     font-size: 1.8rem;
     font-weight: 600;
-}
-
-.main-btn .btn {
-    margin-right: 20px;
 }
 
 .navigation-bar {
@@ -237,23 +237,25 @@ span {
         text-align: center;
         margin-top: 80px;
         height: 100vh;
-    }
 
-    .home-img {
-        img {
-            max-width: 100%;
-            width: 490px;
-            height: auto;
+        .image {
+            img {
+                max-width: 100%;
+                width: 490px;
+                height: auto;
+            }
         }
-    }
 
-    .home-text p {
-        max-width: 100%;
+        .text {
+            p {
+                max-width: 100%;
+            }
+        }
     }
 }
 
 @media (max-width: 400px) {
-    .home-img {
+    .image {
         img {
             max-width: 100%;
             width: 300px;
