@@ -19,8 +19,7 @@ export default function Home(): JSX.Element {
                 </h6>
 
                 <p className="scroll-bottom-400" style={{ textAlign: "justify", fontSize: "1rem", fontWeight: 400 }}>
-                    A second-year <span>Computer Science</span> student who likes to spend time on <span>Software</span> & <span>Internet of Things</span>{" "}
-                    Engineering
+                    A second-year <span>Computer Science</span> student who likes to spend time on <span>Software</span> & <span>Internet of Things</span> Engineering
                 </p>
 
                 <div className="scroll-bottom-600">
