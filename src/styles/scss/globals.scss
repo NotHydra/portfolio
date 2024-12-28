@@ -131,7 +131,7 @@ span {
     margin-right: 20px;
 }
 
-.navbar {
+.navigation-bar {
     display: flex;
 
     a {
@@ -147,7 +147,7 @@ span {
     }
 }
 
-#menu-icon {
+#navigation-bar-icon {
     font-size: 28px;
     z-index: 10001;
     cursor: pointer;
@@ -200,11 +200,11 @@ span {
         padding: 18px 3%;
     }
 
-    #menu-icon {
+    #navigation-bar-icon {
         display: block;
     }
 
-    .navbar {
+    .navigation-bar {
         position: absolute;
         top: -700px;
         left: 0;

@@ -120,21 +120,21 @@ span {
   margin-right: 20px;
 }
 
-.navbar {
+.navigation-bar {
   display: flex;
 }
-.navbar a {
+.navigation-bar a {
   color: var(--color-text);
   font-size: 1rem;
   padding: 10px 20px;
   font-weight: 500;
 }
-.navbar a:hover {
+.navigation-bar a:hover {
   background: var(--color-main);
   transition: 0.3s;
 }
 
-#menu-icon {
+#navigation-bar-icon {
   font-size: 28px;
   z-index: 10001;
   cursor: pointer;
@@ -178,10 +178,10 @@ span {
   header {
     padding: 18px 3%;
   }
-  #menu-icon {
+  #navigation-bar-icon {
     display: block;
   }
-  .navbar {
+  .navigation-bar {
     position: absolute;
     top: -700px;
     left: 0;
@@ -193,10 +193,10 @@ span {
     text-align: left;
     transition: 0.2s ease;
   }
-  .navbar.active {
+  .navigation-bar.active {
     top: 100%;
   }
-  .navbar a {
+  .navigation-bar a {
     display: block;
     padding: 1rem;
     border-left: 2px solid var(--color-main);

@@ -13,15 +13,15 @@ const rubik: NextFont = Rubik({
 export default function Home(): JSX.Element {
     const skills: string[] = ["Web Development", "Desktop Development", "Back-End Development", "Database Engineering", "Internet of Things Engineering"];
 
-    const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
+    const [isNavigationBarOpen, setIsNavigationBarOpen] = useState<boolean>(false);
 
-    const toggleMenu = () => {
-        setIsMenuOpen(!isMenuOpen);
+    const toggleNavigationBar = () => {
+        setIsNavigationBarOpen(!isNavigationBarOpen);
     };
 
     useEffect(() => {
         const handleScroll = () => {
-            setIsMenuOpen(false);
+            setIsNavigationBarOpen(false);
         };
 
         window.addEventListener("scroll", handleScroll);
@@ -50,9 +50,9 @@ export default function Home(): JSX.Element {
                     R<span>Z</span>
                 </a>
 
-                <div className={`bx ${isMenuOpen ? "bx-x" : "bx-menu"}`} id="menu-icon" onClick={toggleMenu}></div>
+                <div className={`bx ${isNavigationBarOpen ? "bx-x" : "bx-menu"}`} id="navigation-bar-icon" onClick={toggleNavigationBar}></div>
 
-                <ul className={`navbar ${isMenuOpen ? "active" : ""}`}>
+                <ul className={`navigation-bar ${isNavigationBarOpen ? "active" : ""}`}>
                     <li>
                         <a href="#home">Home</a>
                     </li>
