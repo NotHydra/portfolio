@@ -5,7 +5,7 @@ import QualificationTimelineItem from "./timeline/item/index.component";
 import QualificationTimelineItemSubtitle from "./timeline/item/subtitle/index.component";
 import QualificationTimelineItemSubtitleLink from "./timeline/item/subtitle/link.component";
 import QualificationTimelineItemDescription from "./timeline/item/description/index.component";
-import QualificationTimelineItemDescriptionText from "./timeline/item/description/text.component";
+import QualificationTimelineItemDescriptionGroup from "./timeline/item/description/group.component";
 import QualificationTimelineItemDescriptionPoint from "./timeline/item/description/point.component";
 import QualificationTimelineItemCalendar from "./timeline/item/calendar/index.component";
 import QualificationTimelineItemCalendarMultiple from "./timeline/item/calendar/multiple.component";
@@ -20,7 +20,10 @@ export default function Qualification(): JSX.Element {
                         <QualificationTimelineItemSubtitle subtitle="Part Time" />
 
                         <QualificationTimelineItemDescription>
-                            <QualificationTimelineItemDescriptionText text="Developed a wide range of projects. Starting from, the implementation of full-stack applications, development of REST API servers, and engineered complex relational databases." />
+                            <QualificationTimelineItemDescriptionGroup>
+                                Developed a wide range of projects. Starting from, the implementation of full-stack applications, development of REST API servers, and engineered complex relational
+                                databases.
+                            </QualificationTimelineItemDescriptionGroup>
                         </QualificationTimelineItemDescription>
 
                         <QualificationTimelineItemCalendar text="March 2022 - Present" />
@@ -30,7 +33,9 @@ export default function Qualification(): JSX.Element {
                         <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
 
                         <QualificationTimelineItemDescription>
-                            <QualificationTimelineItemDescriptionText text="Assisted in teaching students about the Algorithm & Programming subject, with a focus on teaching Python and the PyQt library for developing simple applications." />
+                            <QualificationTimelineItemDescriptionGroup>
+                                Assisted in teaching students about the Algorithm & Programming subject, with a focus on teaching Python and the PyQt library for developing simple applications.
+                            </QualificationTimelineItemDescriptionGroup>
                         </QualificationTimelineItemDescription>
 
                         <QualificationTimelineItemCalendarMultiple texts={["February 2024 - May 2024", "September 2024 - December 2024"]} />
@@ -40,7 +45,9 @@ export default function Qualification(): JSX.Element {
                         <QualificationTimelineItemSubtitleLink subtitle="Bekasi's Vocational and Productivity Training Center" link="https://kelembagaan.kemnaker.go.id" />
 
                         <QualificationTimelineItemDescription>
-                            <QualificationTimelineItemDescriptionText text="Created & developed graphical desktop based application that can be used by companies with C#, .NET Framework and MySQL." />
+                            <QualificationTimelineItemDescriptionGroup>
+                                Created & developed graphical desktop based application that can be used by companies with C#, .NET Framework and MySQL.
+                            </QualificationTimelineItemDescriptionGroup>
                         </QualificationTimelineItemDescription>
 
                         <QualificationTimelineItemCalendar text="May 2023 - July 2023" />
@@ -50,12 +57,15 @@ export default function Qualification(): JSX.Element {
                         <QualificationTimelineItemSubtitleLink subtitle="Balikpapan's Department of Labor and Social" link="https://disnaker.balikpapan.go.id" />
 
                         <QualificationTimelineItemDescription>
-                            <QualificationTimelineItemDescriptionPoint
-                                title="Back-End Developer"
-                                text="Created and developed a REST API Server that is capable of efficiently handling multiple and various HTTPS request using NestJS and FastAPI."
-                            />
+                            <QualificationTimelineItemDescriptionGroup>
+                                <QualificationTimelineItemDescriptionPoint title="Back-End Developer" />
+                                Created and developed a REST API Server that is capable of efficiently handling multiple and various HTTPS request using NestJS and FastAPI.
+                            </QualificationTimelineItemDescriptionGroup>
 
-                            <QualificationTimelineItemDescriptionPoint title="Database Engineer" text="Constructed a database that contains relational data using MongoDB." />
+                            <QualificationTimelineItemDescriptionGroup>
+                                <QualificationTimelineItemDescriptionPoint title="Database Engineer" />
+                                Constructed a database that contains relational data using MongoDB.
+                            </QualificationTimelineItemDescriptionGroup>
                         </QualificationTimelineItemDescription>
 
                         <QualificationTimelineItemCalendar text="April 2022 - July 2022" />
