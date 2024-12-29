@@ -5,7 +5,7 @@ export default function QualificationTimelineItemDate({ dates }: { dates: string
         <div className="item-date">
             {dates.map((date: string, index: number) => (
                 <div key={index}>
-                    <i className="uil uil-calender" /> <span>{date}</span>
+                    <i className="uil uil-calender" /> {date}
                 </div>
             ))}
         </div>
