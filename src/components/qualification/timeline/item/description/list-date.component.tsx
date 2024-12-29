@@ -4,12 +4,12 @@ export default function QualificationTimelineItemDescriptionListDate({ items }: 
     return (
         <ul className="item-list">
             {items.map((item: { text: string; date: string }, index: number) => (
-                <>
-                    <li key={index}>{item.text}</li>
+                <div key={index}>
+                    <li>{item.text}</li>
                     <div className="item-list-date">
                         <i className="uil uil-calender" /> {item.date}
                     </div>
-                </>
+                </div>
             ))}
         </ul>
     );
