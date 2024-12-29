@@ -1,5 +1,5 @@
 import React, { JSX } from "react";
 
-export default function QualificationTimelineItemSubtitle({ children }: { children: React.ReactNode }): JSX.Element {
-    return <span className="item-subtitle">{children}</span>;
+export default function QualificationTimelineItemSubtitle({ subtitle }: { subtitle: string }): JSX.Element {
+    return <span className="item-subtitle">{subtitle}</span>;
 }

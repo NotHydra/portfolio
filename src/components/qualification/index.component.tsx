@@ -16,7 +16,7 @@ export default function Qualification(): JSX.Element {
         <div id="qualification">
             <QualificationTimeline title="EXPERIENCE">
                 <QualificationTimelineItem title="Software & Internet of Things Engineer Freelancer">
-                    <QualificationTimelineItemSubtitle>Part Time</QualificationTimelineItemSubtitle>
+                    <QualificationTimelineItemSubtitle subtitle="Part Time" />
 
                     <QualificationTimelineItemDescription>
                         <QualificationTimelineItemDescriptionGroup>
