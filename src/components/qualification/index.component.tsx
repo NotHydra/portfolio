@@ -17,7 +17,7 @@ export default function Qualification(): JSX.Element {
                 title="EXPERIENCE"
                 items={[
                     <QualificationTimelineItem title="Software & Internet of Things Engineer Freelancer">
-                        <QualificationTimelineItemSubtitle subtitle="Part Time" />
+                        <QualificationTimelineItemSubtitle>Part Time</QualificationTimelineItemSubtitle>
 
                         <QualificationTimelineItemDescription>
                             <QualificationTimelineItemDescriptionGroup>
@@ -30,7 +30,7 @@ export default function Qualification(): JSX.Element {
                     </QualificationTimelineItem>,
 
                     <QualificationTimelineItem title="Lab Assistant for Algorithm & Programming Subject">
-                        <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
+                        <QualificationTimelineItemSubtitleLink link="https://itk.ac.id">Kalimantan's Institute of Technology</QualificationTimelineItemSubtitleLink>
 
                         <QualificationTimelineItemDescription>
                             <QualificationTimelineItemDescriptionGroup>
@@ -42,7 +42,7 @@ export default function Qualification(): JSX.Element {
                     </QualificationTimelineItem>,
 
                     <QualificationTimelineItem title="IT Software Solution for Bussines Participant">
-                        <QualificationTimelineItemSubtitleLink subtitle="Bekasi's Vocational and Productivity Training Center" link="https://kelembagaan.kemnaker.go.id" />
+                        <QualificationTimelineItemSubtitleLink link="https://kelembagaan.kemnaker.go.id">Bekasi's Vocational and Productivity Training Center</QualificationTimelineItemSubtitleLink>
 
                         <QualificationTimelineItemDescription>
                             <QualificationTimelineItemDescriptionGroup>
@@ -54,7 +54,7 @@ export default function Qualification(): JSX.Element {
                     </QualificationTimelineItem>,
 
                     <QualificationTimelineItem title="Back-End Developer & Database Engineer Intern">
-                        <QualificationTimelineItemSubtitleLink subtitle="Balikpapan's Department of Labor and Social" link="https://disnaker.balikpapan.go.id" />
+                        <QualificationTimelineItemSubtitleLink link="https://disnaker.balikpapan.go.id">Balikpapan's Department of Labor and Social</QualificationTimelineItemSubtitleLink>
 
                         <QualificationTimelineItemDescription>
                             <QualificationTimelineItemDescriptionGroup>
