@@ -1,5 +1,7 @@
 import { JSX } from "react";
 
+import CopyrightContactItem from "./contact/item.component";
+
 export default function Copyright(): JSX.Element {
     return (
         <div className="copyright" id="contact">
@@ -8,21 +10,13 @@ export default function Copyright(): JSX.Element {
             </h3>
 
             <div className="icon">
-                <a target="_blank" href="https://github.com/NotHydra">
-                    <i className="bx bxl-github"></i>
-                </a>
+                <CopyrightContactItem icon="github" link="https://github.com/NotHydra" />
 
-                <a target="_blank" href="https://www.instagram.com/rz_irswanda/">
-                    <i className="bx bxl-instagram"></i>
-                </a>
+                <CopyrightContactItem icon="instagram" link="https://www.instagram.com/rz_irswanda" />
 
-                <a target="_blank" href="https://www.linkedin.com/in/rizky-irswanda-b068b6216/">
-                    <i className="bx bxl-linkedin"></i>
-                </a>
+                <CopyrightContactItem icon="linkedin" link="https://www.linkedin.com/in/rizky-irswanda-b068b6216" />
 
-                <a href="mailto: rizky.irswanda115@gmail.com">
-                    <i className="bx bxl-gmail"></i>
-                </a>
+                <CopyrightContactItem icon="gmail" link="mailto: rizky.irswanda115@gmail.com" />
             </div>
 
             <p>
