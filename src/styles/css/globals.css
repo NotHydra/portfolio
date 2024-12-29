@@ -270,6 +270,30 @@ span {
   transform: translate(6px, -7px);
 }
 
+.copyright {
+  text-align: center;
+  padding: 30px;
+  color: var(--color-secondary);
+  background: #0b0b13;
+  margin-top: 3rem;
+  line-height: 1.8rem;
+}
+.copyright .icon {
+  margin-bottom: 2rem;
+  gap: 2rem;
+  justify-content: center;
+  display: flex;
+}
+.copyright .icon a {
+  color: var(--color-text);
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.copyright .icon i:hover {
+  color: var(--color-main);
+}
+
 @keyframes animate {
   0% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
