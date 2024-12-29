@@ -281,6 +281,14 @@ span {
 
                             list-style-type: disc;
                         }
+
+                        .item-list-calendar {
+                            margin-top: 0.25rem;
+                            margin-bottom: 0.5rem;
+
+                            font-size: 0.75rem;
+                            color: var(--color-secondary);
+                        }
                     }
 
                     .item-link {

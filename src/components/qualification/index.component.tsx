@@ -7,8 +7,9 @@ import QualificationTimelineItemSubtitleLink from "./timeline/item/subtitle/link
 import QualificationTimelineItemDescription from "./timeline/item/description/index.component";
 import QualificationTimelineItemDescriptionGroup from "./timeline/item/description/group.component";
 import QualificationTimelineItemDescriptionPoint from "./timeline/item/description/point.component";
-import QualificationTimelineItemCalendar from "./timeline/item/calendar/index.component";
 import QualificationTimelineItemDescriptionList from "./timeline/item/description/list.component";
+import QualificationTimelineItemDescriptionListDate from "./timeline/item/description/list-date.component";
+import QualificationTimelineItemCalendar from "./timeline/item/calendar/index.component";
 
 export default function Qualification(): JSX.Element {
     return (
@@ -91,6 +92,38 @@ export default function Qualification(): JSX.Element {
                         <QualificationTimelineItemDescriptionGroup>
                             <QualificationTimelineItemDescriptionPoint>GPA</QualificationTimelineItemDescriptionPoint>
                             <p>3.86 / 4.00 (36 Credits)</p>
+                        </QualificationTimelineItemDescriptionGroup>
+
+                        <QualificationTimelineItemDescriptionGroup>
+                            <QualificationTimelineItemDescriptionPoint>Organizations & Experiences</QualificationTimelineItemDescriptionPoint>
+                            <QualificationTimelineItemDescriptionListDate
+                                items={[
+                                    {
+                                        text: "Member of Ouroboros Technology",
+                                        date: "October 2023 - Present",
+                                    },
+                                    {
+                                        text: "Member of Prototype Division in Department of Mathematics and Information Technology Expo",
+                                        date: "October 2023 - November 2023",
+                                    },
+                                    {
+                                        text: "Head of Prototype Division in Major of Informatics ITK Open House",
+                                        date: "January 2024 - February 2024",
+                                    },
+                                    {
+                                        text: "Lab Assistant for Algorithm & Programming Subject Even Semester 2023/2024",
+                                        date: "February 2024 - May 2024",
+                                    },
+                                    {
+                                        text: "Intern Staff in the Talent Development Department of the Informatics Student Association",
+                                        date: "April 2024 - September 2024",
+                                    },
+                                    {
+                                        text: "Lab Assistant for Algorithm & Programming Subject Odd Semester 2024/2025",
+                                        date: "August 2024 - Present",
+                                    },
+                                ]}
+                            />
                         </QualificationTimelineItemDescriptionGroup>
 
                         <QualificationTimelineItemDescriptionGroup>
