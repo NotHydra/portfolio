@@ -1,11 +1,11 @@
 import React, { JSX } from "react";
 
-export default function QualificationTimelineItemCalendar({ children }: { children: React.ReactNode }): JSX.Element {
+export default function QualificationTimelineItemCalendar({ dates }: { dates: string[] }): JSX.Element {
     return (
         <div className="item-calender">
-            {React.Children.map(children, (child: React.ReactNode, index: number) => (
-                <div key={index} style={{ display: "flex" }}>
-                    <i className="uil uil-calender" style={{ marginRight: "0.25rem" }} /> {child}
+            {dates.map((date: string, index: number) => (
+                <div key={index}>
+                    <i className="uil uil-calender" /> <span>{date}</span>
                 </div>
             ))}
         </div>
