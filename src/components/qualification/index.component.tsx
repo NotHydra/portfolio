@@ -8,7 +8,6 @@ import QualificationTimelineItemDescription from "./timeline/item/description/in
 import QualificationTimelineItemDescriptionGroup from "./timeline/item/description/group.component";
 import QualificationTimelineItemDescriptionPoint from "./timeline/item/description/point.component";
 import QualificationTimelineItemCalendar from "./timeline/item/calendar/index.component";
-import QualificationTimelineItemCalendarMultiple from "./timeline/item/calendar/multiple.component";
 
 export default function Qualification(): JSX.Element {
     return (
@@ -21,12 +20,16 @@ export default function Qualification(): JSX.Element {
 
                         <QualificationTimelineItemDescription>
                             <QualificationTimelineItemDescriptionGroup>
-                                Developed a wide range of projects. Starting from, the implementation of full-stack applications, development of REST API servers, and engineered complex relational
-                                databases.
+                                <p>
+                                    Developed a wide range of projects. Starting from, the implementation of full-stack applications, development of REST API servers, and engineered complex relational
+                                    databases.
+                                </p>
                             </QualificationTimelineItemDescriptionGroup>
                         </QualificationTimelineItemDescription>
 
-                        <QualificationTimelineItemCalendar text="March 2022 - Present" />
+                        <QualificationTimelineItemCalendar>
+                            <p>March 2022 - Present</p>
+                        </QualificationTimelineItemCalendar>
                     </QualificationTimelineItem>,
 
                     <QualificationTimelineItem title="Lab Assistant for Algorithm & Programming Subject">
@@ -34,11 +37,14 @@ export default function Qualification(): JSX.Element {
 
                         <QualificationTimelineItemDescription>
                             <QualificationTimelineItemDescriptionGroup>
-                                Assisted in teaching students about the Algorithm & Programming subject, with a focus on teaching Python and the PyQt library for developing simple applications.
+                                <p>Assisted in teaching students about the Algorithm & Programming subject, with a focus on teaching Python and the PyQt library for developing simple applications.</p>
                             </QualificationTimelineItemDescriptionGroup>
                         </QualificationTimelineItemDescription>
 
-                        <QualificationTimelineItemCalendarMultiple texts={["February 2024 - May 2024", "September 2024 - December 2024"]} />
+                        <QualificationTimelineItemCalendar>
+                            <p>February 2024 - May 2024</p>
+                            <p>September 2024 - December 2024</p>
+                        </QualificationTimelineItemCalendar>
                     </QualificationTimelineItem>,
 
                     <QualificationTimelineItem title="IT Software Solution for Bussines Participant">
@@ -46,11 +52,13 @@ export default function Qualification(): JSX.Element {
 
                         <QualificationTimelineItemDescription>
                             <QualificationTimelineItemDescriptionGroup>
-                                Created & developed graphical desktop based application that can be used by companies with C#, .NET Framework and MySQL.
+                                <p>Created & developed graphical desktop based application that can be used by companies with C#, .NET Framework and MySQL.</p>
                             </QualificationTimelineItemDescriptionGroup>
                         </QualificationTimelineItemDescription>
 
-                        <QualificationTimelineItemCalendar text="May 2023 - July 2023" />
+                        <QualificationTimelineItemCalendar>
+                            <p>May 2023 - July 2023</p>
+                        </QualificationTimelineItemCalendar>
                     </QualificationTimelineItem>,
 
                     <QualificationTimelineItem title="Back-End Developer & Database Engineer Intern">
@@ -59,16 +67,20 @@ export default function Qualification(): JSX.Element {
                         <QualificationTimelineItemDescription>
                             <QualificationTimelineItemDescriptionGroup>
                                 <QualificationTimelineItemDescriptionPoint>Back-End Developer</QualificationTimelineItemDescriptionPoint>
-                                Created and developed a REST API Server that is capable of efficiently handling multiple and various HTTPS request using NestJS and FastAPI.
+
+                                <p>Created and developed a REST API Server that is capable of efficiently handling multiple and various HTTPS request using NestJS and FastAPI.</p>
                             </QualificationTimelineItemDescriptionGroup>
 
                             <QualificationTimelineItemDescriptionGroup>
                                 <QualificationTimelineItemDescriptionPoint>Database Engineer</QualificationTimelineItemDescriptionPoint>
-                                Constructed a database that contains relational data using MongoDB.
+
+                                <p>Constructed a database that contains relational data using MongoDB.</p>
                             </QualificationTimelineItemDescriptionGroup>
                         </QualificationTimelineItemDescription>
 
-                        <QualificationTimelineItemCalendar text="April 2022 - July 2022" />
+                        <QualificationTimelineItemCalendar>
+                            <p>April 2022 - July 2022</p>
+                        </QualificationTimelineItemCalendar>
                     </QualificationTimelineItem>,
                 ]}
             />
