@@ -143,6 +143,36 @@ export default function Qualification(): JSX.Element {
                         <p>July 2023 - Present</p>
                     </QualificationTimelineItemCalendar>
                 </QualificationTimelineItem>
+
+                <QualificationTimelineItem title="Software Engineering Student">
+                    <QualificationTimelineItemSubtitleLink link="https://smkn2balikpapan.sch.id">Balikpapan's Public Vocational High School 2</QualificationTimelineItemSubtitleLink>
+
+                    <QualificationTimelineItemDescription>
+                        <QualificationTimelineItemDescriptionGroup>
+                            <QualificationTimelineItemDescriptionPoint>Grade</QualificationTimelineItemDescriptionPoint>
+                            <p>91.40 / 100.00</p>
+                        </QualificationTimelineItemDescriptionGroup>
+
+                        <QualificationTimelineItemDescriptionGroup>
+                            <QualificationTimelineItemDescriptionPoint>Relevant Courses</QualificationTimelineItemDescriptionPoint>
+                            <QualificationTimelineItemDescriptionList
+                                items={[
+                                    "Basics of Programming",
+                                    "Computer & Network Basics",
+                                    "Computer System",
+                                    "Database",
+                                    "Object-Oriented Programming",
+                                    "Software Development",
+                                    "Web & Mobile Development",
+                                ]}
+                            />
+                        </QualificationTimelineItemDescriptionGroup>
+                    </QualificationTimelineItemDescription>
+
+                    <QualificationTimelineItemCalendar>
+                        <p>July 2020 - June 2023</p>
+                    </QualificationTimelineItemCalendar>
+                </QualificationTimelineItem>
             </QualificationTimeline>
         </div>
     );
