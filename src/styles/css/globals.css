@@ -429,4 +429,85 @@ span {
   .timeline .content-container .content .content-section {
     grid-template-columns: 0.5fr;
   }
+  .project .portfolio-content .portfolio-img {
+    height: 180px;
+  }
+}
+.project {
+  padding-left: 0;
+  padding-right: 0;
+}
+.project .swiper-slide-shadow-left {
+  background-image: none !important;
+}
+.project .swiper-slide-shadow-right {
+  background-image: none !important;
+}
+.project .portfolio-content {
+  padding: 0 16px;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project .portfolio-content .portfolio-img {
+  width: 70%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+.project .portfolio-content .portfolio-img:hover {
+  opacity: 0.5;
+}
+.project .portfolio-content .portfolio-data {
+  width: 70%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project .portfolio-content .portfolio-data .portfolio-title {
+  margin-bottom: 0.25rem;
+  font-size: 1.125rem;
+}
+.project .portfolio-content .portfolio-data .portfolio-title .project-link {
+  color: var(--color-main);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.project .portfolio-content .portfolio-data .portfolio-title .project-link:hover {
+  color: var(--color-text);
+}
+.project .portfolio-content .portfolio-data .portfolio-title .project-link i {
+  font-size: 0.9rem;
+}
+.project .portfolio-content .portfolio-data .portfolio-subtitle {
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--color-text);
+}
+.project .portfolio-content .portfolio-data .portfolio-subtitle .portfolio-link {
+  color: var(--color-main);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.project .portfolio-content .portfolio-data .portfolio-subtitle .portfolio-link:hover {
+  color: var(--color-text);
+}
+.project .portfolio-content .portfolio-data .portfolio-description {
+  margin-bottom: 0.75rem;
+  color: var(--color-text);
+}
+.project .portfolio-content .portfolio-data .badges {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.project .portfolio-content .portfolio-data .badges .badge {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
 }/*# sourceMappingURL=globals.css.map */

@@ -541,4 +541,109 @@ span {
             }
         }
     }
+
+    .project {
+        .portfolio-content {
+            .portfolio-img {
+                height: 180px;
+            }
+        }
+    }
+}
+
+.project {
+    padding-left: 0;
+    padding-right: 0;
+
+    .swiper-slide-shadow-left {
+        background-image: none !important;
+    }
+
+    .swiper-slide-shadow-right {
+        background-image: none !important;
+    }
+
+    .portfolio-content {
+        padding: 0 16px;
+        border-radius: 0.5rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .portfolio-img {
+            width: 70%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 0.5rem;
+            margin-bottom: 0.5rem;
+            cursor: pointer;
+            transition: opacity 0.3s ease;
+
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+
+        .portfolio-data {
+            width: 70%;
+
+            text-align: center;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .portfolio-title {
+                margin-bottom: 0.25rem;
+                font-size: 1.125rem;
+
+                .project-link {
+                    color: var(--color-main);
+                    text-decoration: none;
+                    transition: color 0.3s ease;
+
+                    &:hover {
+                        color: var(--color-text);
+                    }
+
+                    i {
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+
+            .portfolio-subtitle {
+                margin-bottom: 0.5rem;
+                font-size: 0.8rem;
+                color: var(--color-text);
+
+                .portfolio-link {
+                    color: var(--color-main);
+                    text-decoration: none;
+                    transition: color 0.3s ease;
+
+                    &:hover {
+                        color: var(--color-text);
+                    }
+                }
+            }
+
+            .portfolio-description {
+                margin-bottom: 0.75rem;
+                color: var(--color-text);
+            }
+
+            .badges {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+
+                .badge {
+                    margin-right: 0.5rem;
+                    margin-bottom: 0.5rem;
+                }
+            }
+        }
+    }
 }
