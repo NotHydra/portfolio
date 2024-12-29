@@ -58,12 +58,12 @@ export default function Qualification(): JSX.Element {
 
                         <QualificationTimelineItemDescription>
                             <QualificationTimelineItemDescriptionGroup>
-                                <QualificationTimelineItemDescriptionPoint title="Back-End Developer" />
+                                <QualificationTimelineItemDescriptionPoint>Back-End Developer</QualificationTimelineItemDescriptionPoint>
                                 Created and developed a REST API Server that is capable of efficiently handling multiple and various HTTPS request using NestJS and FastAPI.
                             </QualificationTimelineItemDescriptionGroup>
 
                             <QualificationTimelineItemDescriptionGroup>
-                                <QualificationTimelineItemDescriptionPoint title="Database Engineer" />
+                                <QualificationTimelineItemDescriptionPoint>Database Engineer</QualificationTimelineItemDescriptionPoint>
                                 Constructed a database that contains relational data using MongoDB.
                             </QualificationTimelineItemDescriptionGroup>
                         </QualificationTimelineItemDescription>
