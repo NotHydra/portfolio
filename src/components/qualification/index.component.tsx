@@ -35,7 +35,7 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
 
                 <QualificationTimelineItem title="Lab Assistant for Algorithm & Programming Subject">
-                    <QualificationTimelineItemSubtitleLink link="https://itk.ac.id">Kalimantan's Institute of Technology</QualificationTimelineItemSubtitleLink>
+                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
 
                     <QualificationTimelineItemDescription>
                         <QualificationTimelineItemDescriptionGroup>
@@ -52,7 +52,7 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
 
                 <QualificationTimelineItem title="IT Software Solution for Bussines Participant">
-                    <QualificationTimelineItemSubtitleLink link="https://kelembagaan.kemnaker.go.id">Bekasi's Vocational and Productivity Training Center</QualificationTimelineItemSubtitleLink>
+                    <QualificationTimelineItemSubtitleLink subtitle="Bekasi's Vocational and Productivity Training Center" link="https://kelembagaan.kemnaker.go.id" />
 
                     <QualificationTimelineItemDescription>
                         <QualificationTimelineItemDescriptionGroup>
@@ -68,7 +68,7 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
 
                 <QualificationTimelineItem title="Back-End Developer & Database Engineer Intern">
-                    <QualificationTimelineItemSubtitleLink link="https://disnaker.balikpapan.go.id">Balikpapan's Department of Labor and Social</QualificationTimelineItemSubtitleLink>
+                    <QualificationTimelineItemSubtitleLink subtitle="Balikpapan's Department of Labor and Social" link="https://disnaker.balikpapan.go.id" />
 
                     <QualificationTimelineItemDescription>
                         <QualificationTimelineItemDescriptionGroup>
@@ -94,7 +94,7 @@ export default function Qualification(): JSX.Element {
 
             <QualificationTimeline title="EDUCATION">
                 <QualificationTimelineItem title="Undergraduate Computer Science Student">
-                    <QualificationTimelineItemSubtitleLink link="https://itk.ac.id">Kalimantan's Institute of Technology</QualificationTimelineItemSubtitleLink>
+                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
 
                     <QualificationTimelineItemDescription>
                         <QualificationTimelineItemDescriptionGroup>
@@ -155,7 +155,7 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
 
                 <QualificationTimelineItem title="Software Engineering Student">
-                    <QualificationTimelineItemSubtitleLink link="https://smkn2balikpapan.sch.id">Balikpapan's Public Vocational High School 2</QualificationTimelineItemSubtitleLink>
+                    <QualificationTimelineItemSubtitleLink subtitle="Balikpapan's Public Vocational High School 2" link="https://smkn2balikpapan.sch.id" />
 
                     <QualificationTimelineItemDescription>
                         <QualificationTimelineItemDescriptionGroup>
