@@ -9,7 +9,7 @@ import QualificationTimelineItemDescriptionGroup from "./timeline/item/descripti
 import QualificationTimelineItemDescriptionPoint from "./timeline/item/description/point.component";
 import QualificationTimelineItemDescriptionList from "./timeline/item/description/list.component";
 import QualificationTimelineItemDescriptionListDate from "./timeline/item/description/list-date.component";
-import QualificationTimelineItemCalendar from "./timeline/item/calendar/index.component";
+import QualificationTimelineItemDate from "./timeline/item/date/index.component";
 
 export default function Qualification(): JSX.Element {
     return (
@@ -27,7 +27,7 @@ export default function Qualification(): JSX.Element {
                         </QualificationTimelineItemDescriptionGroup>
                     </QualificationTimelineItemDescription>
 
-                    <QualificationTimelineItemCalendar dates={["March 2022 - Present"]} />
+                    <QualificationTimelineItemDate dates={["March 2022 - Present"]} />
                 </QualificationTimelineItem>
 
                 <QualificationTimelineItem title="Lab Assistant for Algorithm & Programming Subject">
@@ -39,7 +39,7 @@ export default function Qualification(): JSX.Element {
                         </QualificationTimelineItemDescriptionGroup>
                     </QualificationTimelineItemDescription>
 
-                    <QualificationTimelineItemCalendar dates={["February 2024 - May 2024", "September 2024 - December 2024"]} />
+                    <QualificationTimelineItemDate dates={["February 2024 - May 2024", "September 2024 - December 2024"]} />
                 </QualificationTimelineItem>
 
                 <QualificationTimelineItem title="IT Software Solution for Bussines Participant">
@@ -51,7 +51,7 @@ export default function Qualification(): JSX.Element {
                         </QualificationTimelineItemDescriptionGroup>
                     </QualificationTimelineItemDescription>
 
-                    <QualificationTimelineItemCalendar dates={["May 2023 - July 2023"]} />
+                    <QualificationTimelineItemDate dates={["May 2023 - July 2023"]} />
                 </QualificationTimelineItem>
 
                 <QualificationTimelineItem title="Back-End Developer & Database Engineer Intern">
@@ -71,7 +71,7 @@ export default function Qualification(): JSX.Element {
                         </QualificationTimelineItemDescriptionGroup>
                     </QualificationTimelineItemDescription>
 
-                    <QualificationTimelineItemCalendar dates={["April 2022 - July 2022"]} />
+                    <QualificationTimelineItemDate dates={["April 2022 - July 2022"]} />
                 </QualificationTimelineItem>
             </QualificationTimeline>
 
@@ -130,7 +130,7 @@ export default function Qualification(): JSX.Element {
                         </QualificationTimelineItemDescriptionGroup>
                     </QualificationTimelineItemDescription>
 
-                    <QualificationTimelineItemCalendar dates={["July 2023 - Present"]} />
+                    <QualificationTimelineItemDate dates={["July 2023 - Present"]} />
                 </QualificationTimelineItem>
 
                 <QualificationTimelineItem title="Software Engineering Student">
@@ -158,7 +158,7 @@ export default function Qualification(): JSX.Element {
                         </QualificationTimelineItemDescriptionGroup>
                     </QualificationTimelineItemDescription>
 
-                    <QualificationTimelineItemCalendar dates={["July 2020 - June 2023"]} />
+                    <QualificationTimelineItemDate dates={["July 2020 - June 2023"]} />
                 </QualificationTimelineItem>
             </QualificationTimeline>
         </div>
