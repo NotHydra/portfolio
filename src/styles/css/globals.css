@@ -140,6 +140,30 @@ span {
   margin-right: 20px !important;
 }
 
+.copyright {
+  text-align: center;
+  padding: 30px;
+  color: var(--color-secondary);
+  background: #0b0b13;
+  margin-top: 3rem;
+  line-height: 1.8rem;
+}
+.copyright .icon {
+  margin-bottom: 2rem;
+  gap: 2rem;
+  justify-content: center;
+  display: flex;
+}
+.copyright .icon a {
+  color: var(--color-text);
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.copyright .icon i:hover {
+  color: var(--color-main);
+}
+
 .home {
   position: relative;
   height: 100vh;
@@ -188,16 +212,6 @@ span {
 
 .timeline {
   padding: 6rem 0 4rem 0 !important;
-}
-.timeline .title {
-  text-align: center;
-  margin-bottom: 3rem;
-}
-.timeline .title h3 {
-  color: var(--text-color);
-  font-size: 30px;
-  font-weight: 300;
-  letter-spacing: 6px;
 }
 .timeline .content-container {
   display: grid;
@@ -270,28 +284,15 @@ span {
   transform: translate(6px, -7px);
 }
 
-.copyright {
+.title {
   text-align: center;
-  padding: 30px;
-  color: var(--color-secondary);
-  background: #0b0b13;
-  margin-top: 3rem;
-  line-height: 1.8rem;
+  margin-bottom: 3rem;
 }
-.copyright .icon {
-  margin-bottom: 2rem;
-  gap: 2rem;
-  justify-content: center;
-  display: flex;
-}
-.copyright .icon a {
-  color: var(--color-text);
-  font-size: 20px;
-  cursor: pointer;
-  transition: 0.4s ease;
-}
-.copyright .icon i:hover {
-  color: var(--color-main);
+.title h3 {
+  color: var(--text-color);
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 6px;
 }
 
 @keyframes animate {

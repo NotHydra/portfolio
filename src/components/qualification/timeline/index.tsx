@@ -1,11 +1,11 @@
 import React, { JSX } from "react";
 
+import Title from "@/components/common/title.component";
+
 export default function QualificationTimeline({ children, title }: { children: React.ReactNode; title: string }): JSX.Element {
     return (
         <section className="timeline">
-            <div className="title">
-                <h3 className="scroll-top-200">{title}</h3>
-            </div>
+            <Title title={title} />
 
             <div className="content-container">
                 <div>

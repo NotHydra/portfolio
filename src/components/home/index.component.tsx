@@ -2,8 +2,6 @@ import { JSX } from "react";
 import { ReactTyped } from "react-typed";
 
 export default function Home(): JSX.Element {
-    const skills: string[] = ["Web Development", "Desktop Development", "Back-End Development", "Database Engineering", "Internet of Things Engineering"];
-
     return (
         <section className="home" id="home">
             <div className="text">
@@ -14,7 +12,18 @@ export default function Home(): JSX.Element {
                 <h6 className="scroll-bottom-200">
                     Experienced in{" "}
                     <span>
-                        <ReactTyped strings={skills} typeSpeed={30} backSpeed={5} loop />
+                        <ReactTyped
+                            strings={[
+                                "Web Development", //
+                                "Desktop Development",
+                                "Back-End Development",
+                                "Database Engineering",
+                                "Internet of Things Engineering",
+                            ]}
+                            typeSpeed={30}
+                            backSpeed={5}
+                            loop
+                        />
                     </span>
                 </h6>
 
