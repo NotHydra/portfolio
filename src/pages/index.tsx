@@ -7,7 +7,7 @@ import { JSX } from "react";
 import Header from "@/components/header/index.component";
 import Home from "@/components/home/index.component";
 import About from "@/components/about/index.component";
-import Qualification from "@/components/qualifications/index.component";
+import Qualification from "@/components/qualification/index.component";
 
 const rubik: NextFont = Rubik({
     subsets: ["latin"],
