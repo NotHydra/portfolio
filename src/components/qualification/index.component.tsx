@@ -72,13 +72,13 @@ export default function Qualification(): JSX.Element {
 
                     <QualificationTimelineItemDescription>
                         <QualificationTimelineItemDescriptionGroup>
-                            <QualificationTimelineItemDescriptionPoint>Back-End Developer</QualificationTimelineItemDescriptionPoint>
+                            <QualificationTimelineItemDescriptionPoint text="Back-End Developer" />
 
                             <p>Created and developed a REST API Server that is capable of efficiently handling multiple and various HTTPS request using NestJS and FastAPI.</p>
                         </QualificationTimelineItemDescriptionGroup>
 
                         <QualificationTimelineItemDescriptionGroup>
-                            <QualificationTimelineItemDescriptionPoint>Database Engineer</QualificationTimelineItemDescriptionPoint>
+                            <QualificationTimelineItemDescriptionPoint text="Database Engineer" />
 
                             <p>Constructed a database that contains relational data using MongoDB.</p>
                         </QualificationTimelineItemDescriptionGroup>
@@ -98,12 +98,12 @@ export default function Qualification(): JSX.Element {
 
                     <QualificationTimelineItemDescription>
                         <QualificationTimelineItemDescriptionGroup>
-                            <QualificationTimelineItemDescriptionPoint>GPA</QualificationTimelineItemDescriptionPoint>
+                            <QualificationTimelineItemDescriptionPoint text="GPA" />
                             <p>3.86 / 4.00 (36 Credits)</p>
                         </QualificationTimelineItemDescriptionGroup>
 
                         <QualificationTimelineItemDescriptionGroup>
-                            <QualificationTimelineItemDescriptionPoint>Organizations & Experiences</QualificationTimelineItemDescriptionPoint>
+                            <QualificationTimelineItemDescriptionPoint text="Organizations & Experiences" />
                             <QualificationTimelineItemDescriptionListDate
                                 items={[
                                     {
@@ -135,7 +135,7 @@ export default function Qualification(): JSX.Element {
                         </QualificationTimelineItemDescriptionGroup>
 
                         <QualificationTimelineItemDescriptionGroup>
-                            <QualificationTimelineItemDescriptionPoint>Relevant Courses</QualificationTimelineItemDescriptionPoint>
+                            <QualificationTimelineItemDescriptionPoint text="Relevant Courses" />
                             <QualificationTimelineItemDescriptionList
                                 items={[
                                     "Introduction to Informatics", //
@@ -159,12 +159,12 @@ export default function Qualification(): JSX.Element {
 
                     <QualificationTimelineItemDescription>
                         <QualificationTimelineItemDescriptionGroup>
-                            <QualificationTimelineItemDescriptionPoint>Grade</QualificationTimelineItemDescriptionPoint>
+                            <QualificationTimelineItemDescriptionPoint text="Grade" />
                             <p>91.40 / 100.00</p>
                         </QualificationTimelineItemDescriptionGroup>
 
                         <QualificationTimelineItemDescriptionGroup>
-                            <QualificationTimelineItemDescriptionPoint>Relevant Courses</QualificationTimelineItemDescriptionPoint>
+                            <QualificationTimelineItemDescriptionPoint text="Relevant Courses" />
                             <QualificationTimelineItemDescriptionList
                                 items={[
                                     "Basics of Programming",
