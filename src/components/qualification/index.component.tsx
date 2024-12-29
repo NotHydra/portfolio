@@ -8,6 +8,7 @@ import QualificationTimelineItemDescription from "./timeline/item/description/in
 import QualificationTimelineItemDescriptionGroup from "./timeline/item/description/group.component";
 import QualificationTimelineItemDescriptionPoint from "./timeline/item/description/point.component";
 import QualificationTimelineItemCalendar from "./timeline/item/calendar/index.component";
+import QualificationTimelineItemDescriptionList from "./timeline/item/description/list.component";
 
 export default function Qualification(): JSX.Element {
     return (
@@ -78,6 +79,35 @@ export default function Qualification(): JSX.Element {
 
                     <QualificationTimelineItemCalendar>
                         <p>April 2022 - July 2022</p>
+                    </QualificationTimelineItemCalendar>
+                </QualificationTimelineItem>
+            </QualificationTimeline>
+
+            <QualificationTimeline title="EDUCATION">
+                <QualificationTimelineItem title="Undergraduate Computer Science Student">
+                    <QualificationTimelineItemSubtitleLink link="https://itk.ac.id">Kalimantan's Institute of Technology</QualificationTimelineItemSubtitleLink>
+
+                    <QualificationTimelineItemDescription>
+                        <QualificationTimelineItemDescriptionGroup>
+                            <QualificationTimelineItemDescriptionPoint>GPA</QualificationTimelineItemDescriptionPoint>
+                            <p>3.86 / 4.00 (36 Credits)</p>
+                        </QualificationTimelineItemDescriptionGroup>
+
+                        <QualificationTimelineItemDescriptionGroup>
+                            <QualificationTimelineItemDescriptionPoint>Relevant Courses</QualificationTimelineItemDescriptionPoint>
+                            <QualificationTimelineItemDescriptionList
+                                items={[
+                                    "Introduction to Informatics", //
+                                    "Algorithm & Programming",
+                                    "Digital System",
+                                    "Object Oriented Programming",
+                                ]}
+                            />
+                        </QualificationTimelineItemDescriptionGroup>
+                    </QualificationTimelineItemDescription>
+
+                    <QualificationTimelineItemCalendar>
+                        <p>July 2023 - Present</p>
                     </QualificationTimelineItemCalendar>
                 </QualificationTimelineItem>
             </QualificationTimeline>

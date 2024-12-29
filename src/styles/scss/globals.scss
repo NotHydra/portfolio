@@ -114,14 +114,14 @@ span {
             font-weight: 300;
             margin-bottom: 1.5rem;
             line-height: 1.4rem;
-            color: var(--color-secondary);
+            color: var(--color-text);
         }
 
         .count {
             margin-bottom: 2rem;
 
             div {
-                color: var(--color-secondary);
+                color: var(--color-text);
                 margin-right: 20px;
                 word-spacing: 5px;
 
@@ -198,7 +198,7 @@ span {
             font-weight: 300;
             line-height: 1.4rem;
             margin-bottom: 1rem;
-            color: var(--color-second-main);
+            color: var(--color-text);
         }
     }
 
@@ -271,6 +271,16 @@ span {
 
                     .item-point {
                         font-weight: bold;
+                    }
+
+                    .item-list {
+                        margin-left: 1rem;
+
+                        li {
+                            margin-bottom: 0.1rem;
+
+                            list-style-type: disc;
+                        }
                     }
 
                     .item-link {
