@@ -44,7 +44,20 @@ export default function Project(): JSX.Element {
         YARN = "https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white",
     }
 
-    const projects = [
+    interface Project {
+        title: string;
+        image: string;
+        url: string;
+        subtitle: string;
+        organization: {
+            name: string;
+            url: string;
+        };
+        description: string;
+        techStacks: Badge[];
+    }
+
+    const projects: Project[] = [
         {
             title: "Finance Recap",
             image: "image/project/finance-recap.png",
@@ -226,7 +239,7 @@ export default function Project(): JSX.Element {
                 modules={[EffectCoverflow, Navigation, Autoplay]}
             >
                 {projects.map(
-                    (project, index: number): React.ReactNode => (
+                    (project: Project, index: number): React.ReactNode => (
                         <SwiperSlide key={index}>
                             <div className="portfolio-content">
                                 <img src={project.image} alt={project.title} className="portfolio-img" onClick={() => window.open(project.url, "_blank")} />
