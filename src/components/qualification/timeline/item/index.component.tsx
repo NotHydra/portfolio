@@ -5,7 +5,7 @@ export default function QualificationTimelineItem({ children, title }: { childre
         <div>
             <h3 className="item-title">{title}</h3>
 
-            {children}
+            <div style={{ display: "flex", flexDirection: "column" }}>{children}</div>
         </div>
     );
 }

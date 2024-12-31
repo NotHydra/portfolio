@@ -351,6 +351,62 @@ export default function Qualification(): JSX.Element {
                     />
                 </QualificationTimelineItem>
             </QualificationTimeline>
+
+            <QualificationTimeline title="LANGUAGE TEST">
+                <QualificationTimelineItem title="Internal Academic English Test (IAET)">
+                    <QualificationTimelineItemSubtitle subtitle="Language and Culture Hub of Kalimantan's Institute of Technology" />
+
+                    <QualificationTimelineItemDescription>
+                        <QualificationTimelineItemDescriptionGroup>
+                            <QualificationTimelineItemDescriptionPoint text="Score" />
+
+                            <p>515</p>
+                        </QualificationTimelineItemDescriptionGroup>
+                    </QualificationTimelineItemDescription>
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "August 2023", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
+
+                <QualificationTimelineItem title="Test of English for International Communication (TOEIC)">
+                    <QualificationTimelineItemSubtitle subtitle="Balikpapan's Vocational High School 2" />
+
+                    <QualificationTimelineItemDescription>
+                        <QualificationTimelineItemDescriptionGroup>
+                            <QualificationTimelineItemDescriptionPoint text="Score" />
+
+                            <p>865 / 990</p>
+                        </QualificationTimelineItemDescriptionGroup>
+                    </QualificationTimelineItemDescription>
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "September 2022", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
+
+                <QualificationTimelineItem title="Test of English as a Foreign Language Paper Based Test (TOEFL PBT)">
+                    <QualificationTimelineItemSubtitle subtitle="Balikpapans Business & Intensive English College (BIEC)" />
+
+                    <QualificationTimelineItemDescription>
+                        <QualificationTimelineItemDescriptionGroup>
+                            <QualificationTimelineItemDescriptionPoint text="Score" />
+
+                            <p>510 / 677</p>
+                        </QualificationTimelineItemDescriptionGroup>
+                    </QualificationTimelineItemDescription>
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "January 2022", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
+            </QualificationTimeline>
         </div>
     );
 }
