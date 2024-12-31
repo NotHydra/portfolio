@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import { Html, Head, Main, NextScript } from "next/document";
 import { JSX } from "react";
 
@@ -11,6 +12,8 @@ export default function Document(): JSX.Element {
 
             <body>
                 <Main />
+
+                <Analytics />
 
                 <NextScript />
             </body>
