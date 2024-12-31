@@ -100,6 +100,28 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
             </QualificationTimeline>
 
+            <QualificationTimeline title="COMPETITION AWARD">
+                <QualificationTimelineItem title="Finalist in Balikpapan's IoT and Data Analytic Smart City Competition 2024">
+                    <QualificationTimelineItemSubtitleLink subtitle="Balikpapan's Department of Communication and Information Technology" link="https://www.instagram.com/diskominfo.balikpapan" />
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "February 2024", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
+
+                <QualificationTimelineItem title="Finalist in Schematics's National Programming Contest Senior 2023">
+                    <QualificationTimelineItemSubtitleLink subtitle="Schematics ITS" link="https://www.instagram.com/schematics.its" />
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "October 2023", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
+            </QualificationTimeline>
+
             <QualificationTimeline title="FORMAL EDUCATION">
                 <QualificationTimelineItem title="Undergraduate Computer Science Student">
                     <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
