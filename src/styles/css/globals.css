@@ -286,13 +286,85 @@ span {
 
 .title {
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 .title h3 {
   color: var(--text-color);
   font-size: 30px;
   font-weight: 300;
   letter-spacing: 6px;
+}
+
+.project .swiper-slide-shadow-left {
+  background-image: none !important;
+}
+.project .swiper-slide-shadow-right {
+  background-image: none !important;
+}
+.project .portfolio-container {
+  width: 100%;
+  margin-top: 4rem;
+}
+.project .portfolio-container .portfolio-swiper {
+  display: flex;
+  justify-content: center;
+}
+.project .portfolio-container .portfolio-swiper .portfolio-content {
+  width: 75%;
+  display: grid;
+  gap: 1.5rem;
+}
+.project .portfolio-container .portfolio-swiper .portfolio-content .portfolio-img {
+  width: 265px;
+  border-radius: 0.5rem;
+  justify-self: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.project .portfolio-container .portfolio-swiper .portfolio-content .portfolio-img:hover {
+  opacity: 50%;
+}
+.project .portfolio-container .portfolio-swiper .portfolio-content .portfolio-data {
+  width: 55%;
+  justify-self: center;
+}
+.project .portfolio-container .portfolio-swiper .portfolio-content .portfolio-data .portfolio-title {
+  margin-bottom: 0.1rem;
+  font-size: 1.125rem;
+  text-align: center;
+}
+.project .portfolio-container .portfolio-swiper .portfolio-content .portfolio-data .portfolio-title .project-link {
+  color: var(--color-main);
+}
+.project .portfolio-container .portfolio-swiper .portfolio-content .portfolio-data .portfolio-title .project-link:hover {
+  color: var(--color-text);
+}
+.project .portfolio-container .portfolio-swiper .portfolio-content .portfolio-data .portfolio-title .project-link i {
+  font-size: 0.9rem;
+}
+.project .portfolio-container .portfolio-swiper .portfolio-content .portfolio-data .portfolio-subtitle {
+  margin-bottom: 0.5rem;
+  font-size: 0.813rem;
+  text-align: center;
+}
+.project .portfolio-container .portfolio-swiper .portfolio-content .portfolio-data .portfolio-subtitle .portfolio-link {
+  color: var(--color-main);
+}
+.project .portfolio-container .portfolio-swiper .portfolio-content .portfolio-data .portfolio-subtitle .portfolio-link:hover {
+  color: var(--color-text);
+}
+.project .portfolio-container .portfolio-swiper .portfolio-content .portfolio-data .portfolio-description {
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+.project .portfolio-container .portfolio-swiper .portfolio-content .portfolio-data .badges {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.project .portfolio-container .portfolio-swiper .portfolio-content .portfolio-data .badges .badge {
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
 @keyframes animate {
@@ -429,85 +501,43 @@ span {
   .timeline .content-container .content .content-section {
     grid-template-columns: 0.5fr;
   }
-  .project .portfolio-content .portfolio-img {
-    height: 180px;
+  .project .portfolio-container .portfolio-swiper .portfolio-content {
+    align-items: center;
+  }
+  .project .portfolio-container .portfolio-swiper .portfolio-content .portfolio-img {
+    width: 350px;
   }
 }
-.project {
-  padding-left: 0;
-  padding-right: 0;
+@media screen and (min-width: 1024px) {
+  .project {
+    height: 100vh;
+  }
+  .project .portfolio-container .portfolio-swiper .portfolio-content .portfolio-img {
+    width: 500px;
+  }
 }
-.project .swiper-slide-shadow-left {
-  background-image: none !important;
-}
-.project .swiper-slide-shadow-right {
-  background-image: none !important;
-}
-.project .portfolio-content {
-  padding: 0 16px;
-  border-radius: 0.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.project .portfolio-content .portfolio-img {
-  width: 70%;
-  height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 0.5rem;
-  margin-bottom: 0.5rem;
-  cursor: pointer;
-  transition: opacity 0.3s ease;
-}
-.project .portfolio-content .portfolio-img:hover {
-  opacity: 0.5;
-}
-.project .portfolio-content .portfolio-data {
-  width: 70%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.project .portfolio-content .portfolio-data .portfolio-title {
-  margin-bottom: 0.25rem;
-  font-size: 1.125rem;
-}
-.project .portfolio-content .portfolio-data .portfolio-title .project-link {
-  color: var(--color-main);
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-.project .portfolio-content .portfolio-data .portfolio-title .project-link:hover {
-  color: var(--color-text);
-}
-.project .portfolio-content .portfolio-data .portfolio-title .project-link i {
-  font-size: 0.9rem;
-}
-.project .portfolio-content .portfolio-data .portfolio-subtitle {
-  margin-bottom: 0.5rem;
-  font-size: 0.8rem;
-  color: var(--color-text);
-}
-.project .portfolio-content .portfolio-data .portfolio-subtitle .portfolio-link {
-  color: var(--color-main);
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-.project .portfolio-content .portfolio-data .portfolio-subtitle .portfolio-link:hover {
-  color: var(--color-text);
-}
-.project .portfolio-content .portfolio-data .portfolio-description {
-  margin-bottom: 0.75rem;
-  color: var(--color-text);
-}
-.project .portfolio-content .portfolio-data .badges {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.project .portfolio-content .portfolio-data .badges .badge {
-  margin-right: 0.5rem;
-  margin-bottom: 0.5rem;
+@media screen and (min-width: 1408px) {
+  .project {
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project .portfolio-container .portfolio-swiper .portfolio-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6rem;
+  }
+  .project .portfolio-container .portfolio-swiper .portfolio-content .portfolio-data {
+    width: 100%;
+  }
+  .project .portfolio-container .portfolio-swiper .portfolio-content .portfolio-data .portfolio-title {
+    text-align: left;
+  }
+  .project .portfolio-container .portfolio-swiper .portfolio-content .portfolio-data .portfolio-subtitle {
+    text-align: left;
+  }
+  .project .portfolio-container .portfolio-swiper .portfolio-content .portfolio-data .portfolio-description {
+    text-align: justify;
+  }
 }/*# sourceMappingURL=globals.css.map */

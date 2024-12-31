@@ -218,61 +218,64 @@ export default function Project(): JSX.Element {
         <section className="project" id="project">
             <Title title="PROJECT" />
 
-            <Swiper
-                effect={"coverflow"}
-                grabCursor={true}
-                centeredSlides={true}
-                slidesPerView={2}
-                coverflowEffect={{
-                    rotate: 75,
-                    stretch: 0,
-                    depth: 100,
-                    modifier: 1,
-                    slideShadows: true,
-                }}
-                autoplay={{
-                    delay: 1500,
-                    disableOnInteraction: false,
-                }}
-                loop={true}
-                navigation={true}
-                modules={[EffectCoverflow, Navigation, Autoplay]}
-            >
-                {projects.map(
-                    (project: Project, index: number): React.ReactNode => (
-                        <SwiperSlide key={index}>
-                            <div className="portfolio-content">
-                                <img src={project.image} alt={project.title} className="portfolio-img" onClick={() => window.open(project.url, "_blank")} />
+            <div className="portfolio-container container2 swiper-container">
+                <Swiper
+                    effect={"coverflow"}
+                    grabCursor={true}
+                    centeredSlides={true}
+                    slidesPerView={1}
+                    spaceBetween={64}
+                    coverflowEffect={{
+                        rotate: 75,
+                        stretch: 0,
+                        depth: 100,
+                        modifier: 1,
+                        slideShadows: true,
+                    }}
+                    autoplay={{
+                        delay: 1500,
+                        disableOnInteraction: true,
+                    }}
+                    loop={true}
+                    navigation={true}
+                    modules={[EffectCoverflow, Navigation, Autoplay]}
+                >
+                    {projects.map(
+                        (project: Project, index: number): React.ReactNode => (
+                            <SwiperSlide className="portfolio-swiper" key={index}>
+                                <div className="portfolio-content">
+                                    <img className="portfolio-img" src={project.image} alt={project.title} onClick={() => window.open(project.url, "_blank")} />
 
-                                <div className="portfolio-data">
-                                    <h3 className="portfolio-title">
-                                        <a href={project.url} target="_blank" rel="noopener noreferrer" className="project-link">
-                                            {project.title} <i className="bx bxl-github"></i>
-                                        </a>
-                                    </h3>
+                                    <div className="portfolio-data">
+                                        <h3 className="portfolio-title">
+                                            <a className="project-link" href={project.url} target="_blank" rel="noopener noreferrer">
+                                                {project.title} <i className="bx bxl-github"></i>
+                                            </a>
+                                        </h3>
 
-                                    <p className="portfolio-subtitle">
-                                        {project.subtitle}{" "}
-                                        <a href={project.organization.url} target="_blank" rel="noopener noreferrer" className="portfolio-link">
-                                            {project.organization.name}
-                                        </a>
-                                    </p>
+                                        <p className="portfolio-subtitle">
+                                            {project.subtitle}{" "}
+                                            <a className="portfolio-link" href={project.organization.url} target="_blank" rel="noopener noreferrer">
+                                                {project.organization.name}
+                                            </a>
+                                        </p>
 
-                                    <p className="portfolio-description">{project.description}</p>
+                                        <p className="portfolio-description">{project.description}</p>
 
-                                    <div className="badges">
-                                        {project.techStacks.map(
-                                            (techStack: Badge, techStackIndex: number): React.ReactNode => (
-                                                <img key={techStackIndex} className="badge" src={techStack} />
-                                            )
-                                        )}
+                                        <div className="badges">
+                                            {project.techStacks.map(
+                                                (techStack: Badge, techStackIndex: number): React.ReactNode => (
+                                                    <img key={techStackIndex} className="badge" src={techStack} />
+                                                )
+                                            )}
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </SwiperSlide>
-                    )
-                )}
-            </Swiper>
+                            </SwiperSlide>
+                        )
+                    )}
+                </Swiper>
+            </div>
         </section>
     );
 }

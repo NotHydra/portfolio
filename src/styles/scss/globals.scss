@@ -342,13 +342,108 @@ span {
 
 .title {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 
     h3 {
         color: var(--text-color);
         font-size: 30px;
         font-weight: 300;
         letter-spacing: 6px;
+    }
+}
+
+.project {
+    .swiper-slide-shadow-left {
+        background-image: none !important;
+    }
+
+    .swiper-slide-shadow-right {
+        background-image: none !important;
+    }
+
+    .portfolio-container {
+        width: 100%;
+        margin-top: 4rem;
+
+        .portfolio-swiper {
+            display: flex;
+            justify-content: center;
+
+            .portfolio-content {
+                width: 75%;
+                display: grid;
+                gap: 1.5rem;
+
+                .portfolio-img {
+                    width: 265px;
+                    border-radius: 0.5rem;
+                    justify-self: center;
+
+                    cursor: pointer;
+
+                    transition: all 0.3s ease;
+
+                    &:hover {
+                        opacity: 50%;
+                    }
+                }
+
+                .portfolio-data {
+                    width: 55%;
+                    justify-self: center;
+
+                    .portfolio-title {
+                        margin-bottom: 0.1rem;
+
+                        font-size: 1.125rem;
+                        text-align: center;
+
+                        .project-link {
+                            color: var(--color-main);
+
+                            &:hover {
+                                color: var(--color-text);
+                            }
+
+                            i {
+                                font-size: 0.9rem;
+                            }
+                        }
+                    }
+
+                    .portfolio-subtitle {
+                        margin-bottom: 0.5rem;
+
+                        font-size: 0.813rem;
+                        text-align: center;
+
+                        .portfolio-link {
+                            color: var(--color-main);
+
+                            &:hover {
+                                color: var(--color-text);
+                            }
+                        }
+                    }
+
+                    .portfolio-description {
+                        text-align: center;
+                        margin-bottom: 0.75rem;
+                    }
+
+                    .badges {
+                        display: flex;
+                        justify-content: center;
+                        flex-wrap: wrap;
+
+                        .badge {
+                            margin-right: 0.25rem;
+                            margin-bottom: 0.25rem;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -543,105 +638,66 @@ span {
     }
 
     .project {
-        .portfolio-content {
-            .portfolio-img {
-                height: 180px;
+        .portfolio-container {
+            .portfolio-swiper {
+                .portfolio-content {
+                    align-items: center;
+
+                    .portfolio-img {
+                        width: 350px;
+                    }
+                }
             }
         }
     }
 }
 
-.project {
-    padding-left: 0;
-    padding-right: 0;
+@media screen and (min-width: 1024px) {
+    .project {
+        height: 100vh;
 
-    .swiper-slide-shadow-left {
-        background-image: none !important;
+        .portfolio-container {
+            .portfolio-swiper {
+                .portfolio-content {
+                    .portfolio-img {
+                        width: 500px;
+                    }
+                }
+            }
+        }
     }
+}
 
-    .swiper-slide-shadow-right {
-        background-image: none !important;
-    }
-
-    .portfolio-content {
-        padding: 0 16px;
-        border-radius: 0.5rem;
+@media screen and (min-width: 1408px) {
+    .project {
+        padding-left: 0;
+        padding-right: 0;
 
         display: flex;
         flex-direction: column;
         align-items: center;
 
-        .portfolio-img {
-            width: 70%;
-            height: auto;
-            object-fit: cover;
-            border-radius: 0.5rem;
-            margin-bottom: 0.5rem;
-            cursor: pointer;
-            transition: opacity 0.3s ease;
+        .portfolio-container {
+            .portfolio-swiper {
+                .portfolio-content {
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 6rem;
 
-            &:hover {
-                opacity: 0.5;
-            }
-        }
+                    .portfolio-data {
+                        width: 100%;
 
-        .portfolio-data {
-            width: 70%;
+                        .portfolio-title {
+                            text-align: left;
+                        }
 
-            text-align: center;
+                        .portfolio-subtitle {
+                            text-align: left;
+                        }
 
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-            .portfolio-title {
-                margin-bottom: 0.25rem;
-                font-size: 1.125rem;
-
-                .project-link {
-                    color: var(--color-main);
-                    text-decoration: none;
-                    transition: color 0.3s ease;
-
-                    &:hover {
-                        color: var(--color-text);
+                        .portfolio-description {
+                            text-align: justify;
+                        }
                     }
-
-                    i {
-                        font-size: 0.9rem;
-                    }
-                }
-            }
-
-            .portfolio-subtitle {
-                margin-bottom: 0.5rem;
-                font-size: 0.8rem;
-                color: var(--color-text);
-
-                .portfolio-link {
-                    color: var(--color-main);
-                    text-decoration: none;
-                    transition: color 0.3s ease;
-
-                    &:hover {
-                        color: var(--color-text);
-                    }
-                }
-            }
-
-            .portfolio-description {
-                margin-bottom: 0.75rem;
-                color: var(--color-text);
-            }
-
-            .badges {
-                display: flex;
-                justify-content: center;
-                flex-wrap: wrap;
-
-                .badge {
-                    margin-right: 0.5rem;
-                    margin-bottom: 0.5rem;
                 }
             }
         }
