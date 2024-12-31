@@ -35,7 +35,7 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
 
                 <QualificationTimelineItem title="Back-End Developer & Database Engineer Intern">
-                    <QualificationTimelineItemSubtitleLink subtitle="Balikpapan's Department of Labor and Social" link="https://disnaker.balikpapan.go.id" />
+                    <QualificationTimelineItemSubtitleLink subtitle="At Balikpapan's Department of Labor and Social" link="https://disnaker.balikpapan.go.id" />
 
                     <QualificationTimelineItemDescription>
                         <QualificationTimelineItemDescriptionGroup>
@@ -61,7 +61,7 @@ export default function Qualification(): JSX.Element {
 
             <QualificationTimeline title="TEACHING EXPERIENCE">
                 <QualificationTimelineItem title="Lab Assistant for Algorithm & Programming Subject">
-                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
+                    <QualificationTimelineItemSubtitleLink subtitle="At Kalimantan's Institute of Technology" link="https://itk.ac.id" />
 
                     <QualificationTimelineItemDescription>
                         <QualificationTimelineItemDescriptionGroup>
@@ -80,7 +80,7 @@ export default function Qualification(): JSX.Element {
 
             <QualificationTimeline title="PROFESSIONAL CERTIFICATION">
                 <QualificationTimelineItem title="IT Software Solution for Bussines (BNSP)">
-                    <QualificationTimelineItemSubtitleLink subtitle="Professional Certification Body BBPLK of Bekasi" link="https://kelembagaan.kemnaker.go.id" />
+                    <QualificationTimelineItemSubtitleLink subtitle="Held By Professional Certification Body BBPLK of Bekasi" link="https://kelembagaan.kemnaker.go.id" />
 
                     <QualificationTimelineItemDate
                         dates={[
@@ -90,7 +90,7 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
 
                 <QualificationTimelineItem title="Software Engineering (BNSP)">
-                    <QualificationTimelineItemSubtitleLink subtitle="Professional Certification Authority of State 6 Vocational High School of Balikpapan" link="https://smkn6-bpn.sch.id" />
+                    <QualificationTimelineItemSubtitleLink subtitle="Held By Professional Certification Authority of State 6 Vocational High School of Balikpapan" link="https://smkn6-bpn.sch.id" />
 
                     <QualificationTimelineItemDate
                         dates={[
@@ -102,7 +102,10 @@ export default function Qualification(): JSX.Element {
 
             <QualificationTimeline title="COMPETITION AWARD">
                 <QualificationTimelineItem title="Finalist in Balikpapan's IoT and Data Analytic Smart City Competition 2024">
-                    <QualificationTimelineItemSubtitleLink subtitle="Balikpapan's Department of Communication and Information Technology" link="https://www.instagram.com/diskominfo.balikpapan" />
+                    <QualificationTimelineItemSubtitleLink
+                        subtitle="Held By Balikpapan's Department of Communication and Information Technology"
+                        link="https://www.instagram.com/diskominfo.balikpapan"
+                    />
 
                     <QualificationTimelineItemDate
                         dates={[
@@ -112,7 +115,7 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
 
                 <QualificationTimelineItem title="Finalist in Schematics's National Programming Contest Senior 2023">
-                    <QualificationTimelineItemSubtitleLink subtitle="Schematics ITS" link="https://www.instagram.com/schematics.its" />
+                    <QualificationTimelineItemSubtitleLink subtitle="Held By Schematics ITS" link="https://www.instagram.com/schematics.its" />
 
                     <QualificationTimelineItemDate
                         dates={[
@@ -124,7 +127,7 @@ export default function Qualification(): JSX.Element {
 
             <QualificationTimeline title="FORMAL EDUCATION">
                 <QualificationTimelineItem title="Undergraduate Computer Science Student">
-                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
+                    <QualificationTimelineItemSubtitleLink subtitle="At Kalimantan's Institute of Technology" link="https://itk.ac.id" />
 
                     <QualificationTimelineItemDescription>
                         <QualificationTimelineItemDescriptionGroup>
@@ -188,7 +191,7 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
 
                 <QualificationTimelineItem title="Software Engineering Student">
-                    <QualificationTimelineItemSubtitleLink subtitle="Balikpapan's Public Vocational High School 2" link="https://smkn2balikpapan.sch.id" />
+                    <QualificationTimelineItemSubtitleLink subtitle="At Balikpapan's Public Vocational High School 2" link="https://smkn2balikpapan.sch.id" />
 
                     <QualificationTimelineItemDescription>
                         <QualificationTimelineItemDescriptionGroup>
@@ -224,7 +227,7 @@ export default function Qualification(): JSX.Element {
 
             <QualificationTimeline title="NON FORMAL EDUCATION">
                 <QualificationTimelineItem title="IT Software Solution for Bussines Participant">
-                    <QualificationTimelineItemSubtitleLink subtitle="Bekasi's Vocational and Productivity Training Center" link="https://kelembagaan.kemnaker.go.id" />
+                    <QualificationTimelineItemSubtitleLink subtitle="At Bekasi's Vocational and Productivity Training Center" link="https://kelembagaan.kemnaker.go.id" />
 
                     <QualificationTimelineItemDescription>
                         <QualificationTimelineItemDescriptionGroup>
@@ -240,7 +243,7 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
 
                 <QualificationTimelineItem title="English Conversation at the Intermediate Two Level Student">
-                    <QualificationTimelineItemSubtitleLink subtitle="Balikpapans Business & Intensive English College (BIEC)" link="https://www.instagram.com/biecbpn" />
+                    <QualificationTimelineItemSubtitleLink subtitle="At Balikpapans Business & Intensive English College (BIEC)" link="https://www.instagram.com/biecbpn" />
 
                     <QualificationTimelineItemDate
                         dates={[
@@ -252,7 +255,7 @@ export default function Qualification(): JSX.Element {
 
             <QualificationTimeline title="ORGANIZATION & COMMITTEE">
                 <QualificationTimelineItem title="Intern Staff of Electrical Division in Robotics Student Activity">
-                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
+                    <QualificationTimelineItemSubtitleLink subtitle="At Kalimantan's Institute of Technology" link="https://itk.ac.id" />
 
                     <QualificationTimelineItemDate
                         dates={[
@@ -262,7 +265,7 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
 
                 <QualificationTimelineItem title="Member of Web Development Team in Infinite Volume 4 ">
-                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
+                    <QualificationTimelineItemSubtitleLink subtitle="At Kalimantan's Institute of Technology" link="https://itk.ac.id" />
 
                     <QualificationTimelineItemDate
                         dates={[
@@ -272,7 +275,7 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
 
                 <QualificationTimelineItem title="Expert Staff of Event Division in Infinite Volume 4">
-                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
+                    <QualificationTimelineItemSubtitleLink subtitle="At Kalimantan's Institute of Technology" link="https://itk.ac.id" />
 
                     <QualificationTimelineItemDate
                         dates={[
@@ -282,7 +285,7 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
 
                 <QualificationTimelineItem title="Staff of Research and Technology Department in Ouroboros Technology">
-                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
+                    <QualificationTimelineItemSubtitleLink subtitle="At Kalimantan's Institute of Technology" link="https://itk.ac.id" />
 
                     <QualificationTimelineItemDate
                         dates={[
@@ -292,7 +295,7 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
 
                 <QualificationTimelineItem title="Staff of Expo Sub Division Committee in Informatics Welcome Party">
-                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
+                    <QualificationTimelineItemSubtitleLink subtitle="At Kalimantan's Institute of Technology" link="https://itk.ac.id" />
 
                     <QualificationTimelineItemDate
                         dates={[
@@ -302,7 +305,7 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
 
                 <QualificationTimelineItem title="Member of FGD Committee for Department of Mathematics and Information Technology">
-                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
+                    <QualificationTimelineItemSubtitleLink subtitle="At Kalimantan's Institute of Technology" link="https://itk.ac.id" />
 
                     <QualificationTimelineItemDate
                         dates={[
@@ -312,7 +315,7 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
 
                 <QualificationTimelineItem title="Member of LAM Infokom Accreditation Assessment Committee for Informatics">
-                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
+                    <QualificationTimelineItemSubtitleLink subtitle="At Kalimantan's Institute of Technology" link="https://itk.ac.id" />
 
                     <QualificationTimelineItemDate
                         dates={[
@@ -322,7 +325,7 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
 
                 <QualificationTimelineItem title="Intern Staff of Talent Development Department in Informatics Student Association">
-                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
+                    <QualificationTimelineItemSubtitleLink subtitle="At Kalimantan's Institute of Technology" link="https://itk.ac.id" />
 
                     <QualificationTimelineItemDate
                         dates={[
@@ -332,7 +335,7 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
 
                 <QualificationTimelineItem title="Head of Prototype Division Committee in Major of Informatics ITK Open House">
-                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
+                    <QualificationTimelineItemSubtitleLink subtitle="At Kalimantan's Institute of Technology" link="https://itk.ac.id" />
 
                     <QualificationTimelineItemDate
                         dates={[
@@ -342,7 +345,7 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
 
                 <QualificationTimelineItem title="Member of Prototype Division Committee in Department of Mathematics and Information Technology Expo">
-                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
+                    <QualificationTimelineItemSubtitleLink subtitle="At Kalimantan's Institute of Technology" link="https://itk.ac.id" />
 
                     <QualificationTimelineItemDate
                         dates={[
@@ -354,7 +357,7 @@ export default function Qualification(): JSX.Element {
 
             <QualificationTimeline title="LANGUAGE TEST">
                 <QualificationTimelineItem title="Internal Academic English Test (IAET)">
-                    <QualificationTimelineItemSubtitle subtitle="Language and Culture Hub of Kalimantan's Institute of Technology" />
+                    <QualificationTimelineItemSubtitleLink subtitle="Held By Language and Culture Hub of Kalimantan's Institute of Technology" link="https://www.instagram.com/lch.itk.ac.id" />
 
                     <QualificationTimelineItemDescription>
                         <QualificationTimelineItemDescriptionGroup>
@@ -372,7 +375,7 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
 
                 <QualificationTimelineItem title="Test of English for International Communication (TOEIC)">
-                    <QualificationTimelineItemSubtitle subtitle="Balikpapan's Vocational High School 2" />
+                    <QualificationTimelineItemSubtitleLink subtitle="Held By Balikpapan's Vocational High School 2" link="https://smkn2balikpapan.sch.id" />
 
                     <QualificationTimelineItemDescription>
                         <QualificationTimelineItemDescriptionGroup>
@@ -390,7 +393,7 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
 
                 <QualificationTimelineItem title="Test of English as a Foreign Language Paper Based Test (TOEFL PBT)">
-                    <QualificationTimelineItemSubtitle subtitle="Balikpapans Business & Intensive English College (BIEC)" />
+                    <QualificationTimelineItemSubtitleLink subtitle="Held By Balikpapans Business & Intensive English College (BIEC)" link="https://www.instagram.com/biecbpn" />
 
                     <QualificationTimelineItemDescription>
                         <QualificationTimelineItemDescriptionGroup>
