@@ -361,20 +361,20 @@ span {
         background-image: none !important;
     }
 
-    .portfolio-container {
+    .container {
         width: 100%;
         margin-top: 4rem;
 
-        .portfolio-swiper {
+        .swiper {
             display: flex;
             justify-content: center;
 
-            .portfolio-content {
+            .content {
                 width: 75%;
                 display: grid;
                 gap: 1.5rem;
 
-                .portfolio-img {
+                .image {
                     width: 265px;
                     border-radius: 0.5rem;
                     justify-self: center;
@@ -388,45 +388,37 @@ span {
                     }
                 }
 
-                .portfolio-data {
+                .data {
                     width: 55%;
                     justify-self: center;
 
-                    .portfolio-title {
+                    .title {
                         margin-bottom: 0.1rem;
 
                         font-size: 1.125rem;
                         text-align: center;
-
-                        .project-link {
-                            color: var(--color-main);
-
-                            &:hover {
-                                color: var(--color-text);
-                            }
-
-                            i {
-                                font-size: 0.9rem;
-                            }
-                        }
                     }
 
-                    .portfolio-subtitle {
+                    .subtitle {
                         margin-bottom: 0.5rem;
 
                         font-size: 0.813rem;
                         text-align: center;
+                    }
 
-                        .portfolio-link {
-                            color: var(--color-main);
+                    .link {
+                        color: var(--color-main);
 
-                            &:hover {
-                                color: var(--color-text);
-                            }
+                        &:hover {
+                            color: var(--color-text);
+                        }
+
+                        i {
+                            font-size: 0.9rem;
                         }
                     }
 
-                    .portfolio-description {
+                    .description {
                         text-align: center;
                         margin-bottom: 0.75rem;
                     }
@@ -638,12 +630,12 @@ span {
     }
 
     .project {
-        .portfolio-container {
-            .portfolio-swiper {
-                .portfolio-content {
+        .container {
+            .swiper {
+                .content {
                     align-items: center;
 
-                    .portfolio-img {
+                    .image {
                         width: 350px;
                     }
                 }
@@ -656,10 +648,10 @@ span {
     .project {
         height: 100vh;
 
-        .portfolio-container {
-            .portfolio-swiper {
-                .portfolio-content {
-                    .portfolio-img {
+        .container {
+            .swiper {
+                .content {
+                    .image {
                         width: 500px;
                     }
                 }
@@ -677,24 +669,24 @@ span {
         flex-direction: column;
         align-items: center;
 
-        .portfolio-container {
-            .portfolio-swiper {
-                .portfolio-content {
+        .container {
+            .swiper {
+                .content {
                     grid-template-columns: repeat(2, 1fr);
                     gap: 6rem;
 
-                    .portfolio-data {
+                    .data {
                         width: 100%;
 
-                        .portfolio-title {
+                        .title {
                             text-align: left;
                         }
 
-                        .portfolio-subtitle {
+                        .subtitle {
                             text-align: left;
                         }
 
-                        .portfolio-description {
+                        .description {
                             text-align: justify;
                         }
                     }

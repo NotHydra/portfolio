@@ -218,13 +218,13 @@ export default function Project(): JSX.Element {
         <section className="project" id="project">
             <Title title="PROJECT" />
 
-            <div className="portfolio-container container2 swiper-container">
+            <div className="container">
                 <Swiper
                     effect={"coverflow"}
                     grabCursor={true}
                     centeredSlides={true}
                     slidesPerView={1}
-                    spaceBetween={64}
+                    spaceBetween={16}
                     coverflowEffect={{
                         rotate: 75,
                         stretch: 0,
@@ -242,25 +242,25 @@ export default function Project(): JSX.Element {
                 >
                     {projects.map(
                         (project: Project, index: number): React.ReactNode => (
-                            <SwiperSlide className="portfolio-swiper" key={index}>
-                                <div className="portfolio-content">
-                                    <img className="portfolio-img" src={project.image} alt={project.title} onClick={() => window.open(project.url, "_blank")} />
+                            <SwiperSlide className="swiper" key={index}>
+                                <div className="content">
+                                    <img className="image" src={project.image} alt={project.title} onClick={() => window.open(project.url, "_blank")} />
 
-                                    <div className="portfolio-data">
-                                        <h3 className="portfolio-title">
-                                            <a className="project-link" href={project.url} target="_blank" rel="noopener noreferrer">
+                                    <div className="data">
+                                        <h3 className="title">
+                                            <a className="link" href={project.url} target="_blank" rel="noopener noreferrer">
                                                 {project.title} <i className="bx bxl-github"></i>
                                             </a>
                                         </h3>
 
-                                        <p className="portfolio-subtitle">
+                                        <p className="subtitle">
                                             {project.subtitle}{" "}
-                                            <a className="portfolio-link" href={project.organization.url} target="_blank" rel="noopener noreferrer">
+                                            <a className="link" href={project.organization.url} target="_blank" rel="noopener noreferrer">
                                                 {project.organization.name}
                                             </a>
                                         </p>
 
-                                        <p className="portfolio-description">{project.description}</p>
+                                        <p className="description">{project.description}</p>
 
                                         <div className="badges">
                                             {project.techStacks.map(
