@@ -249,6 +249,108 @@ export default function Qualification(): JSX.Element {
                     />
                 </QualificationTimelineItem>
             </QualificationTimeline>
+
+            <QualificationTimeline title="ORGANIZATION & COMMITTEE">
+                <QualificationTimelineItem title="Intern Staff of Electrical Division in Robotics Student Activity">
+                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "December 2024 - Present", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
+
+                <QualificationTimelineItem title="Member of Web Development Team in Infinite Volume 4 ">
+                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "December 2024 - Present", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
+
+                <QualificationTimelineItem title="Expert Staff of Event Division in Infinite Volume 4">
+                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "December 2024 - Present", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
+
+                <QualificationTimelineItem title="Staff of Research and Technology Department in Ouroboros Technology">
+                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "September 2024 - Present", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
+
+                <QualificationTimelineItem title="Staff of Expo Sub Division Committee in Informatics Welcome Party">
+                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "August 2024 - September 2024", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
+
+                <QualificationTimelineItem title="Member of FGD Committee for Department of Mathematics and Information Technology">
+                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "19 July 2024 - 20 July 2024", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
+
+                <QualificationTimelineItem title="Member of LAM Infokom Accreditation Assessment Committee for Informatics">
+                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "26 February 2024 - 27 February 2024", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
+
+                <QualificationTimelineItem title="Intern Staff of Talent Development Department in Informatics Student Association">
+                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "April 2024 - September 2024", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
+
+                <QualificationTimelineItem title="Head of Prototype Division Committee in Major of Informatics ITK Open House">
+                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "January 2024 - February 2024", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
+
+                <QualificationTimelineItem title="Member of Prototype Division Committee in Department of Mathematics and Information Technology Expo">
+                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "October 2023 - November 2023", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
+            </QualificationTimeline>
         </div>
     );
 }
