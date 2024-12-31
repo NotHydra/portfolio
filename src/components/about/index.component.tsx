@@ -1,3 +1,4 @@
+import moment from "moment";
 import { JSX } from "react";
 
 import AboutItem from "./item.component";
@@ -19,7 +20,7 @@ export default function About(): JSX.Element {
                 </p>
 
                 <div className="count">
-                    <AboutItem count={4} text="Years of Experience" delay={1000} />
+                    <AboutItem count={moment().diff(moment("20200601", "YYYYMMDD"), "years")} text="Years of Experience" delay={1000} />
 
                     <AboutItem count={1} text="Internship Programs" delay={1200} />
 

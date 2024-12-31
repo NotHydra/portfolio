@@ -226,7 +226,7 @@ export default function Project(): JSX.Element {
                     slidesPerView={1}
                     spaceBetween={16}
                     coverflowEffect={{
-                        rotate: 75,
+                        rotate: 120,
                         stretch: 0,
                         depth: 100,
                         modifier: 1,
