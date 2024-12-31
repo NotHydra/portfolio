@@ -9,7 +9,7 @@ export default function QualificationTimeline({ children, title }: { children: R
 
             <div className="content-container">
                 <div>
-                    <div className="content scroll-bottom-1200">
+                    <div className="content">
                         <div className="content-section">
                             <div className="item-container">
                                 {React.Children.map(
@@ -20,17 +20,17 @@ export default function QualificationTimeline({ children, title }: { children: R
                                                 <>
                                                     <div></div>
 
-                                                    <div>
+                                                    <div className="scroll-bottom-800">
                                                         <span className="item-rounder"></span>
                                                         <span className="item-line"></span>
                                                     </div>
                                                 </>
                                             )}
 
-                                            {child}
+                                            <div className={`scroll-bottom-${(index + 3) * 400}`}>{child}</div>
 
                                             {index % 2 === 0 && (
-                                                <div>
+                                                <div className="scroll-bottom-800">
                                                     <span className="item-rounder"></span>
                                                     <span className="item-line"></span>
                                                 </div>

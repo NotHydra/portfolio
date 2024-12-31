@@ -1,22 +1,3 @@
-// ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".about .image", { delay: 200 });
-// ScrollReveal({ origin: "bottom", distance: "61px", duration: 2000, reset: false }).reveal(".about .text .button", { delay: 2000 });
-
-// ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll", { delay: 200 });
-// ScrollReveal({ origin: "bottom", distance: "61px", duration: 2000, reset: false }).reveal(".scroll-2", { delay: 1000 });
-// ScrollReveal({ origin: "bottom", distance: "61px", duration: 2000, reset: false }).reveal(".scroll-3", { delay: 1200 });
-// ScrollReveal({ origin: "top", distance: "61px", duration: 2000, reset: false }).reveal(".scroll-4", { delay: 200 });
-// ScrollReveal({ origin: "bottom", distance: "61px", duration: 2000, reset: false }).reveal(".scroll-5", { delay: 1400 });
-// ScrollReveal({ origin: "bottom", distance: "61px", duration: 2000, reset: false }).reveal(".scroll-6", { delay: 1600 });
-// ScrollReveal({ origin: "bottom", distance: "61px", duration: 2000, reset: false }).reveal(".scroll-7", { delay: 1800 });
-
-// ScrollReveal({ origin: "top", distance: "61px", duration: 2000, reset: false }).reveal(".section_title", { delay: 200 });
-// ScrollReveal({ origin: "top", distance: "61px", duration: 2000, reset: false }).reveal(".section_subtitle", { delay: 200 });
-
-// ScrollReveal({ origin: "bottom", distance: "61px", duration: 2000, reset: false }).reveal(".qualification_container", { delay: 1200 });
-// ScrollReveal({ origin: "bottom", distance: "61px", duration: 2000, reset: false }).reveal(".qualification_sections", { delay: 1200 });
-
-// ScrollReveal({ origin: "top", distance: "61px", duration: 2000, reset: false }).reveal(".portfolio_container", { delay: 200 });
-
 ScrollReveal({ origin: "top", distance: "61px", duration: 2000, reset: false }).reveal(".scroll-top-200", { delay: 200 });
 
 ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-bottom-200", { delay: 200 });
@@ -29,3 +10,17 @@ ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false 
 ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-bottom-1600", { delay: 1600 });
 ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-bottom-1800", { delay: 1800 });
 ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-bottom-2000", { delay: 2000 });
+ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-bottom-2200", { delay: 2200 });
+ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-bottom-2400", { delay: 2400 });
+ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-bottom-2600", { delay: 2600 });
+ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-bottom-2800", { delay: 2800 });
+ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-bottom-3000", { delay: 3000 });
+ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-bottom-3200", { delay: 3200 });
+ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-bottom-3400", { delay: 3400 });
+ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-bottom-3600", { delay: 3600 });
+ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-bottom-3800", { delay: 3800 });
+ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-bottom-4000", { delay: 4000 });
+ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-bottom-4200", { delay: 4200 });
+ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-bottom-4400", { delay: 4400 });
+ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-bottom-4600", { delay: 4600 });
+ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-bottom-4800", { delay: 4800 });
