@@ -194,6 +194,16 @@ export default function Qualification(): JSX.Element {
                         ]}
                     />
                 </QualificationTimelineItem>
+
+                <QualificationTimelineItem title="English Conversation at the Intermediate Two Level Student">
+                    <QualificationTimelineItemSubtitleLink subtitle="Balikpapans Business & Intensive English College (BIEC)" link="https://www.instagram.com/biecbpn" />
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "July 2021 - January 2022", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
             </QualificationTimeline>
         </div>
     );
