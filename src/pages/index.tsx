@@ -1,5 +1,3 @@
-import { NextFont } from "next/dist/compiled/@next/font";
-import { Rubik } from "next/font/google";
 import Head from "next/head";
 import Script from "next/script";
 import { JSX } from "react";
@@ -10,11 +8,6 @@ import About from "@/components/about/index.component";
 import Qualification from "@/components/qualification/index.component";
 import Project from "@/components/project/index.component";
 import Copyright from "@/components/copyright/index.component";
-
-const rubik: NextFont = Rubik({
-    subsets: ["latin"],
-    weight: ["300", "400", "500", "600", "700", "800", "900"],
-});
 
 export default function Index(): JSX.Element {
     return (
