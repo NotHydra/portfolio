@@ -14,7 +14,7 @@ import QualificationTimelineItemDate from "./timeline/item/date/index.component"
 export default function Qualification(): JSX.Element {
     return (
         <div id="qualification">
-            <QualificationTimeline title="EXPERIENCE">
+            <QualificationTimeline title="WORK EXPERIENCE">
                 <QualificationTimelineItem title="Software & Internet of Things Engineer Freelancer">
                     <QualificationTimelineItemSubtitle subtitle="Part Time" />
 
@@ -30,39 +30,6 @@ export default function Qualification(): JSX.Element {
                     <QualificationTimelineItemDate
                         dates={[
                             "March 2022 - Present", //
-                        ]}
-                    />
-                </QualificationTimelineItem>
-
-                <QualificationTimelineItem title="Lab Assistant for Algorithm & Programming Subject">
-                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
-
-                    <QualificationTimelineItemDescription>
-                        <QualificationTimelineItemDescriptionGroup>
-                            <p>Assisted in teaching students about the Algorithm & Programming subject, with a focus on teaching Python and the PyQt library for developing simple applications.</p>
-                        </QualificationTimelineItemDescriptionGroup>
-                    </QualificationTimelineItemDescription>
-
-                    <QualificationTimelineItemDate
-                        dates={[
-                            "February 2024 - May 2024", //
-                            "September 2024 - December 2024",
-                        ]}
-                    />
-                </QualificationTimelineItem>
-
-                <QualificationTimelineItem title="IT Software Solution for Bussines Participant">
-                    <QualificationTimelineItemSubtitleLink subtitle="Bekasi's Vocational and Productivity Training Center" link="https://kelembagaan.kemnaker.go.id" />
-
-                    <QualificationTimelineItemDescription>
-                        <QualificationTimelineItemDescriptionGroup>
-                            <p>Created & developed graphical desktop based application that can be used by companies with C#, .NET Framework and MySQL.</p>
-                        </QualificationTimelineItemDescriptionGroup>
-                    </QualificationTimelineItemDescription>
-
-                    <QualificationTimelineItemDate
-                        dates={[
-                            "May 2023 - July 2023", //
                         ]}
                     />
                 </QualificationTimelineItem>
@@ -92,7 +59,26 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
             </QualificationTimeline>
 
-            <QualificationTimeline title="EDUCATION">
+            <QualificationTimeline title="TEACHING EXPERIENCE">
+                <QualificationTimelineItem title="Lab Assistant for Algorithm & Programming Subject">
+                    <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
+
+                    <QualificationTimelineItemDescription>
+                        <QualificationTimelineItemDescriptionGroup>
+                            <p>Assisted in teaching students about the Algorithm & Programming subject, with a focus on teaching Python and the PyQt library for developing simple applications.</p>
+                        </QualificationTimelineItemDescriptionGroup>
+                    </QualificationTimelineItemDescription>
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "February 2024 - May 2024", //
+                            "September 2024 - December 2024",
+                        ]}
+                    />
+                </QualificationTimelineItem>
+            </QualificationTimeline>
+
+            <QualificationTimeline title="FORMAL EDUCATION">
                 <QualificationTimelineItem title="Undergraduate Computer Science Student">
                     <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
 
@@ -187,6 +173,24 @@ export default function Qualification(): JSX.Element {
                     <QualificationTimelineItemDate
                         dates={[
                             "July 2020 - June 2023", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
+            </QualificationTimeline>
+
+            <QualificationTimeline title="NON FORMAL EDUCATION">
+                <QualificationTimelineItem title="IT Software Solution for Bussines Participant">
+                    <QualificationTimelineItemSubtitleLink subtitle="Bekasi's Vocational and Productivity Training Center" link="https://kelembagaan.kemnaker.go.id" />
+
+                    <QualificationTimelineItemDescription>
+                        <QualificationTimelineItemDescriptionGroup>
+                            <p>Created & developed graphical desktop based application that can be used by companies with C#, .NET Framework and MySQL.</p>
+                        </QualificationTimelineItemDescriptionGroup>
+                    </QualificationTimelineItemDescription>
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "May 2023 - July 2023", //
                         ]}
                     />
                 </QualificationTimelineItem>

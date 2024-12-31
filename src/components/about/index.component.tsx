@@ -24,9 +24,9 @@ export default function About(): JSX.Element {
 
                     <AboutItem count={1} text="Internship Programs" delay={1200} />
 
-                    <AboutItem count={2} text="National Certificates of Competence" delay={1400} />
+                    <AboutItem count={2} text="National Certificates of Competence (BNSP)" delay={1400} />
 
-                    <AboutItem count={8} text="Projects" delay={1600} />
+                    <AboutItem count={7} text="Projects" delay={1600} />
                 </div>
 
                 <div className="scroll-bottom-2000">
