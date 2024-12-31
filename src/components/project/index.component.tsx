@@ -218,7 +218,7 @@ export default function Project(): JSX.Element {
         <section className="project" id="project">
             <Title title="PROJECT" />
 
-            <div className="container">
+            <div className="container scroll-bottom-200">
                 <Swiper
                     effect={"coverflow"}
                     grabCursor={true}
@@ -233,7 +233,7 @@ export default function Project(): JSX.Element {
                         slideShadows: true,
                     }}
                     autoplay={{
-                        delay: 1500,
+                        delay: 2000,
                         disableOnInteraction: true,
                     }}
                     loop={true}
