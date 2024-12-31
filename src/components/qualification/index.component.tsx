@@ -78,6 +78,28 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
             </QualificationTimeline>
 
+            <QualificationTimeline title="PROFESSIONAL CERTIFICATION">
+                <QualificationTimelineItem title="IT Software Solution for Bussines (BNSP)">
+                    <QualificationTimelineItemSubtitleLink subtitle="Professional Certification Body BBPLK of Bekasi" link="https://kelembagaan.kemnaker.go.id" />
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "September 2023 - September 2026", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
+
+                <QualificationTimelineItem title="Software Engineering (BNSP)">
+                    <QualificationTimelineItemSubtitleLink subtitle="Professional Certification Authority of State 6 Vocational High School of Balikpapan" link="https://smkn6-bpn.sch.id" />
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "June 2023 - June 2026", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
+            </QualificationTimeline>
+
             <QualificationTimeline title="FORMAL EDUCATION">
                 <QualificationTimelineItem title="Undergraduate Computer Science Student">
                     <QualificationTimelineItemSubtitleLink subtitle="Kalimantan's Institute of Technology" link="https://itk.ac.id" />
