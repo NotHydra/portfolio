@@ -24,3 +24,7 @@ ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false 
 ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-bottom-4400", { delay: 4400 });
 ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-bottom-4600", { delay: 4600 });
 ScrollReveal({ origin: "bottom", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-bottom-4800", { delay: 4800 });
+
+ScrollReveal({ origin: "left", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-left-200", { delay: 200 });
+
+ScrollReveal({ origin: "right", distance: "41px", duration: 2000, reset: false }).reveal(".scroll-right-200", { delay: 200 });

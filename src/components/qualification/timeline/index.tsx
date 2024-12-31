@@ -16,24 +16,26 @@ export default function QualificationTimeline({ children, title }: { children: R
                                     children,
                                     (child: React.ReactNode, index: number): React.ReactNode => (
                                         <div className="item" key={index}>
-                                            {index % 2 === 1 && (
+                                            {index % 2 === 0 ? (
                                                 <>
-                                                    <div></div>
+                                                    <div className={`scroll-left-200`}>{child}</div>
 
-                                                    <div className="scroll-bottom-800">
+                                                    <div className="scroll-bottom-200">
                                                         <span className="item-rounder"></span>
                                                         <span className="item-line"></span>
                                                     </div>
                                                 </>
-                                            )}
+                                            ) : (
+                                                <>
+                                                    <div></div>
 
-                                            <div className={`scroll-bottom-${(index + 3) * 400}`}>{child}</div>
+                                                    <div className="scroll-bottom-200">
+                                                        <span className="item-rounder"></span>
+                                                        <span className="item-line"></span>
+                                                    </div>
 
-                                            {index % 2 === 0 && (
-                                                <div className="scroll-bottom-800">
-                                                    <span className="item-rounder"></span>
-                                                    <span className="item-line"></span>
-                                                </div>
+                                                    <div className={`scroll-right-200`}>{child}</div>
+                                                </>
                                             )}
                                         </div>
                                     )
