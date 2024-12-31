@@ -59,6 +59,119 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
             </QualificationTimeline>
 
+            <QualificationTimeline title="RESEARCH EXPERIENCE">
+                <QualificationTimelineItem title="Evolution of ITK's LMS">
+                    <QualificationTimelineItemSubtitle subtitle="Assistant" />
+
+                    <QualificationTimelineItemDescription>
+                        <QualificationTimelineItemDescriptionGroup>
+                            <QualificationTimelineItemDescriptionPoint text="Contribution" />
+
+                            <QualificationTimelineItemDescriptionList
+                                items={[
+                                    "Developed digital attedance system alongside with automatic attendance recap", //
+                                ]}
+                            />
+                        </QualificationTimelineItemDescriptionGroup>
+                    </QualificationTimelineItemDescription>
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "October 2024 - Present", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
+
+                <QualificationTimelineItem title="Ambulance Siren Audio Classification Using Convolutional Neural Network for Medical Emergency Detection">
+                    <QualificationTimelineItemSubtitle subtitle="Assistant" />
+
+                    <QualificationTimelineItemDescription>
+                        <QualificationTimelineItemDescriptionGroup>
+                            <QualificationTimelineItemDescriptionPoint text="Head Researcher" />
+
+                            <p>Ramadhan Paninggalih S.Si., M.Si., M.Sc.</p>
+                        </QualificationTimelineItemDescriptionGroup>
+
+                        <QualificationTimelineItemDescriptionGroup>
+                            <QualificationTimelineItemDescriptionPoint text="Contribution" />
+
+                            <QualificationTimelineItemDescriptionList
+                                items={[
+                                    "Searched for audio datasets & performed slicing resulting in 500 different audio datasets using Python", //
+                                    "Created & developed a REST API Server to be able to use the classification model using FastAPI",
+                                    "Created & developed a Website as an interface to upload audio file to the server using NextJS",
+                                    "Performed deployment of server & website on a VPS",
+                                ]}
+                            />
+                        </QualificationTimelineItemDescriptionGroup>
+                    </QualificationTimelineItemDescription>
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "May 2024 - Present", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
+
+                <QualificationTimelineItem title="Evolution of ITK's SIMPAS LPPM">
+                    <QualificationTimelineItemSubtitle subtitle="Assistant" />
+
+                    <QualificationTimelineItemDescription>
+                        <QualificationTimelineItemDescriptionGroup>
+                            <QualificationTimelineItemDescriptionPoint text="Head Researcher" />
+
+                            <p>Nur Fajri Azhar, S.Kom., M.Kom.</p>
+                        </QualificationTimelineItemDescriptionGroup>
+
+                        <QualificationTimelineItemDescriptionGroup>
+                            <QualificationTimelineItemDescriptionPoint text="Contribution" />
+
+                            <QualificationTimelineItemDescriptionList
+                                items={[
+                                    "Implemented minor features", //
+                                    "Bug fixes & improvements",
+                                    "Performed manual testing on features",
+                                ]}
+                            />
+                        </QualificationTimelineItemDescriptionGroup>
+                    </QualificationTimelineItemDescription>
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "March 2024 - Present", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
+
+                <QualificationTimelineItem title="ITK's SUMMIT">
+                    <QualificationTimelineItemSubtitle subtitle="Assistant" />
+
+                    <QualificationTimelineItemDescription>
+                        <QualificationTimelineItemDescriptionGroup>
+                            <QualificationTimelineItemDescriptionPoint text="Head Researcher" />
+
+                            <p>Nur Fajri Azhar, S.Kom., M.Kom.</p>
+                        </QualificationTimelineItemDescriptionGroup>
+
+                        <QualificationTimelineItemDescriptionGroup>
+                            <QualificationTimelineItemDescriptionPoint text="Contribution" />
+
+                            <QualificationTimelineItemDescriptionList
+                                items={[
+                                    "Performed manual testing on the system's features", //
+                                ]}
+                            />
+                        </QualificationTimelineItemDescriptionGroup>
+                    </QualificationTimelineItemDescription>
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "June 2024 - September 2024", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
+            </QualificationTimeline>
+
             <QualificationTimeline title="TEACHING EXPERIENCE">
                 <QualificationTimelineItem title="Lab Assistant for Algorithm & Programming Subject">
                     <QualificationTimelineItemSubtitleLink subtitle="At Kalimantan's Institute of Technology" link="https://itk.ac.id" />
@@ -225,7 +338,7 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
             </QualificationTimeline>
 
-            <QualificationTimeline title="NON FORMAL EDUCATION">
+            <QualificationTimeline title="NON-FORMAL EDUCATION">
                 <QualificationTimelineItem title="IT Software Solution for Bussines Participant">
                     <QualificationTimelineItemSubtitleLink subtitle="At Bekasi's Vocational and Productivity Training Center" link="https://kelembagaan.kemnaker.go.id" />
 
