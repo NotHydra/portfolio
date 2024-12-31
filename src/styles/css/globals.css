@@ -253,11 +253,11 @@ span {
   margin-left: 1rem;
 }
 .timeline .content-container .content .item-container .item .item-list li {
-  margin-bottom: 0.1rem;
+  margin-bottom: 0.25rem;
   list-style-type: disc;
 }
 .timeline .content-container .content .item-container .item .item-list .item-list-date {
-  margin-top: 0.25rem;
+  margin-top: 0.1rem;
   margin-bottom: 0.5rem;
   font-size: 0.75rem;
   color: var(--color-secondary);
@@ -289,7 +289,7 @@ span {
   margin-bottom: 2rem;
 }
 .title h3 {
-  color: var(--text-color);
+  color: var(--color-text);
   font-size: 30px;
   font-weight: 300;
   letter-spacing: 6px;
