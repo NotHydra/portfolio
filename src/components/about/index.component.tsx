@@ -7,7 +7,7 @@ export default function About(): JSX.Element {
     return (
         <section className="about" id="about">
             <div className="image scroll-bottom-200">
-                <img src="image/about.jpg" alt="About" style={{ borderRadius: "12.5%" }} />
+                <img src="image/about.jpg" alt="About Section Profile Picture" style={{ borderRadius: "12.5%" }} />
             </div>
 
             <div className="text">

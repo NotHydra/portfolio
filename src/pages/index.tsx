@@ -13,7 +13,10 @@ export default function Index(): JSX.Element {
     return (
         <>
             <Head>
-                <meta name="description" content="Rizky Irswanda's Portofolio Website" />
+                <meta
+                    name="description"
+                    content="Rizky Irswanda's Portofolio Website. A multi-purpose Programmer with experience in Software Engineering, Back-End Development & Database Engineering fields. Developed a wide range of projects. Starting from, the implementation of full-stack applications, development of REST API servers, and engineered complex relational databases. Currently taking an interest in Internet of Things Engineering."
+                />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
                 <link rel="shortcut icon" href="image/icon.png" type="image/x-icon" />

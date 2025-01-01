@@ -43,7 +43,7 @@ export default function Home(): JSX.Element {
             </div>
 
             <div className="image scroll-bottom-1000">
-                <img src="image/profile.jpg" alt="Profile" />
+                <img src="image/profile.jpg" alt="Home Section Profile Picture" />
             </div>
         </section>
     );
