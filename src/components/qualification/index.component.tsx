@@ -252,12 +252,24 @@ export default function Qualification(): JSX.Element {
                         <QualificationTimelineItemDescriptionGroup>
                             <QualificationTimelineItemDescriptionPoint text="Relevant Courses" />
 
-                            <QualificationTimelineItemDescriptionList
+                            <QualificationTimelineItemDescriptionListDate
                                 items={[
-                                    "Introduction to Informatics", //
-                                    "Algorithm & Programming",
-                                    "Digital System",
-                                    "Object Oriented Programming",
+                                    {
+                                        text: "Introduction to Informatics",
+                                        dates: ["1st Semester"],
+                                    },
+                                    {
+                                        text: "Algorithm & Programming",
+                                        dates: ["1st Semester"],
+                                    },
+                                    {
+                                        text: "Digital System",
+                                        dates: ["2nd Semester"],
+                                    },
+                                    {
+                                        text: "Object Oriented Programming",
+                                        dates: ["2nd Semester"],
+                                    },
                                 ]}
                             />
                         </QualificationTimelineItemDescriptionGroup>
@@ -283,15 +295,56 @@ export default function Qualification(): JSX.Element {
                         <QualificationTimelineItemDescriptionGroup>
                             <QualificationTimelineItemDescriptionPoint text="Relevant Courses" />
 
-                            <QualificationTimelineItemDescriptionList
+                            <QualificationTimelineItemDescriptionListDate
                                 items={[
-                                    "Basics of Programming",
-                                    "Computer & Network Basics",
-                                    "Computer System",
-                                    "Database",
-                                    "Object-Oriented Programming",
-                                    "Software Development",
-                                    "Web & Mobile Development",
+                                    {
+                                        text: "Digital Simulation and Communication",
+                                        dates: [
+                                            "1st - 2nd Semester", //
+                                        ],
+                                    },
+                                    {
+                                        text: "Basics of Programming",
+                                        dates: [
+                                            "1st - 2nd Semester", //
+                                        ],
+                                    },
+                                    {
+                                        text: "Computer & Network Basics",
+                                        dates: [
+                                            "1st - 2nd Semester", //
+                                        ],
+                                    },
+                                    {
+                                        text: "Computer System",
+                                        dates: [
+                                            "1st - 2nd Semester", //
+                                        ],
+                                    },
+                                    {
+                                        text: "Database",
+                                        dates: [
+                                            "3rd - 5th Semester", //
+                                        ],
+                                    },
+                                    {
+                                        text: "Object-Oriented Programming",
+                                        dates: [
+                                            "3rd - 5th Semester", //
+                                        ],
+                                    },
+                                    {
+                                        text: "Software Modeling",
+                                        dates: [
+                                            "3rd - 5th Semester", //
+                                        ],
+                                    },
+                                    {
+                                        text: "Web & Mobile Development",
+                                        dates: [
+                                            "3rd - 5th Semester", //
+                                        ],
+                                    },
                                 ]}
                             />
                         </QualificationTimelineItemDescriptionGroup>
