@@ -20,7 +20,9 @@ export default function Copyright(): JSX.Element {
             </div>
 
             <p className="scroll-bottom-200">
-                <b>Copyright © 2024 Rizky Irswanda - All Rights Reserved</b>
+                <b>
+                    <div>Copyright © 2024 Rizky Irswanda</div> <div>All Rights Reserved</div>
+                </b>
             </p>
         </div>
     );
