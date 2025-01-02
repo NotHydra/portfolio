@@ -205,6 +205,7 @@ span {
             font-weight: 700;
             line-height: 1;
             margin: 0 0 20px;
+            text-wrap: nowrap;
         }
 
         h6 {
@@ -212,6 +213,7 @@ span {
             font-size: 18px;
             font-weight: 500;
             margin-bottom: 25px;
+            text-wrap: nowrap;
 
             display: flex;
             flex-direction: row;
@@ -544,6 +546,10 @@ span {
             display: flex;
             flex-direction: column;
             align-items: center;
+
+            h1 {
+                text-wrap: wrap;
+            }
 
             h6 {
                 flex-direction: column;
