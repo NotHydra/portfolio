@@ -10,7 +10,7 @@ export default function Home(): JSX.Element {
                 </h1>
 
                 <h6 className="scroll-bottom-200">
-                    Experienced in{" "}
+                    <div>Experienced in</div>
                     <span>
                         <ReactTyped
                             strings={[

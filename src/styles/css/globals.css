@@ -192,6 +192,11 @@ span {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+}
+.home .text h6 div {
+  margin-right: 0.25rem;
 }
 .home .text p {
   max-width: 470px;
@@ -447,6 +452,12 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .home .text h6 {
+    flex-direction: column;
+  }
+  .home .text h6 div {
+    margin-right: 0;
   }
   .home .text p {
     max-width: 90%;
