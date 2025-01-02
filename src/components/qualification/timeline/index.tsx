@@ -18,7 +18,7 @@ export default function QualificationTimeline({ children, title }: { children: R
                                         <div className="item" key={index}>
                                             {index % 2 === 0 ? (
                                                 <>
-                                                    <div className={`scroll-left-200`}>{child}</div>
+                                                    <div className={`scroll-bottom-200`}>{child}</div>
 
                                                     <div className="scroll-bottom-200">
                                                         <span className="item-rounder"></span>
@@ -34,7 +34,7 @@ export default function QualificationTimeline({ children, title }: { children: R
                                                         <span className="item-line"></span>
                                                     </div>
 
-                                                    <div className={`scroll-right-200`}>{child}</div>
+                                                    <div className={`scroll-bottom-200`}>{child}</div>
                                                 </>
                                             )}
                                         </div>
