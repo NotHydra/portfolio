@@ -576,13 +576,8 @@ span {
         }
 
         .text {
-            h2 {
-                max-width: 100%;
-            }
-
-            p {
-                max-width: 100%;
-            }
+            max-width: 90%;
+            justify-self: center;
         }
     }
 }

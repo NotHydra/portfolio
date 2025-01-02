@@ -470,11 +470,9 @@ span {
   .about .image {
     order: 2;
   }
-  .about .text h2 {
-    max-width: 100%;
-  }
-  .about .text p {
-    max-width: 100%;
+  .about .text {
+    max-width: 90%;
+    justify-self: center;
   }
 }
 @media (max-width: 400px) {
