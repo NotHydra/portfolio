@@ -325,13 +325,14 @@ span {
   opacity: 50%;
 }
 .project .container .swiper .content .data {
-  width: 55%;
+  width: 100%;
   justify-self: center;
 }
 .project .container .swiper .content .data .title {
   margin-bottom: 0.1rem;
   font-size: 1.125rem;
   text-align: center;
+  text-wrap: nowrap;
 }
 .project .container .swiper .content .data .subtitle {
   margin-bottom: 0.5rem;
@@ -497,6 +498,9 @@ span {
     grid-template-columns: 0.6fr;
     justify-content: center;
   }
+  .project .container .swiper .content .data {
+    width: 55%;
+  }
 }
 @media screen and (min-width: 768px) {
   .timeline {
@@ -512,6 +516,9 @@ span {
   .project .container .swiper .content {
     align-items: center;
   }
+  .project .container .swiper .content .data {
+    width: 55%;
+  }
   .project .container .swiper .content .image {
     width: 350px;
   }
@@ -519,6 +526,9 @@ span {
 @media screen and (min-width: 1024px) {
   .project {
     height: 100vh;
+  }
+  .project .container .swiper .content .data {
+    width: 55%;
   }
   .project .container .swiper .content .image {
     width: 500px;

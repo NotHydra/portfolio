@@ -390,7 +390,7 @@ span {
                 }
 
                 .data {
-                    width: 55%;
+                    width: 100%;
                     justify-self: center;
 
                     .title {
@@ -398,6 +398,8 @@ span {
 
                         font-size: 1.125rem;
                         text-align: center;
+
+                        text-wrap: nowrap;
                     }
 
                     .subtitle {
@@ -625,6 +627,18 @@ span {
             }
         }
     }
+
+    .project {
+        .container {
+            .swiper {
+                .content {
+                    .data {
+                        width: 55%;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -649,6 +663,10 @@ span {
                 .content {
                     align-items: center;
 
+                    .data {
+                        width: 55%;
+                    }
+
                     .image {
                         width: 350px;
                     }
@@ -665,6 +683,10 @@ span {
         .container {
             .swiper {
                 .content {
+                    .data {
+                        width: 55%;
+                    }
+
                     .image {
                         width: 500px;
                     }
