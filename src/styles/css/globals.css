@@ -392,6 +392,7 @@ span {
   }
   .home {
     height: 70vh;
+    margin-top: 4rem;
   }
 }
 @media (max-width: 900px) {
