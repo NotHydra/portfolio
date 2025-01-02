@@ -541,8 +541,12 @@ span {
         }
 
         .text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
             p {
-                max-width: 100%;
+                max-width: 90%;
             }
         }
     }
