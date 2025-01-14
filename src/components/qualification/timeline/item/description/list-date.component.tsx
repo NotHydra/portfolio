@@ -1,21 +1,21 @@
 import React, { JSX } from "react";
 
-export default function QualificationTimelineItemDescriptionListDate({ items }: { items: { text: string; dates: string[] }[] }): JSX.Element {
+export default function QualificationTimelineItemDescriptionListSubText({ items }: { items: { text: string; subTexts: string[] }[]; icon?: string }): JSX.Element {
     return (
         <ul className="item-list">
             {items.map(
-                (item: { text: string; dates: string[] }, index: number): React.ReactNode => (
-                    <div key={index}>
-                        <li>{item.text}</li>
+                (item: { text: string; subTexts: string[] }, index: number): React.ReactNode => (
+                    <li key={index}>
+                        <p>{item.text}</p>
 
-                        {item.dates.map(
-                            (date: string, index: number): React.ReactNode => (
-                                <div className="item-list-date" key={index}>
-                                    <i className="uil uil-calender" /> {date}
-                                </div>
-                            )
-                        )}
-                    </div>
+                        <ul className="item-list-sub-text">
+                            {item.subTexts.map(
+                                (subText: string, index: number): React.ReactNode => (
+                                    <li key={index}>{subText}</li>
+                                )
+                            )}
+                        </ul>
+                    </li>
                 )
             )}
         </ul>
