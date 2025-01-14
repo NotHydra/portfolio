@@ -246,7 +246,7 @@ export default function Qualification(): JSX.Element {
                         <QualificationTimelineItemDescriptionGroup>
                             <QualificationTimelineItemDescriptionPoint text="GPA" />
 
-                            <p>3.86 / 4.00 (36 Credits)</p>
+                            <p>3.92 / 4.00 (60 Credits)</p>
                         </QualificationTimelineItemDescriptionGroup>
 
                         <QualificationTimelineItemDescriptionGroup>
@@ -257,11 +257,25 @@ export default function Qualification(): JSX.Element {
                                 items={[
                                     {
                                         text: "1st Semester",
-                                        subTexts: ["Introduction to Informatics", "Algorithm & Programming"],
+                                        subTexts: [
+                                            "Introduction to Informatics", //
+                                            "Algorithm & Programming",
+                                        ],
                                     },
                                     {
                                         text: "2nd Semester",
-                                        subTexts: ["Digital System", "Object Oriented Programming"],
+                                        subTexts: [
+                                            "Digital System", //
+                                            "Object Oriented Programming",
+                                        ],
+                                    },
+                                    {
+                                        text: "3rd Semester",
+                                        subTexts: [
+                                            "Computer Architecture", //
+                                            "Operating Systems",
+                                            "Data Structure",
+                                        ],
                                     },
                                 ]}
                             />
