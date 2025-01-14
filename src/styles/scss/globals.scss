@@ -271,9 +271,13 @@ span {
                     grid-template-columns: 1fr max-content 1fr;
                     column-gap: 1.5rem;
 
+                    line-height: 1.2rem;
+
                     .item-title {
                         font-size: 0.938rem;
                         font-weight: 500;
+
+                        line-height: 1.4rem;
                     }
 
                     .item-subtitle {
@@ -293,21 +297,19 @@ span {
                     }
 
                     .item-list {
-                        margin-top: 0.1rem;
                         margin-left: 1rem;
 
                         li {
-                            margin-bottom: 0.5rem;
+                            margin-bottom: 0.2rem;
 
                             list-style-type: disc;
 
                             .item-list-sub-text {
-                                margin-top: 0.1rem;
                                 margin-bottom: 0.4rem;
                                 margin-left: 1rem;
 
                                 li {
-                                    margin-bottom: 0.25rem;
+                                    margin-bottom: 0.1rem;
 
                                     font-size: 0.75rem;
                                     color: var(--color-secondary);
