@@ -321,6 +321,8 @@ span {
                     }
 
                     .item-link {
+                        color: var(--color-main);   
+
                         &:hover {
                             color: var(--color-text) !important;
                         }

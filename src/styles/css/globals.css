@@ -269,6 +269,9 @@ span {
   color: var(--color-secondary);
   list-style-type: disc;
 }
+.timeline .content-container .content .item-container .item .item-link {
+  color: var(--color-main);
+}
 .timeline .content-container .content .item-container .item .item-link:hover {
   color: var(--color-text) !important;
 }
