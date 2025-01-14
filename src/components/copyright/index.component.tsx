@@ -19,11 +19,15 @@ export default function Copyright(): JSX.Element {
                 <CopyrightContactItem icon="gmail" link="mailto: rizky.irswanda115@gmail.com" />
             </div>
 
-            <p className="scroll-bottom-200">
-                <b>
-                    <div>Copyright © 2024 Rizky Irswanda</div> <div>All Rights Reserved</div>
-                </b>
-            </p>
+            <div className="scroll-bottom-200">
+                <p>
+                    <b>Copyright © 2024 Rizky Irswanda</b>
+                </p>
+
+                <p>
+                    <b>All Rights Reserved</b>
+                </p>
+            </div>
         </div>
     );
 }
