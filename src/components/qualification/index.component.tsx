@@ -8,7 +8,7 @@ import QualificationTimelineItemDescription from "./timeline/item/description/in
 import QualificationTimelineItemDescriptionGroup from "./timeline/item/description/group.component";
 import QualificationTimelineItemDescriptionPoint from "./timeline/item/description/point.component";
 import QualificationTimelineItemDescriptionList from "./timeline/item/description/list.component";
-import QualificationTimelineItemDescriptionListDate from "./timeline/item/description/list-date.component";
+import QualificationTimelineItemDescriptionListSubText from "./timeline/item/description/list-date.component";
 import QualificationTimelineItemDate from "./timeline/item/date/index.component";
 
 export default function Qualification(): JSX.Element {
@@ -252,23 +252,16 @@ export default function Qualification(): JSX.Element {
                         <QualificationTimelineItemDescriptionGroup>
                             <QualificationTimelineItemDescriptionPoint text="Relevant Courses" />
 
-                            <QualificationTimelineItemDescriptionListDate
+                            <QualificationTimelineItemDescriptionListSubText
+                                icon="calender"
                                 items={[
                                     {
-                                        text: "Introduction to Informatics",
-                                        dates: ["1st Semester"],
+                                        text: "1st Semester",
+                                        subTexts: ["Introduction to Informatics", "Algorithm & Programming"],
                                     },
                                     {
-                                        text: "Algorithm & Programming",
-                                        dates: ["1st Semester"],
-                                    },
-                                    {
-                                        text: "Digital System",
-                                        dates: ["2nd Semester"],
-                                    },
-                                    {
-                                        text: "Object Oriented Programming",
-                                        dates: ["2nd Semester"],
+                                        text: "2nd Semester",
+                                        subTexts: ["Digital System", "Object Oriented Programming"],
                                     },
                                 ]}
                             />
@@ -295,54 +288,25 @@ export default function Qualification(): JSX.Element {
                         <QualificationTimelineItemDescriptionGroup>
                             <QualificationTimelineItemDescriptionPoint text="Relevant Courses" />
 
-                            <QualificationTimelineItemDescriptionListDate
+                            <QualificationTimelineItemDescriptionListSubText
+                                icon="calender"
                                 items={[
                                     {
-                                        text: "Digital Simulation and Communication",
-                                        dates: [
-                                            "1st - 2nd Semester", //
+                                        text: "1st - 2nd Semester",
+                                        subTexts: [
+                                            "Digital Simulation and Communication", //
+                                            "Basics of Programming",
+                                            "Computer & Network Basics",
+                                            "Computer System",
                                         ],
                                     },
                                     {
-                                        text: "Basics of Programming",
-                                        dates: [
-                                            "1st - 2nd Semester", //
-                                        ],
-                                    },
-                                    {
-                                        text: "Computer & Network Basics",
-                                        dates: [
-                                            "1st - 2nd Semester", //
-                                        ],
-                                    },
-                                    {
-                                        text: "Computer System",
-                                        dates: [
-                                            "1st - 2nd Semester", //
-                                        ],
-                                    },
-                                    {
-                                        text: "Database",
-                                        dates: [
-                                            "3rd - 5th Semester", //
-                                        ],
-                                    },
-                                    {
-                                        text: "Object-Oriented Programming",
-                                        dates: [
-                                            "3rd - 5th Semester", //
-                                        ],
-                                    },
-                                    {
-                                        text: "Software Modeling",
-                                        dates: [
-                                            "3rd - 5th Semester", //
-                                        ],
-                                    },
-                                    {
-                                        text: "Web & Mobile Development",
-                                        dates: [
-                                            "3rd - 5th Semester", //
+                                        text: "3rd - 5th Semester",
+                                        subTexts: [
+                                            "Database", //
+                                            "Object-Oriented Programming",
+                                            "Software Modeling",
+                                            "Web & Mobile Development",
                                         ],
                                     },
                                 ]}

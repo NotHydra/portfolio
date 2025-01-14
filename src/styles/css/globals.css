@@ -267,6 +267,7 @@ span {
   margin-bottom: 0.25rem;
   font-size: 0.75rem;
   color: var(--color-secondary);
+  list-style-type: disc;
 }
 .timeline .content-container .content .item-container .item .item-link:hover {
   color: var(--color-text) !important;
