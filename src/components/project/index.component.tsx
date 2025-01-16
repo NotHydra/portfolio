@@ -168,7 +168,7 @@ export default function Project(): JSX.Element {
     const projects: Project[] = [
         {
             title: "Public Complaint Report",
-            image: "image/project/public-complaint-reporting-system.png",
+            image: "image/project/public-complaint-report.png",
             url: "https://github.com/NotHydra/pelaporan-pengaduan-masyarakat",
             subtitle: "Exam Project at",
             organization: {
@@ -176,6 +176,22 @@ export default function Project(): JSX.Element {
                 url: "https://smkn2balikpapan.sch.id",
             },
             description: "A web based application for Competency Test (UKK) that allows people to submit reports in the form of complaints.",
+            badges: [
+                badges.bootstrap, //
+                badges.mySQL,
+                badges.php,
+            ],
+        },
+        {
+            title: "Tuition Payment Application",
+            image: "image/project/tuition-payment-application.png",
+            url: "https://github.com/NotHydra/aplikasi-pembayaran-spp",
+            subtitle: "Exam Project at",
+            organization: {
+                name: "Balikpapan's Public Vocational High School 2",
+                url: "https://smkn2balikpapan.sch.id",
+            },
+            description: "A web based application for Competency Test (UKK) used by a school to manage and record tuition payment data of their students.",
             badges: [
                 badges.bootstrap, //
                 badges.mySQL,
