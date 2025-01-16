@@ -31,6 +31,10 @@ export default function Project(): JSX.Element {
             title: "Arduino",
             link: "https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white",
         },
+        bootstrap: {
+            title: "Bootstrap",
+            link: "https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white",
+        },
         bulma: {
             title: "Bulma",
             link: "https://img.shields.io/badge/bulma-00D0B1?style=for-the-badge&logo=bulma&logoColor=white",
@@ -162,6 +166,22 @@ export default function Project(): JSX.Element {
     };
 
     const projects: Project[] = [
+        {
+            title: "Public Complaint Report",
+            image: "image/project/public-complaint-reporting-system.png",
+            url: "https://github.com/NotHydra/pelaporan-pengaduan-masyarakat",
+            subtitle: "Exam Project at",
+            organization: {
+                name: "Balikpapan's Public Vocational High School 2",
+                url: "https://smkn2balikpapan.sch.id",
+            },
+            description: "A web based application for Competency Test (UKK) that allows people to submit reports in the form of complaints.",
+            badges: [
+                badges.bootstrap, //
+                badges.mySQL,
+                badges.php,
+            ],
+        },
         {
             title: "Finance Recap",
             image: "image/project/finance-recap.png",
