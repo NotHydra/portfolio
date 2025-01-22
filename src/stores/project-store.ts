@@ -14,7 +14,7 @@ const useProjectStore = create<ProjectState>((set) => ({
                 name: "irswanda.com",
                 url: "https://irswanda.com",
             },
-            description: "Portfolio website to showcase experiences, qualifications, and projects.",
+            description: "A portfolio website to showcase experiences, qualifications, and projects.",
             badges: [
                 badges.sass, //
                 badges.nextJS,

@@ -15,6 +15,16 @@ export default function Qualification(): JSX.Element {
     return (
         <div id="qualification">
             <QualificationTimeline title="WORK EXPERIENCE">
+                <QualificationTimelineItem title="Mobile Developer Intern">
+                    <QualificationTimelineItemSubtitleLink subtitle="At Komatsu Remanufacturing Asia Balikpapan Plant" link="https://www.komi.co.id/komatsu-remanufacturing-asia" />
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "January 2025 - Present", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
+
                 <QualificationTimelineItem title="Software & Internet of Things Engineer Freelancer">
                     <QualificationTimelineItemSubtitle subtitle="Part Time" />
 
@@ -315,7 +325,7 @@ export default function Qualification(): JSX.Element {
                                         ],
                                     },
                                     {
-                                        text: "3rd - 5th Semester",
+                                        text: "3rd - 6th Semester",
                                         subTexts: [
                                             "Database", //
                                             "Object-Oriented Programming",
@@ -365,7 +375,7 @@ export default function Qualification(): JSX.Element {
             </QualificationTimeline>
 
             <QualificationTimeline title="ORGANIZATION & COMMITTEE">
-                <QualificationTimelineItem title="Intern Staff of Electrical Division in Robotics Student Activity">
+                {/* <QualificationTimelineItem title="Intern Staff of Electrical Division in Robotics Student Activity">
                     <QualificationTimelineItemSubtitleLink subtitle="At Kalimantan's Institute of Technology" link="https://itk.ac.id" />
 
                     <QualificationTimelineItemDate
@@ -373,7 +383,7 @@ export default function Qualification(): JSX.Element {
                             "December 2024 - Present", //
                         ]}
                     />
-                </QualificationTimelineItem>
+                </QualificationTimelineItem> */}
 
                 <QualificationTimelineItem title="Member of Web Development Team in Infinite Volume 4 ">
                     <QualificationTimelineItemSubtitleLink subtitle="At Kalimantan's Institute of Technology" link="https://itk.ac.id" />
@@ -405,7 +415,7 @@ export default function Qualification(): JSX.Element {
                     />
                 </QualificationTimelineItem>
 
-                <QualificationTimelineItem title="Staff of Expo Sub Division Committee in Informatics Welcome Party">
+                {/* <QualificationTimelineItem title="Staff of Expo Sub Division Committee in Informatics Welcome Party">
                     <QualificationTimelineItemSubtitleLink subtitle="At Kalimantan's Institute of Technology" link="https://itk.ac.id" />
 
                     <QualificationTimelineItemDate
@@ -413,7 +423,7 @@ export default function Qualification(): JSX.Element {
                             "August 2024 - September 2024", //
                         ]}
                     />
-                </QualificationTimelineItem>
+                </QualificationTimelineItem> */}
 
                 <QualificationTimelineItem title="Member of FGD Committee for Department of Mathematics and Information Technology">
                     <QualificationTimelineItemSubtitleLink subtitle="At Kalimantan's Institute of Technology" link="https://itk.ac.id" />
@@ -435,7 +445,7 @@ export default function Qualification(): JSX.Element {
                     />
                 </QualificationTimelineItem>
 
-                <QualificationTimelineItem title="Intern Staff of Talent Development Department in Informatics Student Association">
+                {/* <QualificationTimelineItem title="Intern Staff of Talent Development Department in Informatics Student Association">
                     <QualificationTimelineItemSubtitleLink subtitle="At Kalimantan's Institute of Technology" link="https://itk.ac.id" />
 
                     <QualificationTimelineItemDate
@@ -443,7 +453,7 @@ export default function Qualification(): JSX.Element {
                             "April 2024 - September 2024", //
                         ]}
                     />
-                </QualificationTimelineItem>
+                </QualificationTimelineItem> */}
 
                 <QualificationTimelineItem title="Head of Prototype Division Committee in Major of Informatics ITK Open House">
                     <QualificationTimelineItemSubtitleLink subtitle="At Kalimantan's Institute of Technology" link="https://itk.ac.id" />
@@ -455,7 +465,7 @@ export default function Qualification(): JSX.Element {
                     />
                 </QualificationTimelineItem>
 
-                <QualificationTimelineItem title="Member of Prototype Division Committee in Department of Mathematics and Information Technology Expo">
+                {/* <QualificationTimelineItem title="Member of Prototype Division Committee in Department of Mathematics and Information Technology Expo">
                     <QualificationTimelineItemSubtitleLink subtitle="At Kalimantan's Institute of Technology" link="https://itk.ac.id" />
 
                     <QualificationTimelineItemDate
@@ -463,7 +473,7 @@ export default function Qualification(): JSX.Element {
                             "October 2023 - November 2023", //
                         ]}
                     />
-                </QualificationTimelineItem>
+                </QualificationTimelineItem> */}
             </QualificationTimeline>
 
             <QualificationTimeline title="LANGUAGE TEST">
