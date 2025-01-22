@@ -151,6 +151,18 @@ span {
   font-size: 1.9rem;
   font-weight: 600;
 }
+.about .text .count div .link {
+  /* Typography */
+  color: var(--color-text);
+}
+.about .text .count div .link i {
+  /* Typography */
+  margin-left: 4px;
+}
+.about .text .count div .link:hover {
+  /* Typography */
+  color: var(--color-main);
+}
 
 .button {
   /* Box Model */

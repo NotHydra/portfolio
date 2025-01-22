@@ -10,7 +10,7 @@ const useProjectStore = create<ProjectState>((set) => ({
             image: "image/project/portfolio-website.png",
             url: "https://github.com/NotHydra/portfolio",
             subtitle: "Public Website at",
-            organization: {
+            link: {
                 name: "irswanda.com",
                 url: "https://irswanda.com",
             },
@@ -28,7 +28,7 @@ const useProjectStore = create<ProjectState>((set) => ({
             image: "image/project/public-complaint-report.png",
             url: "https://github.com/NotHydra/pelaporan-pengaduan-masyarakat",
             subtitle: "Exam Project at",
-            organization: {
+            link: {
                 name: "Balikpapan's Public Vocational High School 2",
                 url: "https://smkn2balikpapan.sch.id",
             },
@@ -44,7 +44,7 @@ const useProjectStore = create<ProjectState>((set) => ({
             image: "image/project/tuition-payment-application.png",
             url: "https://github.com/NotHydra/aplikasi-pembayaran-spp",
             subtitle: "Exam Project at",
-            organization: {
+            link: {
                 name: "Balikpapan's Public Vocational High School 2",
                 url: "https://smkn2balikpapan.sch.id",
             },
@@ -60,7 +60,7 @@ const useProjectStore = create<ProjectState>((set) => ({
             image: "image/project/finance-recap.png",
             url: "https://github.com/astrantialabs/finance-recap",
             subtitle: "Intern Project at",
-            organization: {
+            link: {
                 name: "Balikpapan's Department of Labor and Social",
                 url: "https://disnaker.balikpapan.go.id",
             },
@@ -77,7 +77,7 @@ const useProjectStore = create<ProjectState>((set) => ({
             image: "image/project/inventory-management.png",
             url: "https://github.com/astrantialabs/administrare",
             subtitle: "Intern Project at",
-            organization: {
+            link: {
                 name: "Balikpapan's Department of Labor and Social",
                 url: "https://disnaker.balikpapan.go.id",
             },
@@ -99,7 +99,7 @@ const useProjectStore = create<ProjectState>((set) => ({
             image: "image/project/school-super-app.png",
             url: "https://github.com/NotHydra/school-super-app",
             subtitle: "Final Year Project at",
-            organization: {
+            link: {
                 name: "Balikpapan's Public Vocational High School 2",
                 url: "https://smkn2balikpapan.sch.id",
             },
@@ -120,7 +120,7 @@ const useProjectStore = create<ProjectState>((set) => ({
             image: "image/project/signature.png",
             url: "https://github.com/NotHydra/signature",
             subtitle: "Algorithm & Programming Course Project at",
-            organization: {
+            link: {
                 name: "Kalimantan's Institute of Technology",
                 url: "https://itk.ac.id",
             },
@@ -143,7 +143,7 @@ const useProjectStore = create<ProjectState>((set) => ({
             image: "image/project/siruang.png",
             url: "https://github.com/NotHydra/siruang",
             subtitle: "Object Oriented Programming Course Project at",
-            organization: {
+            link: {
                 name: "Kalimantan's Institute of Technology",
                 url: "https://itk.ac.id",
             },
@@ -159,7 +159,7 @@ const useProjectStore = create<ProjectState>((set) => ({
             image: "image/project/trash-track.png",
             url: "https://github.com/trashtrack-team/trashtrack",
             subtitle: "Finalist Project for",
-            organization: {
+            link: {
                 name: "Balikpapan's IoT and Data Analytic Smart City Competition 2024",
                 url: "https://www.instagram.com/p/C3zYWqGvtoH",
             },
@@ -187,7 +187,7 @@ const useProjectStore = create<ProjectState>((set) => ({
             image: "image/project/pari.png",
             url: "https://github.com/NotHydra/pari",
             subtitle: "Project for",
-            organization: {
+            link: {
                 name: "Gemastik 2024 XVII Smart Device, Embedded System & IoT",
                 url: "https://gemastik.kemdikbud.go.id",
             },

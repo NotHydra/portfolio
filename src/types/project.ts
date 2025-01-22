@@ -5,7 +5,7 @@ export interface Project {
     image: string;
     url: string;
     subtitle: string;
-    organization: {
+    link: {
         name: string;
         url: string;
     };

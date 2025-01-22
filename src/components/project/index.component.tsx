@@ -56,8 +56,8 @@ export default function Project(): JSX.Element {
 
                                         <p className="subtitle">
                                             {project.subtitle}{" "}
-                                            <a className="link" href={project.organization.url} target="_blank" rel="noopener noreferrer">
-                                                {project.organization.name}
+                                            <a className="link" href={project.link.url} target="_blank" rel="noopener noreferrer">
+                                                {project.link.name}
                                             </a>
                                         </p>
 

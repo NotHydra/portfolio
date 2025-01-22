@@ -1,8 +1,10 @@
+import useProjectStore from "@/stores/project-store";
+
 import moment from "moment";
 import { JSX } from "react";
 
-import AboutItem from "./item.component";
-import useProjectStore from "@/stores/project-store";
+import AboutCountItem from "./count/item.component";
+import AboutCountItemLink from "./count/link.component";
 
 export default function About(): JSX.Element {
     const { projects } = useProjectStore();
@@ -23,13 +25,13 @@ export default function About(): JSX.Element {
                 </p>
 
                 <div className="count">
-                    <AboutItem count={moment().diff(moment("20200601", "YYYYMMDD"), "years")} text="Years of Experience" delay={1000} />
+                    <AboutCountItem count={moment().diff(moment("20200601", "YYYYMMDD"), "years")} text="Years of Experience" delay={1000} />
 
-                    <AboutItem count={1} text="Internship Programs" delay={1200} />
+                    <AboutCountItem count={1} text="Internship Programs" delay={1200} />
 
-                    <AboutItem count={2} text="National Certificates of Competence (BNSP)" delay={1400} />
+                    <AboutCountItem count={2} text="National Certificates of Competence (BNSP)" delay={1400} />
 
-                    <AboutItem count={projects.length} text="Projects" delay={1600} />
+                    <AboutCountItemLink count={projects.length} text="Projects" delay={1600} icon="github" url="https://github.com/NotHydra" />
                 </div>
 
                 <div className="scroll-bottom-2000">

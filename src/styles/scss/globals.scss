@@ -179,6 +179,21 @@ span {
                     font-size: 1.9rem;
                     font-weight: 600;
                 }
+
+                .link {
+                    /* Typography */
+                    color: var(--color-text);
+
+                    i {
+                        /* Typography */
+                        margin-left: 4px;
+                    }
+
+                    &:hover {
+                        /* Typography */
+                        color: var(--color-main);
+                    }
+                }
             }
         }
     }
