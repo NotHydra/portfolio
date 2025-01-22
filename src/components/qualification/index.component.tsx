@@ -7,9 +7,9 @@ import QualificationTimelineItemSubtitleLink from "./timeline/item/subtitle/link
 import QualificationTimelineItemDescription from "./timeline/item/description/index.component";
 import QualificationTimelineItemDescriptionGroup from "./timeline/item/description/group.component";
 import QualificationTimelineItemDescriptionPoint from "./timeline/item/description/point.component";
-import QualificationTimelineItemDescriptionList from "./timeline/item/description/list.component";
-import QualificationTimelineItemDescriptionListSubText from "./timeline/item/description/list-date.component";
-import QualificationTimelineItemDate from "./timeline/item/date/index.component";
+import QualificationTimelineItemDescriptionList from "./timeline/item/description/list/index.component";
+import QualificationTimelineItemDescriptionListSubtext from "./timeline/item/description/list/subtext.component";
+import QualificationTimelineItemDate from "./timeline/item/date.component";
 
 export default function Qualification(): JSX.Element {
     return (
@@ -252,7 +252,7 @@ export default function Qualification(): JSX.Element {
                         <QualificationTimelineItemDescriptionGroup>
                             <QualificationTimelineItemDescriptionPoint text="Relevant Courses" />
 
-                            <QualificationTimelineItemDescriptionListSubText
+                            <QualificationTimelineItemDescriptionListSubtext
                                 icon="calender"
                                 items={[
                                     {
@@ -302,7 +302,7 @@ export default function Qualification(): JSX.Element {
                         <QualificationTimelineItemDescriptionGroup>
                             <QualificationTimelineItemDescriptionPoint text="Relevant Courses" />
 
-                            <QualificationTimelineItemDescriptionListSubText
+                            <QualificationTimelineItemDescriptionListSubtext
                                 icon="calender"
                                 items={[
                                     {

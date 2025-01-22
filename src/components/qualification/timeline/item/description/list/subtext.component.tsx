@@ -1,6 +1,6 @@
 import React, { JSX } from "react";
 
-export default function QualificationTimelineItemDescriptionListSubText({ icon, items }: { icon?: string; items: { text: string; subTexts: string[] }[] }): JSX.Element {
+export default function QualificationTimelineItemDescriptionListSubtext({ icon, items }: { icon?: string; items: { text: string; subTexts: string[] }[] }): JSX.Element {
     return (
         <ul className="item-list" style={{ marginLeft: icon !== undefined ? "0" : "1rem" }}>
             {items.map(
