@@ -12,3 +12,7 @@ export interface Project {
     description: string;
     badges: Badge[];
 }
+
+export interface ProjectState {
+    projects: Project[];
+}
