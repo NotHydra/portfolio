@@ -2,8 +2,11 @@ import moment from "moment";
 import { JSX } from "react";
 
 import AboutItem from "./item.component";
+import useProjectStore from "@/stores/project-store";
 
 export default function About(): JSX.Element {
+    const { projects } = useProjectStore();
+
     return (
         <section className="about" id="about">
             <div className="image scroll-bottom-200">
@@ -26,7 +29,7 @@ export default function About(): JSX.Element {
 
                     <AboutItem count={2} text="National Certificates of Competence (BNSP)" delay={1400} />
 
-                    <AboutItem count={7} text="Projects" delay={1600} />
+                    <AboutItem count={projects.length} text="Projects" delay={1600} />
                 </div>
 
                 <div className="scroll-bottom-2000">
