@@ -1,6 +1,6 @@
 import { JSX } from "react";
 
-import CopyrightContactItem from "./contact/item.component";
+import CopyrightContactItem from "./contact/item/index.component";
 
 export default function Copyright(): JSX.Element {
     return (
