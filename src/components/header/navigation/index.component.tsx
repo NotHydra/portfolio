@@ -1,5 +1,5 @@
 import { JSX, useEffect, useState } from "react";
-import HeaderNavigationItem from "./item.component";
+import HeaderNavigationItem from "./item/index.component";
 
 export default function HeaderNavigation(): JSX.Element {
     const [isNavigationBarOpen, setIsNavigationBarOpen] = useState<boolean>(false);
