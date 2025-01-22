@@ -3,8 +3,8 @@ import useProjectStore from "@/stores/project-store";
 import moment from "moment";
 import { JSX } from "react";
 
-import AboutCountItem from "./count/item.component";
-import AboutCountItemLink from "./count/link.component";
+import AboutCountItem from "./count/item/index.component";
+import AboutCountItemLink from "./count/item/link.component";
 
 export default function About(): JSX.Element {
     const { projects } = useProjectStore();
