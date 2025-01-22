@@ -6,6 +6,24 @@ import { create } from "zustand";
 const useProjectStore = create<ProjectState>((set) => ({
     projects: [
         {
+            title: "Portfolio",
+            image: "image/project/portfolio-website.png",
+            url: "https://github.com/NotHydra/portfolio",
+            subtitle: "Public Website at",
+            organization: {
+                name: "irswanda.com",
+                url: "https://irswanda.com",
+            },
+            description: "Portfolio website to showcase experiences, qualifications, and projects.",
+            badges: [
+                badges.sass, //
+                badges.nextJS,
+                badges.pnpm,
+                badges.nodeJS,
+                badges.typeScript,
+            ],
+        },
+        {
             title: "Public Complaint Report",
             image: "image/project/public-complaint-report.png",
             url: "https://github.com/NotHydra/pelaporan-pengaduan-masyarakat",
