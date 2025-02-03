@@ -467,6 +467,18 @@ span {
   text-align: center;
   text-wrap: nowrap;
 }
+.project .container .swiper .content .data .title a {
+  /* Typography */
+  color: var(--color-text);
+}
+.project .container .swiper .content .data .title a:hover {
+  /* Typography */
+  color: var(--color-main);
+}
+.project .container .swiper .content .data .title a i {
+  /* Typography */
+  font-size: 0.9rem;
+}
 .project .container .swiper .content .data .subtitle {
   /* Box Model */
   margin-bottom: 0.5rem;
@@ -474,14 +486,14 @@ span {
   font-size: 0.813rem;
   text-align: center;
 }
-.project .container .swiper .content .data .link {
+.project .container .swiper .content .data .subtitle a {
   /* Typography */
   color: var(--color-main);
 }
-.project .container .swiper .content .data .link:hover {
+.project .container .swiper .content .data .subtitle a:hover {
   color: var(--color-text);
 }
-.project .container .swiper .content .data .link i {
+.project .container .swiper .content .data .subtitle a i {
   /* Typography */
   font-size: 0.9rem;
 }

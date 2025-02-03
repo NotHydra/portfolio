@@ -49,7 +49,7 @@ export default function Project(): JSX.Element {
 
                                     <div className="data">
                                         <h3 className="title">
-                                            <a className="link" href={project.url} target="_blank" rel="noopener noreferrer">
+                                            <a href={project.url} target="_blank" rel="noopener noreferrer">
                                                 {project.title} <i className="bx bxl-github"></i>
                                             </a>
                                         </h3>

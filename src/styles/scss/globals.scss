@@ -577,6 +577,21 @@ span {
                         font-size: 1.125rem;
                         text-align: center;
                         text-wrap: nowrap;
+
+                        a {
+                            /* Typography */
+                            color: var(--color-text);
+
+                            &:hover {
+                                /* Typography */
+                                color: var(--color-main);
+                            }
+
+                            i {
+                                /* Typography */
+                                font-size: 0.9rem;
+                            }
+                        }
                     }
 
                     .subtitle {
@@ -586,19 +601,19 @@ span {
                         /* Typography */
                         font-size: 0.813rem;
                         text-align: center;
-                    }
 
-                    .link {
-                        /* Typography */
-                        color: var(--color-main);
-
-                        &:hover {
-                            color: var(--color-text);
-                        }
-
-                        i {
+                        a {
                             /* Typography */
-                            font-size: 0.9rem;
+                            color: var(--color-main);
+
+                            &:hover {
+                                color: var(--color-text);
+                            }
+
+                            i {
+                                /* Typography */
+                                font-size: 0.9rem;
+                            }
                         }
                     }
 
