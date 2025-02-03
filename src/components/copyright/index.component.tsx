@@ -1,4 +1,5 @@
 import { JSX } from "react";
+import moment from "moment";
 
 import CopyrightContactItem from "./contact/item/index.component";
 
@@ -21,7 +22,7 @@ export default function Copyright(): JSX.Element {
 
             <div className="scroll-bottom-200">
                 <p>
-                    <b>Copyright © 2024 Rizky Irswanda</b>
+                    <b>Copyright © {moment().format("YYYY")} Rizky Irswanda</b>
                 </p>
 
                 <p>
