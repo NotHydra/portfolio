@@ -29,6 +29,10 @@ export const badges: { [key: string]: Badge } = {
         title: "C++",
         link: "https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white",
     },
+    docker: {
+        title: "Docker",
+        link: "https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white",
+    },
     espressif: {
         title: "Espressif",
         link: "https://img.shields.io/badge/espressif-E7352C.svg?style=for-the-badge&logo=espressif&logoColor=white",
@@ -47,11 +51,11 @@ export const badges: { [key: string]: Badge } = {
     },
     java: {
         title: "Java",
-        link: "https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white",
-    },
-    javaFX: {
-        title: "JavaFX",
         link: "https://img.shields.io/badge/javafx-%23FF0000.svg?style=for-the-badge&logo=javafx&logoColor=white",
+    },
+    keras: {
+        title: "Keras",
+        link: "https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white",
     },
     laravel: {
         title: "Laravel",
@@ -113,13 +117,17 @@ export const badges: { [key: string]: Badge } = {
         title: "Redux",
         link: "https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white",
     },
-    socketIO: {
-        title: "Socket IO",
-        link: "https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101",
-    },
     sass: {
         title: "SASS",
         link: "https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white",
+    },
+    scikitLearn: {
+        title: "Scikit-Learn",
+        link: "https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white",
+    },
+    socketIO: {
+        title: "Socket IO",
+        link: "https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101",
     },
     tailwindCSS: {
         title: "Tailwind CSS",
