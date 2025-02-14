@@ -463,7 +463,7 @@ span {
   /* Box Model */
   margin-bottom: 0.1rem;
   /* Typography */
-  font-size: 1.125rem;
+  font-size: clamp(0.925rem, 3vw, 1.125rem);
   text-align: center;
   text-wrap: nowrap;
 }
@@ -477,13 +477,13 @@ span {
 }
 .project .container .swiper .content .data .title a i {
   /* Typography */
-  font-size: 0.9rem;
+  font-size: clamp(0.7rem, 3vw, 0.9rem);
 }
 .project .container .swiper .content .data .subtitle {
   /* Box Model */
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   /* Typography */
-  font-size: 0.813rem;
+  font-size: clamp(0.613rem, 3vw, 0.813rem);
   text-align: center;
 }
 .project .container .swiper .content .data .subtitle a {
@@ -493,14 +493,11 @@ span {
 .project .container .swiper .content .data .subtitle a:hover {
   color: var(--color-text);
 }
-.project .container .swiper .content .data .subtitle a i {
-  /* Typography */
-  font-size: 0.9rem;
-}
 .project .container .swiper .content .data .description {
   /* Box Model */
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.5rem;
   /* Typography */
+  font-size: clamp(0.8rem, 3vw, 1rem);
   text-align: center;
 }
 .project .container .swiper .content .data .badges {
@@ -692,7 +689,7 @@ span {
   }
   .project .container .swiper .content .data {
     /* Box Model */
-    width: 55%;
+    width: 75%;
   }
 }
 @media screen and (min-width: 768px) {

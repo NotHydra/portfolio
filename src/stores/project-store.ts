@@ -40,7 +40,7 @@ const useProjectStore = create<ProjectState>((set) => ({
             ],
         },
         {
-            title: "Tuition Payment Application",
+            title: "Tuition Payment",
             image: "image/project/tuition-payment-application.png",
             url: "https://github.com/NotHydra/tuition-payment-application",
             subtitle: "Exam Project at",
