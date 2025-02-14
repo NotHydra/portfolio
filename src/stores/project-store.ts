@@ -209,6 +209,29 @@ const useProjectStore = create<ProjectState>((set) => ({
                 badges.typeScript,
             ],
         },
+        {
+            title: "Emergency Sound Classification",
+            image: "image/project/emergency-sound-classification.png",
+            url: "https://github.com/NotHydra/indonesian-emergency-sound-classification",
+            subtitle: "Live Demo at",
+            link: {
+                name: "ambulance.irswanda.com",
+                url: "https://ambulance.irswanda.com",
+            },
+            description: "A web-based application that classifies emergency sounds such as ambulance sirens using Convolutional Neural Network (CNN) models.",
+            badges: [
+                badges.keras, //
+                badges.bulma,
+                badges.sass,
+                badges.nextJS,
+                badges.fastAPI,
+                badges.docker,
+                badges.yarn,
+                badges.nodeJS,
+                badges.typeScript,
+                badges.python,
+            ],
+        },
     ],
 }));
 
