@@ -26,7 +26,7 @@ const useProjectStore = create<ProjectState>((set) => ({
         {
             title: "Public Complaint Report",
             image: "image/project/public-complaint-report.png",
-            url: "https://github.com/NotHydra/pelaporan-pengaduan-masyarakat",
+            url: "https://github.com/NotHydra/public-complaint-report",
             subtitle: "Exam Project at",
             link: {
                 name: "Balikpapan's Public Vocational High School 2",
@@ -42,7 +42,7 @@ const useProjectStore = create<ProjectState>((set) => ({
         {
             title: "Tuition Payment Application",
             image: "image/project/tuition-payment-application.png",
-            url: "https://github.com/NotHydra/aplikasi-pembayaran-spp",
+            url: "https://github.com/NotHydra/tuition-payment-application",
             subtitle: "Exam Project at",
             link: {
                 name: "Balikpapan's Public Vocational High School 2",
