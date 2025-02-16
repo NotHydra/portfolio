@@ -1,15 +1,15 @@
 import { JSX } from "react";
 
 import QualificationTimeline from "./timeline";
+import QualificationTimelineItemDate from "./timeline/item/date.component";
+import QualificationTimelineItemDescriptionGroup from "./timeline/item/description/group.component";
+import QualificationTimelineItemDescription from "./timeline/item/description/index.component";
+import QualificationTimelineItemDescriptionList from "./timeline/item/description/list/index.component";
+import QualificationTimelineItemDescriptionListSubtext from "./timeline/item/description/list/subtext.component";
+import QualificationTimelineItemDescriptionPoint from "./timeline/item/description/point.component";
 import QualificationTimelineItem from "./timeline/item/index.component";
 import QualificationTimelineItemSubtitle from "./timeline/item/subtitle/index.component";
 import QualificationTimelineItemSubtitleLink from "./timeline/item/subtitle/link.component";
-import QualificationTimelineItemDescription from "./timeline/item/description/index.component";
-import QualificationTimelineItemDescriptionGroup from "./timeline/item/description/group.component";
-import QualificationTimelineItemDescriptionPoint from "./timeline/item/description/point.component";
-import QualificationTimelineItemDescriptionList from "./timeline/item/description/list/index.component";
-import QualificationTimelineItemDescriptionListSubtext from "./timeline/item/description/list/subtext.component";
-import QualificationTimelineItemDate from "./timeline/item/date.component";
 
 export default function Qualification(): JSX.Element {
     return (
@@ -196,6 +196,7 @@ export default function Qualification(): JSX.Element {
                         dates={[
                             "February 2024 - May 2024", //
                             "September 2024 - December 2024",
+                            "February 2025 - Present",
                         ]}
                     />
                 </QualificationTimelineItem>
