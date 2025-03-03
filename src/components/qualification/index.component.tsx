@@ -196,7 +196,6 @@ export default function Qualification(): JSX.Element {
                         dates={[
                             "February 2024 - May 2024", //
                             "September 2024 - December 2024",
-                            "February 2025 - Present",
                         ]}
                     />
                 </QualificationTimelineItem>
