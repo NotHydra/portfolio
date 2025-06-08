@@ -15,8 +15,8 @@ export default function Qualification(): JSX.Element {
     return (
         <div id="qualification">
             <QualificationTimeline title="WORK EXPERIENCE">
-                <QualificationTimelineItem title="Mobile Developer Intern">
-                    <QualificationTimelineItemSubtitleLink subtitle="At Komatsu Remanufacturing Asia Balikpapan Plant" link="https://www.komi.co.id/komatsu-remanufacturing-asia" />
+                <QualificationTimelineItem title="Full-Stack Developer Intern">
+                    <QualificationTimelineItemSubtitleLink subtitle="At Komatsu Remanufacturing Asia" link="https://www.komi.co.id/komatsu-remanufacturing-asia" />
 
                     <QualificationTimelineItemDate
                         dates={[
