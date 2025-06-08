@@ -27,11 +27,11 @@ export default function About(): JSX.Element {
                 <div className="count">
                     <AboutCountItem count={moment().diff(moment("20200601", "YYYYMMDD"), "years")} text="Years of Experience" delay={1000} />
 
-                    <AboutCountItem count={1} text="Internship Programs" delay={1200} />
+                    <AboutCountItem count={2} text="Internship Programs" delay={1200} />
 
                     <AboutCountItem count={2} text="National Certificates of Competence (BNSP)" delay={1400} />
 
-                    <AboutCountItemLink count={projects.length} text="Projects" delay={1600} icon="github" url="https://github.com/NotHydra" />
+                    <AboutCountItemLink count={projects.length} text="Projects & Research" delay={1600} icon="github" url="https://github.com/NotHydra" />
                 </div>
 
                 <div className="scroll-bottom-2000">
