@@ -122,7 +122,7 @@ export default function Qualification(): JSX.Element {
                     />
                 </QualificationTimelineItem>
 
-                <QualificationTimelineItem title="Evolution of ITK's SIMPAS LPPM">
+                <QualificationTimelineItem title="ITK's SIMPAS LPPM">
                     <QualificationTimelineItemSubtitle subtitle="Assistant" />
 
                     <QualificationTimelineItemDescription>
