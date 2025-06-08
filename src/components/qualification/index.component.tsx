@@ -70,7 +70,7 @@ export default function Qualification(): JSX.Element {
             </QualificationTimeline>
 
             <QualificationTimeline title="PROJECT & RESEARCH" subtitle="EXPERIENCE">
-                <QualificationTimelineItem title="Evolution of ITK's LMS">
+                <QualificationTimelineItem title="ITK's LMS">
                     <QualificationTimelineItemSubtitle subtitle="Assistant" />
 
                     <QualificationTimelineItemDescription>
@@ -79,7 +79,8 @@ export default function Qualification(): JSX.Element {
 
                             <QualificationTimelineItemDescriptionList
                                 items={[
-                                    "Developed digital attedance system alongside with automatic attendance recap", //
+                                    "Developed a digital attedance system alongside with automatic attendance recap",
+                                    "Created & developed an attendance synchronization system for ITK's Gerbang based on attendance data from ITK's LMS by utilizing Moodle API and Flask Server",
                                 ]}
                             />
                         </QualificationTimelineItemDescriptionGroup>
