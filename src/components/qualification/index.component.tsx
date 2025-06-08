@@ -388,7 +388,7 @@ export default function Qualification(): JSX.Element {
                     />
                 </QualificationTimelineItem> */}
 
-                <QualificationTimelineItem title="Member of Web Development Team in Infinite Volume 4 ">
+                {/* <QualificationTimelineItem title="Member of Web Development Team in Infinite Volume 4 ">
                     <QualificationTimelineItemSubtitleLink subtitle="At Kalimantan's Institute of Technology" link="https://itk.ac.id" />
 
                     <QualificationTimelineItemDate
@@ -396,7 +396,7 @@ export default function Qualification(): JSX.Element {
                             "December 2024 - Present", //
                         ]}
                     />
-                </QualificationTimelineItem>
+                </QualificationTimelineItem> */}
 
                 <QualificationTimelineItem title="Expert Staff of Event Division in Infinite Volume 4">
                     <QualificationTimelineItemSubtitleLink subtitle="At Kalimantan's Institute of Technology" link="https://itk.ac.id" />
