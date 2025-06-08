@@ -51,7 +51,7 @@ export default function Qualification(): JSX.Element {
                         <QualificationTimelineItemDescriptionGroup>
                             <QualificationTimelineItemDescriptionPoint text="Back-End Developer" />
 
-                            <p>Created and developed a REST API Server that is capable of efficiently handling multiple and various HTTPS request using NestJS and FastAPI.</p>
+                            <p>Developed a REST API Server that is capable of efficiently handling multiple and various HTTPS request using NestJS and FastAPI.</p>
                         </QualificationTimelineItemDescriptionGroup>
 
                         <QualificationTimelineItemDescriptionGroup>
@@ -108,8 +108,8 @@ export default function Qualification(): JSX.Element {
 
                             <QualificationTimelineItemDescriptionList
                                 items={[
-                                    "Developed a test score synchronization system for prospective student selection (SUMMIT path) based on test score data obtained from ITK's LMS via integrating the Moodle API alongside utilizing a RESTful API Flask Server",
                                     "Performed manual testing on the system's features",
+                                    "Developed a test score synchronization system for prospective student selection (SUMMIT path) based on test score data obtained from ITK's LMS via integrating the Moodle API alongside utilizing a RESTful API Flask Server",
                                 ]}
                             />
                         </QualificationTimelineItemDescriptionGroup>
@@ -168,8 +168,8 @@ export default function Qualification(): JSX.Element {
                             <QualificationTimelineItemDescriptionList
                                 items={[
                                     "Searched for audio datasets & performed slicing resulting in 500 different audio datasets using Python", //
-                                    "Created & developed a REST API Server to be able to use the classification model using FastAPI",
-                                    "Created & developed a Website as an interface to upload audio file to the server using NextJS",
+                                    "Developed a REST API Server to be able to use the classification model using FastAPI",
+                                    "Developed a Website as an interface to upload audio file to the server using NextJS",
                                     "Performed deployment of server & website on a VPS",
                                 ]}
                             />
@@ -355,7 +355,7 @@ export default function Qualification(): JSX.Element {
 
                     <QualificationTimelineItemDescription>
                         <QualificationTimelineItemDescriptionGroup>
-                            <p>Created & developed graphical desktop based application that can be used by companies with C#, .NET Framework and MySQL.</p>
+                            <p>Developed graphical desktop based application that can be used by companies with C#, .NET Framework and MySQL.</p>
                         </QualificationTimelineItemDescriptionGroup>
                     </QualificationTimelineItemDescription>
 
