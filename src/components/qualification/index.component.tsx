@@ -69,7 +69,7 @@ export default function Qualification(): JSX.Element {
                 </QualificationTimelineItem>
             </QualificationTimeline>
 
-            <QualificationTimeline title="RESEARCH EXPERIENCE">
+            <QualificationTimeline title="PROJECT & RESEARCH" subtitle="EXPERIENCE">
                 <QualificationTimelineItem title="Evolution of ITK's LMS">
                     <QualificationTimelineItemSubtitle subtitle="Assistant" />
 

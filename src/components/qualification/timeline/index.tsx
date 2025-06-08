@@ -2,10 +2,10 @@ import React, { JSX } from "react";
 
 import Title from "@/components/common/title.component";
 
-export default function QualificationTimeline({ children, title }: { children: React.ReactNode; title: string }): JSX.Element {
+export default function QualificationTimeline({ children, title, subtitle }: { children: React.ReactNode; title: string, subtitle?: string }): JSX.Element {
     return (
         <section className="timeline">
-            <Title title={title} />
+            <Title title={title} subtitle={subtitle} />
 
             <div className="content-container">
                 <div>
