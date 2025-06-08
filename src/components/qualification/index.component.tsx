@@ -93,37 +93,6 @@ export default function Qualification(): JSX.Element {
                     />
                 </QualificationTimelineItem>
 
-                <QualificationTimelineItem title="Ambulance Siren Audio Classification Using Convolutional Neural Network for Medical Emergency Detection">
-                    <QualificationTimelineItemSubtitle subtitle="Assistant" />
-
-                    <QualificationTimelineItemDescription>
-                        <QualificationTimelineItemDescriptionGroup>
-                            <QualificationTimelineItemDescriptionPoint text="Head Researcher" />
-
-                            <p>Ramadhan Paninggalih S.Si., M.Si., M.Sc.</p>
-                        </QualificationTimelineItemDescriptionGroup>
-
-                        <QualificationTimelineItemDescriptionGroup>
-                            <QualificationTimelineItemDescriptionPoint text="Contribution" />
-
-                            <QualificationTimelineItemDescriptionList
-                                items={[
-                                    "Searched for audio datasets & performed slicing resulting in 500 different audio datasets using Python", //
-                                    "Created & developed a REST API Server to be able to use the classification model using FastAPI",
-                                    "Created & developed a Website as an interface to upload audio file to the server using NextJS",
-                                    "Performed deployment of server & website on a VPS",
-                                ]}
-                            />
-                        </QualificationTimelineItemDescriptionGroup>
-                    </QualificationTimelineItemDescription>
-
-                    <QualificationTimelineItemDate
-                        dates={[
-                            "May 2024 - Present", //
-                        ]}
-                    />
-                </QualificationTimelineItem>
-
                 <QualificationTimelineItem title="Evolution of ITK's SIMPAS LPPM">
                     <QualificationTimelineItemSubtitle subtitle="Assistant" />
 
@@ -181,6 +150,39 @@ export default function Qualification(): JSX.Element {
                         ]}
                     />
                 </QualificationTimelineItem>
+
+
+                <QualificationTimelineItem title="Ambulance Siren Audio Classification Using Convolutional Neural Network for Medical Emergency Detection">
+                    <QualificationTimelineItemSubtitle subtitle="Assistant" />
+
+                    <QualificationTimelineItemDescription>
+                        <QualificationTimelineItemDescriptionGroup>
+                            <QualificationTimelineItemDescriptionPoint text="Head Researcher" />
+
+                            <p>Ramadhan Paninggalih S.Si., M.Si., M.Sc.</p>
+                        </QualificationTimelineItemDescriptionGroup>
+
+                        <QualificationTimelineItemDescriptionGroup>
+                            <QualificationTimelineItemDescriptionPoint text="Contribution" />
+
+                            <QualificationTimelineItemDescriptionList
+                                items={[
+                                    "Searched for audio datasets & performed slicing resulting in 500 different audio datasets using Python", //
+                                    "Created & developed a REST API Server to be able to use the classification model using FastAPI",
+                                    "Created & developed a Website as an interface to upload audio file to the server using NextJS",
+                                    "Performed deployment of server & website on a VPS",
+                                ]}
+                            />
+                        </QualificationTimelineItemDescriptionGroup>
+                    </QualificationTimelineItemDescription>
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "May 2024 - December 2024", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
+
             </QualificationTimeline>
 
             <QualificationTimeline title="TEACHING EXPERIENCE">
