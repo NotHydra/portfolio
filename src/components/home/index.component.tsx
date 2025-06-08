@@ -36,9 +36,9 @@ export default function Home(): JSX.Element {
                         Read More
                     </a>
 
-                    {/* <a className="button" href="https://drive.google.com/file/d/1f3naCSF5b0VDV5cROJFspEJlFaARyASP/view?usp=sharing" target="_blank">
+                    <a className="button" href="https://drive.google.com/file/d/1f3naCSF5b0VDV5cROJFspEJlFaARyASP/view?usp=sharing" target="_blank">
                         View CV
-                    </a> */}
+                    </a>
                 </div>
             </div>
 
