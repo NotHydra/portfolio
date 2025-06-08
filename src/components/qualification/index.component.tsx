@@ -80,7 +80,7 @@ export default function Qualification(): JSX.Element {
                             <QualificationTimelineItemDescriptionList
                                 items={[
                                     "Developed a digital attedance system alongside with automatic attendance recap",
-                                    "Created & developed an attendance synchronization system for ITK's Gerbang based on attendance data from ITK's LMS by utilizing Moodle API and Flask Server",
+                                    "Developed an attendance synchronization system for ITK's Gerbang based on attendance data obtained from ITK's LMS via integrating the Moodle API alongside utilizing a RESTful API Flask Server",
                                 ]}
                             />
                         </QualificationTimelineItemDescriptionGroup>
@@ -89,6 +89,35 @@ export default function Qualification(): JSX.Element {
                     <QualificationTimelineItemDate
                         dates={[
                             "October 2024 - Present", //
+                        ]}
+                    />
+                </QualificationTimelineItem>
+
+                <QualificationTimelineItem title="ITK's SUMMIT">
+                    <QualificationTimelineItemSubtitle subtitle="Assistant" />
+
+                    <QualificationTimelineItemDescription>
+                        <QualificationTimelineItemDescriptionGroup>
+                            <QualificationTimelineItemDescriptionPoint text="Head Researcher" />
+
+                            <p>Nur Fajri Azhar, S.Kom., M.Kom.</p>
+                        </QualificationTimelineItemDescriptionGroup>
+
+                        <QualificationTimelineItemDescriptionGroup>
+                            <QualificationTimelineItemDescriptionPoint text="Contribution" />
+
+                            <QualificationTimelineItemDescriptionList
+                                items={[
+                                    "Developed a test score synchronization system for prospective student selection (SUMMIT path) based on test score data obtained from ITK's LMS via integrating the Moodle API alongside utilizing a RESTful API Flask Server",
+                                    "Performed manual testing on the system's features",
+                                ]}
+                            />
+                        </QualificationTimelineItemDescriptionGroup>
+                    </QualificationTimelineItemDescription>
+
+                    <QualificationTimelineItemDate
+                        dates={[
+                            "June 2024 - Present", //
                         ]}
                     />
                 </QualificationTimelineItem>
@@ -122,35 +151,6 @@ export default function Qualification(): JSX.Element {
                         ]}
                     />
                 </QualificationTimelineItem>
-
-                <QualificationTimelineItem title="ITK's SUMMIT">
-                    <QualificationTimelineItemSubtitle subtitle="Assistant" />
-
-                    <QualificationTimelineItemDescription>
-                        <QualificationTimelineItemDescriptionGroup>
-                            <QualificationTimelineItemDescriptionPoint text="Head Researcher" />
-
-                            <p>Nur Fajri Azhar, S.Kom., M.Kom.</p>
-                        </QualificationTimelineItemDescriptionGroup>
-
-                        <QualificationTimelineItemDescriptionGroup>
-                            <QualificationTimelineItemDescriptionPoint text="Contribution" />
-
-                            <QualificationTimelineItemDescriptionList
-                                items={[
-                                    "Performed manual testing on the system's features", //
-                                ]}
-                            />
-                        </QualificationTimelineItemDescriptionGroup>
-                    </QualificationTimelineItemDescription>
-
-                    <QualificationTimelineItemDate
-                        dates={[
-                            "June 2024 - September 2024", //
-                        ]}
-                    />
-                </QualificationTimelineItem>
-
 
                 <QualificationTimelineItem title="Ambulance Siren Audio Classification Using Convolutional Neural Network for Medical Emergency Detection">
                     <QualificationTimelineItemSubtitle subtitle="Assistant" />
