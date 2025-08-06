@@ -21,7 +21,7 @@ export default function About(): JSX.Element {
                 <p className="scroll-bottom-600" style={{ textAlign: "justify", fontSize: "1rem", fontWeight: 500 }}>
                     Rizky Irswanda, born in Balikpapan, Indonesia. A multi-purpose <span>Programmer</span> with experience in <span>Software</span> Engineering, <span>Back-End</span> Development &{" "}
                     <span>Database</span> Engineering fields. Developed a wide range of projects. Starting from, the implementation of <span>full-stack applications</span>, development of{" "}
-                    <span>REST API servers</span>, and engineered complex relational <span>databases</span>. Currently taking an interest in <span>Internet of Things</span> Engineering.
+                    <span>API servers</span>, and engineered complex relational <span>databases</span>. Currently taking an interest in <span>Internet of Things</span> Engineering.
                 </p>
 
                 <div className="count">
