@@ -1,4 +1,3 @@
-import { Analytics } from "@vercel/analytics/react";
 import { NextFont } from "next/dist/compiled/@next/font";
 import { Rubik } from "next/font/google";
 
@@ -24,8 +23,6 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
             `}</style>
 
             <Component {...pageProps} />
-
-            <Analytics />
         </>
     );
 }
