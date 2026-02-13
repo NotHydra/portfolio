@@ -1,0 +1,24 @@
+name: portfolio-development
+
+services:
+    website:
+        container_name: portfolio-website-development
+
+        build:
+            context: .
+
+            dockerfile: Dockerfile
+
+            target: development
+
+        env_file:
+            - .env
+
+        ports:
+            - ${PORT}:3000
+
+        volumes:
+            - .:/app
+            - /app/node_modules
+
+        restart: unless-stopped

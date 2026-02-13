@@ -1,0 +1,20 @@
+name: portfolio-production
+
+services:
+    website:
+        container_name: portfolio-website-production
+
+        build:
+            context: .
+
+            dockerfile: Dockerfile
+
+            target: production
+
+        env_file:
+            - .env
+
+        ports:
+            - ${PORT}:3000
+
+        restart: always
