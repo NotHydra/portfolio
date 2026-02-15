@@ -11,8 +11,9 @@ services:
 
             target: development
 
-        env_file:
-            - .env
+        environment:
+            - HOSTNAME=${HOSTNAME}
+            - PORT=${PORT}
 
         ports:
             - ${PORT}:3000
