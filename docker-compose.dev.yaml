@@ -13,7 +13,6 @@ services:
 
         environment:
             - HOSTNAME=${HOSTNAME}
-            - PORT=${PORT}
 
         ports:
             - ${PORT}:3000
