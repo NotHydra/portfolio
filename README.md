@@ -1,7 +1,7 @@
 # Portfolio Website
 
 <p style="text-align: justify">
-    Welcome to my <b>Portfolio Website</b> – a personal space where I share my journey as a developer, showcase the projects I'm passionate about, and demonstrate the skills I've cultivated along the way. Built with modern web technologies, this site reflects my commitment to creating fast, elegant, and user-friendly experiences. Whether you're here to explore my work, learn about my approach to development, or connect with me, I hope you find something that resonates with you.
+    Welcome to my <b>Portfolio Website</b>, a personal space where I share my journey as a developer, showcase the projects I'm passionate about, and demonstrate the skills I've cultivated along the way. Built with modern web technologies, this site reflects my commitment to creating fast, elegant, and user-friendly experiences. Whether you're here to explore my work, learn about my approach to development, or connect with me, I hope you find something that resonates with you.
 </p>
 
 ## Tech Stack
@@ -15,7 +15,7 @@
 
 <br>
 
-# Development Setup
+## Development Setup
 
 ### 1. Install Dependencies
 
@@ -41,7 +41,7 @@ $ docker compose --env-file .env.dev -f docker-compose.dev.yaml up
 
 <br>
 
-# Production Setup
+## Production Setup
 
 ### 1. Environment Variables Setup
 
