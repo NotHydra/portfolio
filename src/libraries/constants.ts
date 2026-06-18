@@ -45,6 +45,14 @@ export const badges: { [key: string]: Badge } = {
         title: "FastAPI",
         link: "https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi",
     },
+    flask: {
+        title: "Flask",
+        link: "https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white",
+    },
+    flutter: {
+        title: "Flutter",
+        link: "https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white",
+    },
     ionic: {
         title: "Ionic",
         link: "https://img.shields.io/badge/Ionic-%233880FF.svg?style=for-the-badge&logo=Ionic&logoColor=white",
@@ -80,6 +88,10 @@ export const badges: { [key: string]: Badge } = {
     nextJS: {
         title: "NextJS",
         link: "https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white",
+    },
+    nuxtJS: {
+        title: "NuxtJS",
+        link: "https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&logo=nuxtdotjs&logoColor=#00DC82",
     },
     nx: {
         title: "Nx",
@@ -128,6 +140,10 @@ export const badges: { [key: string]: Badge } = {
     scikitLearn: {
         title: "Scikit-Learn",
         link: "https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white",
+    },
+    shadcnUI: {
+        title: "shadcn/ui",
+        link: "https://img.shields.io/badge/shadcn/ui-000000?style=for-the-badge&logo=shadcnui&logoColor=white",
     },
     socketIO: {
         title: "Socket IO",
