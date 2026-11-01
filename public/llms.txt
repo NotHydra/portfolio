@@ -1,0 +1,24 @@
+# Rizky Irswanda
+
+> Software and Internet of Things Engineer
+
+## Summary
+Rizky Irswanda is a Computer Science student and software engineer experienced in full-stack web development, desktop applications, backend systems, database engineering, and AIoT.
+
+## Core Specializations
+- Full-Stack Web Development: Next.js, React, TypeScript, PHP, Laravel, Tailwind CSS
+- IoT and Embedded Systems: ESP32, ESP8266, Arduino, MQTT, Sensor Integration
+- Backend and APIs: Node.js, Express, FastAPI, Python, REST APIs, Microservices
+- Databases: PostgreSQL, MySQL, Redis
+
+## Key Projects
+- Employee Information System (EIS): Enterprise HR platform for PT Komatsu Remanufacturing Asia
+- PrimaCare ERP: Enterprise web platform built with Domain-Driven Design and distributed microservices
+- SmartMedGuard: IoT hospital ward environmental monitoring system with multi-sensor telemetry over MQTT
+- Web Penjaminan Mutu FSTI: Quality assurance platform for Kalimantan's Institute of Technology
+
+## Verification and Contact
+- Website: https://irswanda.com
+- GitHub: https://github.com/NotHydra
+- LinkedIn: https://www.linkedin.com/in/rizky-irswanda
+- Email: rizky.irswanda115@gmail.com
