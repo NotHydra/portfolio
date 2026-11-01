@@ -12,22 +12,20 @@ export default function About(): JSX.Element {
     return (
         <section className="about" id="about">
             <div className="image scroll-bottom-200">
-                <img src="image/about.jpg" alt="About Section Profile Picture" style={{ borderRadius: "12.5%" }} />
+                <img src="image/about.webp" alt="About Section Profile Picture" style={{ borderRadius: "12.5%" }} />
             </div>
 
             <div className="text">
                 <h3 className="scroll-bottom-600">ABOUT</h3>
 
                 <p className="scroll-bottom-600" style={{ textAlign: "justify", fontSize: "1rem", fontWeight: 500 }}>
-                    Rizky Irswanda, born in Balikpapan, Indonesia. A multi-purpose <span>Programmer</span> with experience in <span>Software</span> Engineering, <span>Back-End</span> Development &{" "}
-                    <span>Database</span> Engineering fields. Developed a wide range of projects. Starting from, the implementation of <span>full-stack applications</span>, development of{" "}
-                    <span>API servers</span>, and engineered complex relational <span>databases</span>. Currently taking an interest in <span>Internet of Things</span> Engineering.
+                    Rizky Irswanda, born in Balikpapan, Indonesia. A <span>Software</span> and <span>Internet of Things</span> engineer working on <span>full-stack applications</span>, <span>API servers</span>, relational <span>databases</span>, and <span>AIoT</span> systems.
                 </p>
 
                 <div className="count">
                     <AboutCountItem count={moment().diff(moment("20200601", "YYYYMMDD"), "years")} text="Years of Experience" delay={1000} />
 
-                    <AboutCountItem count={5} text="Professional Experiences" delay={1200} />
+                    <AboutCountItem count={9} text="Professional Experiences" delay={1200} />
 
                     <AboutCountItem count={3} text="National Certificates of Competence (BNSP)" delay={1400} />
 

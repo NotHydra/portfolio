@@ -17,8 +17,11 @@ export default function Home(): JSX.Element {
                                 "Web Development", //
                                 "Desktop Development",
                                 "Back-End Development",
+                                "Full-Stack Development",
+                                "Mobile Development",
                                 "Database Engineering",
                                 "Internet of Things Engineering",
+                                "AI Engineering",
                             ]}
                             typeSpeed={30}
                             backSpeed={5}
@@ -28,7 +31,7 @@ export default function Home(): JSX.Element {
                 </h6>
 
                 <p className="scroll-bottom-400" style={{ textAlign: "justify", fontSize: "1rem", fontWeight: 400 }}>
-                    A third-year <span>Computer Science</span> student who likes to spend time on <span>Software</span> & <span>Internet of Things</span> Engineering
+                    A fourth-year <span>Computer Science</span> student who likes to spend time on <span>Software</span> & <span>Internet of Things</span> Engineering
                 </p>
 
                 <div className="scroll-bottom-600">
@@ -43,7 +46,7 @@ export default function Home(): JSX.Element {
             </div>
 
             <div className="image scroll-bottom-1000">
-                <img src="image/profile.jpg" alt="Home Section Profile Picture" />
+                <img src="image/profile.webp" alt="Home Section Profile Picture" />
             </div>
         </section>
     );

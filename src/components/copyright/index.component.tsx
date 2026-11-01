@@ -15,9 +15,9 @@ export default function Copyright(): JSX.Element {
 
                 <CopyrightContactItem icon="instagram" link="https://www.instagram.com/rz_irswanda" />
 
-                <CopyrightContactItem icon="linkedin" link="https://www.linkedin.com/in/rizky-irswanda-b068b6216" />
+                <CopyrightContactItem icon="linkedin" link="https://www.linkedin.com/in/rizky-irswanda" />
 
-                <CopyrightContactItem icon="gmail" link="mailto: rizky.irswanda115@gmail.com" />
+                <CopyrightContactItem icon="gmail" link="mailto:rizky.irswanda115@gmail.com" />
             </div>
 
             <div className="scroll-bottom-200">
