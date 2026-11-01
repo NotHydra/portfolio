@@ -45,6 +45,14 @@ export const badges: { [key: string]: Badge } = {
         title: "FastAPI",
         link: "https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi",
     },
+    filament: {
+        title: "Filament",
+        link: "https://img.shields.io/badge/filament-%23FFA100.svg?style=for-the-badge&logo=laravel&logoColor=white",
+    },
+    firebase: {
+        title: "Firebase",
+        link: "https://img.shields.io/badge/firebase-%23FFCA28.svg?style=for-the-badge&logo=firebase&logoColor=black",
+    },
     flask: {
         title: "Flask",
         link: "https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white",
@@ -52,6 +60,18 @@ export const badges: { [key: string]: Badge } = {
     flutter: {
         title: "Flutter",
         link: "https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white",
+    },
+    git: {
+        title: "Git",
+        link: "https://img.shields.io/badge/git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white",
+    },
+    github: {
+        title: "GitHub",
+        link: "https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white",
+    },
+    golang: {
+        title: "Go",
+        link: "https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white",
     },
     ionic: {
         title: "Ionic",
@@ -73,9 +93,21 @@ export const badges: { [key: string]: Badge } = {
         title: "Laravel",
         link: "https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white",
     },
+    livewire: {
+        title: "Livewire",
+        link: "https://img.shields.io/badge/livewire-%23FB70A9.svg?style=for-the-badge&logo=livewire&logoColor=white",
+    },
     mongoDB: {
         title: "MongoDB",
         link: "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white",
+    },
+    moodle: {
+        title: "Moodle",
+        link: "https://img.shields.io/badge/moodle-%23F98012.svg?style=for-the-badge&logo=moodle&logoColor=white",
+    },
+    mqtt: {
+        title: "MQTT",
+        link: "https://img.shields.io/badge/mqtt-%23660066.svg?style=for-the-badge&logo=eclipse-mosquitto&logoColor=white",
     },
     mySQL: {
         title: "MySQL",

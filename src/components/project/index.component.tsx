@@ -45,13 +45,32 @@ export default function Project(): JSX.Element {
                         (project: Project, index: number): React.ReactNode => (
                             <SwiperSlide className="swiper" key={index}>
                                 <div className="content">
-                                    <img className="image" src={project.image} alt={`${project.title}, ${project.description}`} onClick={() => window.open(project.url, "_blank")} loading="lazy" />
+                                    <img
+                                        className="image"
+                                        src={project.image}
+                                        alt={`${project.title}, ${project.description}`}
+                                        onClick={() => project.url && window.open(project.url, "_blank")}
+                                        style={{ cursor: project.url ? "pointer" : "default" }}
+                                        loading="lazy"
+                                    />
 
                                     <div className="data">
                                         <h3 className="title">
-                                            <a href={project.url} target="_blank" rel="noopener noreferrer">
-                                                {project.title} <i className="bx bxl-github"></i>
-                                            </a>
+                                            <span>{project.title}</span>
+                                            {(project.url || !!project.externalLinks?.length) && (
+                                                <span className="links" style={{ marginLeft: "0.5rem", display: "inline-flex", gap: "0.4rem" }}>
+                                                    {project.url && (
+                                                        <a href={project.url} target="_blank" rel="noopener noreferrer" title="GitHub Repository">
+                                                            <i className="bx bxl-github"></i>
+                                                        </a>
+                                                    )}
+                                                    {project.externalLinks?.map((ext, extIndex) => (
+                                                        <a key={extIndex} href={ext.url} target="_blank" rel="noopener noreferrer" title={ext.name}>
+                                                            <i className={ext.icon}></i>
+                                                        </a>
+                                                    ))}
+                                                </span>
+                                            )}
                                         </h3>
 
                                         <p className="subtitle">
