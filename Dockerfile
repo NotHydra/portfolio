@@ -1,10 +1,10 @@
-FROM node:22-alpine AS base
+FROM node:26-alpine AS base
 
 RUN apk add --no-cache libc6-compat
 
 WORKDIR /app
 
-RUN corepack enable && corepack prepare pnpm@latest --activate
+RUN npm install -g pnpm@latest
 
 
 
