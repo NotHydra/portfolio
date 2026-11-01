@@ -5,15 +5,21 @@ export type TimelineDate = {
     start: Date;
     end?: Date | "Present";
     showDay?: boolean;
+    showDuration?: boolean;
 };
 
-export function formatTimelineDate(date: TimelineDate): string {
+export function formatTimelineDate(date: TimelineDate, showDuration: boolean = true): string {
     const formatDate = (d: Date) => moment(d).format(date.showDay ? "MMMM D, YYYY" : "MMMM YYYY");
     const startStr = formatDate(date.start);
     if (!date.end) return startStr;
 
     const endStr = date.end === "Present" ? "Present" : formatDate(date.end);
     const rangeStr = `${startStr} - ${endStr}`;
+
+    const isDurationEnabled = date.showDuration ?? showDuration;
+    if (!isDurationEnabled) {
+        return rangeStr;
+    }
 
     const endMoment = date.end === "Present" ? moment() : moment(date.end);
     const totalMonths = endMoment.diff(moment(date.start), "months") + 1;
@@ -30,11 +36,17 @@ export function formatTimelineDate(date: TimelineDate): string {
     return duration ? `${rangeStr} · ${duration}` : rangeStr;
 }
 
-export default function QualificationTimelineItemDate({ date }: { date: TimelineDate }): JSX.Element {
+export default function QualificationTimelineItemDate({
+    date,
+    showDuration = true,
+}: {
+    date: TimelineDate;
+    showDuration?: boolean;
+}): JSX.Element {
     return (
         <div className="item-date">
             <div>
-                <i className="uil uil-calender" /> {formatTimelineDate(date)}
+                <i className="uil uil-calender" /> {formatTimelineDate(date, showDuration)}
             </div>
         </div>
     );

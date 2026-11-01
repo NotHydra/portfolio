@@ -470,7 +470,17 @@ const patents: TimelineEntry[] = [
     },
 ];
 
-function TimelineSection({ title, subtitle, entries }: { title: string; subtitle?: string; entries: TimelineEntry[] }): JSX.Element {
+function TimelineSection({
+    title,
+    subtitle,
+    entries,
+    showDuration = true,
+}: {
+    title: string;
+    subtitle?: string;
+    entries: TimelineEntry[];
+    showDuration?: boolean;
+}): JSX.Element {
     return (
         <QualificationTimeline title={title} subtitle={subtitle}>
             {entries.map((entry) => (
@@ -495,7 +505,7 @@ function TimelineSection({ title, subtitle, entries }: { title: string; subtitle
                         </QualificationTimelineItemDescription>
                     )}
 
-                    <QualificationTimelineItemDate date={entry.date} />
+                    <QualificationTimelineItemDate date={entry.date} showDuration={showDuration} />
                 </QualificationTimelineItem>
             ))}
         </QualificationTimeline>
@@ -508,12 +518,12 @@ export default function Qualification(): JSX.Element {
             <TimelineSection title="WORK EXPERIENCE" entries={workExperience} />
             <TimelineSection title="PROJECT & RESEARCH" subtitle="EXPERIENCE" entries={projectExperience} />
             <TimelineSection title="TEACHING EXPERIENCE" entries={volunteering} />
-            <TimelineSection title="PROFESSIONAL CERTIFICATION" entries={certifications} />
+            <TimelineSection title="PROFESSIONAL CERTIFICATION" entries={certifications} showDuration={false} />
             <TimelineSection title="FORMAL & NON-FORMAL EDUCATION" entries={education} />
             <TimelineSection title="PUBLICATION" entries={publications} />
             <TimelineSection title="INTELLECTUAL PROPERTY RIGHTS" entries={patents} />
             <TimelineSection title="COMPETITION AWARD" entries={awards} />
-            <TimelineSection title="LANGUAGE TEST" entries={languageTests} />
+            <TimelineSection title="LANGUAGE TEST" entries={languageTests} showDuration={false} />
         </div>
     );
 }
