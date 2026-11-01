@@ -1,7 +1,7 @@
 import { JSX } from "react";
 
 import QualificationTimeline from "./timeline";
-import QualificationTimelineItemDate from "./timeline/item/date.component";
+import QualificationTimelineItemDate, { TimelineDate } from "./timeline/item/date.component";
 import QualificationTimelineItemDescriptionGroup from "./timeline/item/description/group.component";
 import QualificationTimelineItemDescription from "./timeline/item/description/index.component";
 import QualificationTimelineItemDescriptionList from "./timeline/item/description/list/index.component";
@@ -14,7 +14,7 @@ type TimelineEntry = {
     title: string;
     subtitle: string;
     link?: string;
-    dates: string[];
+    date: TimelineDate;
     overview?: string;
     highlights?: string[];
 };
@@ -24,7 +24,7 @@ const workExperience: TimelineEntry[] = [
         title: "Internet of Things Engineer Intern",
         subtitle: "At PT Komatsu Remanufacturing Asia",
         link: "https://www.komi.co.id/komatsu-remanufacturing-asia",
-        dates: ["September 2026 - Present"],
+        date: { start: new Date(2026, 6, 1), end: "Present" },
         overview:
             "Architected and implemented end-to-end industrial IoT asset tracking infrastructure for heavy machinery parts across remanufacturing workshops, spanning Android and Rust edge gateway daemons, operator handheld apps, real-time spatial localization services, and a central modular monolith.",
         highlights: [
@@ -40,7 +40,7 @@ const workExperience: TimelineEntry[] = [
         title: "Project Manager - FSTI ITK's Quality Assurance System",
         subtitle: "At Kalimantan's Institute of Technology",
         link: "https://itk.ac.id",
-        dates: ["April 2026 - Present"],
+        date: { start: new Date(2026, 3, 1), end: "Present" },
         overview:
             "Directed project management alongside hands-on software development for Web Penjaminan Mutu FSTI (SIMJAMU FSTI), an institutional quality assurance platform for ITK's Faculty of Science and Information Technology.",
         highlights: [
@@ -55,7 +55,7 @@ const workExperience: TimelineEntry[] = [
         title: "Back-End Developer & DevOps Engineer",
         subtitle: "At CV. Val Tech",
         link: "https://valtech.id",
-        dates: ["February 2026 - Present"],
+        date: { start: new Date(2026, 1, 1), end: "Present" },
         overview:
             "Contributed to backend architecture and DevOps pipelines utilizing Domain-Driven Design (DDD), CQRS patterns, and containerized CI/CD workflows.",
         highlights: [
@@ -72,7 +72,7 @@ const workExperience: TimelineEntry[] = [
         title: "Mobile & Full-Stack Developer Intern",
         subtitle: "At PT Komatsu Remanufacturing Asia",
         link: "https://www.komi.co.id/komatsu-remanufacturing-asia",
-        dates: ["January 2025 - February 2026"],
+        date: { start: new Date(2025, 0, 1), end: new Date(2026, 1, 1) },
         overview:
             "The Employee Information System (EIS) is a full-stack HR platform built for PT Komatsu Remanufacturing Asia that digitizes reimbursement claims, request approvals, assignment letters, time tracking, and announcements for approximately 600 employees.",
         highlights: [
@@ -88,7 +88,7 @@ const workExperience: TimelineEntry[] = [
         title: "Full-Stack Developer - ITK's LMS",
         subtitle: "At Kalimantan's Institute of Technology",
         link: "https://itk.ac.id",
-        dates: ["October 2024 - January 2026"],
+        date: { start: new Date(2024, 9, 1), end: new Date(2026, 0, 1) },
         overview: "Extended ITK's Moodle-based LMS with external reporting tools that automate attendance data extraction, visualization, and Excel export through Moodle's Web Service API.",
         highlights: [
             "Built a NestJS REST API integrating 5 Moodle Web Service functions for attendance, session, enrollment, and group data.",
@@ -100,7 +100,7 @@ const workExperience: TimelineEntry[] = [
         title: "Back-End Developer - ITK's SUMMIT",
         subtitle: "At Kalimantan's Institute of Technology",
         link: "https://itk.ac.id",
-        dates: ["June 2024 - September 2025"],
+        date: { start: new Date(2024, 5, 1), end: new Date(2025, 8, 1) },
         overview: "SUMMIT is a Laravel admissions portal managing registration, document verification, payment processing, exam scoring, ranking, and acceptance for independent pathway admissions.",
         highlights: [
             "Built a Flask microservice that bridges ITK's Moodle LMS with the admissions system for postgraduate grade extraction.",
@@ -112,7 +112,7 @@ const workExperience: TimelineEntry[] = [
         title: "Full-Stack Developer - ITK's SIMPAS LPPM",
         subtitle: "At Kalimantan's Institute of Technology",
         link: "https://itk.ac.id",
-        dates: ["March 2024 - August 2025"],
+        date: { start: new Date(2024, 2, 1), end: new Date(2025, 7, 1) },
         overview: "SIMPAS is a research and community service management platform for proposal submission, reviewer assignment, revision tracking, monitoring, evaluation, and reporting.",
         highlights: [
             "Developed user registration, customized email verification, and role-aware account activation flows.",
@@ -124,7 +124,7 @@ const workExperience: TimelineEntry[] = [
         title: "Full-Stack Developer - Ambulance Siren Audio Classification",
         subtitle: "At Kalimantan's Institute of Technology",
         link: "https://itk.ac.id",
-        dates: ["May 2024 - December 2024"],
+        date: { start: new Date(2024, 4, 1), end: new Date(2024, 11, 1) },
         overview: "Contributed to an AI-powered emergency sound detection system that classifies ambulance sirens and traffic noise from uploaded or recorded audio.",
         highlights: [
             "Curated and segmented 500 audio samples into standardized 5-second WAV clips.",
@@ -136,7 +136,7 @@ const workExperience: TimelineEntry[] = [
         title: "Back-End Developer & Database Engineer Intern",
         subtitle: "At Balikpapan's Department of Labor and Social",
         link: "https://disnaker.balikpapan.go.id",
-        dates: ["April 2022 - July 2022"],
+        date: { start: new Date(2022, 3, 1), end: new Date(2022, 6, 1) },
         overview: "Developed Administrare and Finance Recap to digitize asset tracking and financial recap workflows for over 70 staff members.",
         highlights: [
             "Built RESTful API services using NestJS, FastAPI, TypeScript, Python, and MongoDB.",
@@ -151,7 +151,7 @@ const projectExperience: TimelineEntry[] = [
         title: "Rancang Bangun Sistem Lokalisasi Part Alat Berat Berbasis UHF RFID",
         subtitle: "Undergraduate Thesis at PT Komatsu Remanufacturing Asia & ITK",
         link: "https://itk.ac.id",
-        dates: ["September 2026 - Present"],
+        date: { start: new Date(2026, 6, 1), end: "Present" },
         highlights: [
             "Evaluated Log-Distance Path Loss models and trilateration algorithms for passive UHF RFID localization in heavy machinery pre-machining workshops.",
             "Analyzed antenna radiation patterns and multipath signal scattering across dense metallic machinery parts using circularly polarized antennas.",
@@ -163,7 +163,7 @@ const projectExperience: TimelineEntry[] = [
         title: "Web Penjaminan Mutu FSTI (SIMJAMU FSTI)",
         subtitle: "Institutional Quality Assurance Platform at Kalimantan's Institute of Technology",
         link: "https://itk.ac.id",
-        dates: ["April 2026 - Present"],
+        date: { start: new Date(2026, 3, 1), end: "Present" },
         highlights: [
             "Led full-stack architecture, Domain-Driven Design (DDD) modeling, and sprint management across 19 development cycles.",
             "Engineered period-centric course evaluation sheets with immutable run snapshots, manual review verification, and audit logs.",
@@ -175,7 +175,7 @@ const projectExperience: TimelineEntry[] = [
         title: "DermaScope: AI-Powered Dermatological Lesion Classification",
         subtitle: "Capstone Project at Coding Camp powered by DBS Foundation",
         link: "https://www.dicoding.com",
-        dates: ["May 2026 - July 2026"],
+        date: { start: new Date(2026, 4, 1), end: new Date(2026, 6, 1) },
         highlights: [
             "Served as AI Engineer in cohort capstone team CC26-PSU288 developing deep learning models for clinical skin lesion classification.",
             "Designed a multi-input neural network with TensorFlow Functional API combining 224x224 dermoscopic images via EfficientNetB0 and patient metadata via a custom tabular embedding layer.",
@@ -188,7 +188,7 @@ const projectExperience: TimelineEntry[] = [
         title: "ITK's LMS",
         subtitle: "Research Project at Kalimantan's Institute of Technology",
         link: "https://itk.ac.id",
-        dates: ["October 2024 - January 2026"],
+        date: { start: new Date(2024, 9, 1), end: new Date(2026, 0, 1) },
         highlights: [
             "Integrated Moodle Web Service functions through a NestJS API.",
             "Built a responsive attendance dashboard and Excel export workflow.",
@@ -199,7 +199,7 @@ const projectExperience: TimelineEntry[] = [
         title: "SmartMedGuard: Inovasi Modular untuk Pemantauan Ruang Rawat Berbasis IoT di Puskesmas dan RSUD",
         subtitle: "Research Project at Kalimantan's Institute of Technology",
         link: "https://itk.ac.id/en/berita/smartmedguard-cara-cerdas-memantau-ruang-rawat-dengan-teknologi-iot",
-        dates: ["August 2025 - December 2025"],
+        date: { start: new Date(2025, 7, 1), end: new Date(2025, 11, 1) },
         highlights: [
             "Engineered ESP32 firmware in C++ integrating DHT22 temperature and humidity sensing, PIR motion detection, and custom circuit schematics.",
             "Implemented a DS3231 real-time clock module alongside network time protocol synchronization and offline mode caching to guarantee zero telemetry loss during outages.",
@@ -212,7 +212,7 @@ const projectExperience: TimelineEntry[] = [
         title: "EcoBoo: Inovasi Produk Bambu melalui Workshop Berbasis Pemberdayaan Masyarakat",
         subtitle: "Community Service at Kalimantan's Institute of Technology",
         link: "https://itk.ac.id/en/berita/5-tim-mahasiswa-itk-lolos-p2mw-2026-usung-inovasi-wirausaha-berbasis-keberlanjutan-dan-pemberdayaan",
-        dates: ["July 2025 - December 2025"],
+        date: { start: new Date(2025, 6, 1), end: new Date(2025, 11, 1) },
         highlights: [
             "Built a NestJS REST API with Prisma and PostgreSQL using dual JWT refresh token rotation, strict rate limiting, and reusable SQL search query builders.",
             "Developed the administrative NextJS CMS dashboard with custom design systems, responsive dialog workflows, and role-based access.",
@@ -224,7 +224,7 @@ const projectExperience: TimelineEntry[] = [
         title: "ITK's SUMMIT",
         subtitle: "Research Project at Kalimantan's Institute of Technology",
         link: "https://itk.ac.id",
-        dates: ["June 2024 - September 2025"],
+        date: { start: new Date(2024, 5, 1), end: new Date(2025, 8, 1) },
         highlights: [
             "Built Moodle grade extraction through a Flask microservice.",
             "Integrated score synchronization into the Laravel admissions portal.",
@@ -235,7 +235,7 @@ const projectExperience: TimelineEntry[] = [
         title: "ITK's SIMPAS LPPM",
         subtitle: "Research Project at Kalimantan's Institute of Technology",
         link: "https://itk.ac.id",
-        dates: ["March 2024 - August 2025"],
+        date: { start: new Date(2024, 2, 1), end: new Date(2025, 7, 1) },
         highlights: [
             "Built account activation, submission approval, reviewer assignment, and revision tracking workflows.",
             "Created reusable JavaScript searchable dropdowns deployed across 30+ pages.",
@@ -246,7 +246,7 @@ const projectExperience: TimelineEntry[] = [
         title: "Ambulance Siren Audio Classification Using CNN for Medical Emergency Detection",
         subtitle: "Research Project at Kalimantan's Institute of Technology",
         link: "https://itk.ac.id",
-        dates: ["May 2024 - December 2024"],
+        date: { start: new Date(2024, 4, 1), end: new Date(2024, 11, 1) },
         highlights: [
             "Built the audio preprocessing dataset pipeline and FastAPI model server.",
             "Developed the NextJS upload and recording interface.",
@@ -257,7 +257,7 @@ const projectExperience: TimelineEntry[] = [
         title: "PARI (Papaya Ripeness Identification)",
         subtitle: "Project for Gemastik 2024 XVII Smart Device, Embedded System & IoT",
         link: "https://gemastik.kemdikbud.go.id",
-        dates: ["April 2024 - July 2024"],
+        date: { start: new Date(2024, 3, 1), end: new Date(2024, 6, 1) },
         highlights: [
             "Built a Raspberry Pi UHF RFID scanning pipeline for multi-frequency RSSI data.",
             "Implemented a NestJS, Prisma, PostgreSQL, and Socket.IO backend.",
@@ -268,7 +268,7 @@ const projectExperience: TimelineEntry[] = [
         title: "TrashTrack",
         subtitle: "Finalist Project for Balikpapan's IoT and Data Analytic Smart City Competition 2024",
         link: "https://www.instagram.com/p/C3zYWqGvtoH",
-        dates: ["January 2024 - March 2024"],
+        date: { start: new Date(2024, 0, 1), end: new Date(2024, 2, 1) },
         highlights: [
             "Built the NestJS and PostgreSQL API across 8 resource modules.",
             "Implemented citizen reports, operator feedback, status workflows, and analytics endpoints.",
@@ -282,7 +282,7 @@ const volunteering: TimelineEntry[] = [
         title: "Lecturer Assistant for Digital System Subject Odd Semester 2026/2027",
         subtitle: "At Kalimantan's Institute of Technology",
         link: "https://itk.ac.id",
-        dates: ["September 2026 - Present"],
+        date: { start: new Date(2026, 8, 1), end: "Present" },
         overview:
             "Supervised laboratory sessions and practical activities on electrical circuits, including logic gates, JK flip-flops, and shift registers.",
         highlights: [
@@ -295,21 +295,21 @@ const volunteering: TimelineEntry[] = [
         title: "Lecturer Assistant for Data Structure Subject Odd Semester 2025/2026",
         subtitle: "At Kalimantan's Institute of Technology",
         link: "https://itk.ac.id",
-        dates: ["September 2025 - December 2025"],
+        date: { start: new Date(2025, 8, 1), end: new Date(2025, 11, 1) },
         overview: "Assisted in teaching students about the Data Structure subject during the Odd Semester of 2025/2026.",
     },
     {
         title: "Lecturer Assistant for Algorithm & Programming Subject Odd Semester 2024/2025",
         subtitle: "At Kalimantan's Institute of Technology",
         link: "https://itk.ac.id",
-        dates: ["September 2024 - December 2024"],
+        date: { start: new Date(2024, 8, 1), end: new Date(2024, 11, 1) },
         overview: "Assisted in teaching Python and PyQt for desktop based applications.",
     },
     {
         title: "Lecturer Assistant for Algorithm & Programming Subject Even Semester 2023/2024",
         subtitle: "At Kalimantan's Institute of Technology",
         link: "https://itk.ac.id",
-        dates: ["February 2024 - May 2024"],
+        date: { start: new Date(2024, 1, 1), end: new Date(2024, 4, 1) },
         overview: "Assisted in teaching Python and PyQt for desktop based applications.",
     },
 ];
@@ -319,34 +319,34 @@ const certifications: TimelineEntry[] = [
         title: "Coding Camp 2026 powered by DBS Foundation - AI Engineer (Distinction Graduate)",
         subtitle: "Issued by DBS Foundation & Dicoding",
         link: "https://www.dicoding.com",
-        dates: ["July 2026"],
+        date: { start: new Date(2026, 6, 1) },
         highlights: ["Certificate ID: CC26/DIST/XXVI-07/CACC116D6Y2077", "Graduated with Distinction in AI Engineer Cohort"],
     },
     {
         title: "Certificate of Internship - EIS Development (Web & Mobile Apps)",
         subtitle: "Issued by PT Komatsu Remanufacturing Asia",
         link: "https://www.komi.co.id/komatsu-remanufacturing-asia",
-        dates: ["January 2025 - February 2026"],
+        date: { start: new Date(2025, 0, 1), end: new Date(2026, 1, 1) },
     },
-    { title: "BNSP - Junior Network Administrator", subtitle: "Issued by LSP Teknologi Digital", dates: ["August 2025 - August 2028"] },
+    { title: "BNSP - Junior Network Administrator", subtitle: "Issued by LSP Teknologi Digital", date: { start: new Date(2025, 7, 1), end: new Date(2028, 7, 1) } },
     {
         title: "Digital Talent Scholarship VSGA - Junior Network Administrator",
         subtitle: "Issued by BPSDMP Komdigi Banjarmasin",
-        dates: ["August 2025"],
+        date: { start: new Date(2025, 7, 1) },
     },
-    { title: "BNSP - IT Software Solution For Business", subtitle: "Issued by BBPVP Bekasi", link: "https://kelembagaan.kemnaker.go.id", dates: ["September 2023 - September 2026"] },
+    { title: "BNSP - IT Software Solution For Business", subtitle: "Issued by BBPVP Bekasi", link: "https://kelembagaan.kemnaker.go.id", date: { start: new Date(2023, 8, 1), end: new Date(2026, 8, 1) } },
     {
         title: "Pelatihan Berbasis Kompetensi (PBK) - IT Software Solution for Business (340 JP)",
         subtitle: "Issued by BBPVP Bekasi - Kemnaker RI",
         link: "https://kelembagaan.kemnaker.go.id",
-        dates: ["July 2023"],
+        date: { start: new Date(2023, 6, 1) },
     },
-    { title: "BNSP - KKNI Level II Scheme - Software Engineering", subtitle: "Issued by SMK Negeri 2 Balikpapan", link: "https://smkn2balikpapan.sch.id", dates: ["June 2023 - June 2026"] },
+    { title: "BNSP - KKNI Level II Scheme - Software Engineering", subtitle: "Issued by SMK Negeri 2 Balikpapan", link: "https://smkn2balikpapan.sch.id", date: { start: new Date(2023, 5, 1), end: new Date(2026, 5, 1) } },
     {
         title: "Certificate of Internship - Bidang Sekretariat (Grade: Sangat Baik)",
         subtitle: "Issued by Dinas Ketenagakerjaan Kota Balikpapan",
         link: "https://disnaker.balikpapan.go.id",
-        dates: ["April 2022 - July 2022"],
+        date: { start: new Date(2022, 3, 1), end: new Date(2022, 6, 1) },
     },
 ];
 
@@ -355,14 +355,14 @@ const education: TimelineEntry[] = [
         title: "Undergraduate, Computer Science",
         subtitle: "At Kalimantan's Institute of Technology",
         link: "https://itk.ac.id",
-        dates: ["July 2023 - Present"],
+        date: { start: new Date(2023, 6, 1), end: "Present" },
         highlights: ["GPA: 3.94 / 4.00 (129 Credits)"],
     },
     {
         title: "AI Engineer Cohort",
         subtitle: "At Coding Camp powered by DBS Foundation",
         link: "https://www.dicoding.com",
-        dates: ["February 2026 - July 2026"],
+        date: { start: new Date(2026, 1, 1), end: new Date(2026, 6, 1) },
         overview:
             "Completed an intensive 934-hour specialized AI Engineering track developed by DBS Foundation and Dicoding, graduating with Distinction.",
         highlights: [
@@ -375,7 +375,7 @@ const education: TimelineEntry[] = [
         title: "Training, IT Software Solution for Business",
         subtitle: "At BBPLK Cevest Bekasi",
         link: "https://kelembagaan.kemnaker.go.id",
-        dates: ["May 2023 - July 2023"],
+        date: { start: new Date(2023, 4, 1), end: new Date(2023, 6, 1) },
         overview: "Completed an intensive 340-hour competency-based training program focused on IT Software Solutions for Business.",
         highlights: [
             "Implemented structured programming, Object-Oriented Programming, and programming algorithms.",
@@ -387,7 +387,7 @@ const education: TimelineEntry[] = [
         title: "Vocational High School, Software Engineering",
         subtitle: "At SMK Negeri 2 Balikpapan",
         link: "https://smkn2balikpapan.sch.id",
-        dates: ["July 2020 - May 2023"],
+        date: { start: new Date(2020, 6, 1), end: new Date(2023, 4, 1) },
         overview: "Graduated from the Software Engineering major with a final average grade of 91.40 out of 100.00.",
         highlights: ["Grade: 91.40 / 100.00"],
     },
@@ -397,19 +397,19 @@ const awards: TimelineEntry[] = [
     {
         title: "Finalist in KIDECO Innovation Challenge (KIC) 2026",
         subtitle: "Issued by PT Kideco Jaya Agung & Institut Teknologi Kalimantan",
-        dates: ["August 2026"],
+        date: { start: new Date(2026, 7, 1) },
     },
     {
         title: "Finalist in IoT and Data Analytic Smart City Competition 2024",
         subtitle: "Issued by Dinas Komunikasi dan Informatika Balikpapan",
         link: "https://www.instagram.com/diskominfo.balikpapan",
-        dates: ["February 2024"],
+        date: { start: new Date(2024, 1, 1) },
     },
     {
         title: "Finalist in Schematics National Programming Contest Senior 2023",
         subtitle: "Issued by Schematics ITS",
         link: "https://www.instagram.com/schematics.its",
-        dates: ["October 2023"],
+        date: { start: new Date(2023, 9, 1) },
     },
 ];
 
@@ -417,20 +417,20 @@ const languageTests: TimelineEntry[] = [
     {
         title: "English & Professional Skill Assessment - Score: 88%",
         subtitle: "Issued by Dicoding Indonesia",
-        dates: ["June 2026"],
+        date: { start: new Date(2026, 5, 1) },
     },
     {
         title: "TOEIC (Test of English for International Communication) - Score: 865 / 990",
         subtitle: "Issued by Educational Testing Service (ETS) & PT International Test Center",
-        dates: ["September 2022 - September 2024"],
+        date: { start: new Date(2022, 8, 1), end: new Date(2024, 8, 1) },
         highlights: ["Listening: 475 / 495", "Reading: 390 / 495", "Total Score: 865 / 990"],
     },
-    { title: "Internal Academic English Test (IAET) - Score: 515", subtitle: "Issued by Institut Teknologi Kalimantan", link: "https://itk.ac.id", dates: ["August 2023"] },
+    { title: "Internal Academic English Test (IAET) - Score: 515", subtitle: "Issued by Institut Teknologi Kalimantan", link: "https://itk.ac.id", date: { start: new Date(2023, 7, 1) } },
     {
         title: "TOEFL PBT (Test of English as a Foreign Language Paper Based Test)",
         subtitle: "Issued by Business & Intensive English College (BIEC)",
         link: "https://www.instagram.com/biecbpn",
-        dates: ["January 2022"],
+        date: { start: new Date(2022, 0, 1) },
     },
 ];
 
@@ -439,25 +439,25 @@ const publications: TimelineEntry[] = [
         title: "Developing an Integrated Academic Quality Assurance Website Using Kanban Methodology",
         subtitle: "Presented at The 6th BICAME Borneo International Conference | LPPM ITK",
         link: "https://itk.ac.id",
-        dates: ["September 16, 2026"],
+        date: { start: new Date(2026, 8, 16), showDay: true },
     },
     {
         title: "Ambulance Siren Audio Classification Using Convolutional Neural Network for Medical Emergency Detection",
         subtitle: "Published by Prisma Sains (DOI: 10.33394/j-ps.v14i2.20099)",
         link: "https://doi.org/10.33394/j-ps.v14i2.20099",
-        dates: ["April 29, 2026"],
+        date: { start: new Date(2026, 3, 29), showDay: true },
     },
     {
         title: "Membangun Identitas Ekowisata melalui Inovasi Produk Bambu Berbasis Pemberdayaan Komunitas",
         subtitle: "Published by E-DIMAS: Jurnal Pengabdian kepada Masyarakat",
         link: "https://journal.upgris.ac.id/index.php/e-dimas/article/view/26686",
-        dates: ["March 2026"],
+        date: { start: new Date(2026, 2, 1) },
     },
     {
         title: "Evolution of Research and Community Service Information System (SIMPAS LPPM) Institut Teknologi Kalimantan",
         subtitle: "Published by SPECTA Journal of Technology (DOI: 10.35718/specta.v9i2.1309)",
         link: "https://doi.org/10.35718/specta.v9i2.1309",
-        dates: ["August 21, 2025"],
+        date: { start: new Date(2025, 7, 21), showDay: true },
     },
 ];
 
@@ -466,7 +466,7 @@ const patents: TimelineEntry[] = [
         title: "Poster Ilmiah EcoBoo Inovasi Produk Bambu melalui Workshop Berbasis Pemberdayaan Masyarakat sebagai Pilar Branding Ekowisata",
         subtitle: "Patent number EC002025209430",
         link: "https://journal.upgris.ac.id/index.php/e-dimas/article/view/26686",
-        dates: ["December 10, 2025"],
+        date: { start: new Date(2025, 11, 10), showDay: true },
     },
 ];
 
@@ -495,7 +495,7 @@ function TimelineSection({ title, subtitle, entries }: { title: string; subtitle
                         </QualificationTimelineItemDescription>
                     )}
 
-                    <QualificationTimelineItemDate dates={entry.dates} />
+                    <QualificationTimelineItemDate date={entry.date} />
                 </QualificationTimelineItem>
             ))}
         </QualificationTimeline>

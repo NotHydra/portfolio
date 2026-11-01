@@ -1,45 +1,41 @@
 import moment from "moment";
 import React, { JSX } from "react";
 
-function formatDuration(dateStr: string): string | null {
-    if (!dateStr.includes(" - ")) return null;
-    const [startStr, endStr] = dateStr.split(" - ").map((s) => s.trim());
-    if (!startStr || !endStr) return null;
+export type TimelineDate = {
+    start: Date;
+    end?: Date | "Present";
+    showDay?: boolean;
+};
 
-    const start = moment(startStr, ["MMMM YYYY", "YYYY"], true);
-    const end = endStr.toLowerCase() === "present" ? moment() : moment(endStr, ["MMMM YYYY", "YYYY"], true);
+export function formatTimelineDate(date: TimelineDate): string {
+    const formatDate = (d: Date) => moment(d).format(date.showDay ? "MMMM D, YYYY" : "MMMM YYYY");
+    const startStr = formatDate(date.start);
+    if (!date.end) return startStr;
 
-    if (!start.isValid() || !end.isValid()) return null;
+    const endStr = date.end === "Present" ? "Present" : formatDate(date.end);
+    const rangeStr = `${startStr} - ${endStr}`;
 
-    const totalMonths = end.diff(start, "months") + 1;
-    if (totalMonths <= 0) return null;
+    const endMoment = date.end === "Present" ? moment() : moment(date.end);
+    const totalMonths = endMoment.diff(moment(date.start), "months") + 1;
+    if (totalMonths <= 0) return rangeStr;
 
     const years = Math.floor(totalMonths / 12);
     const months = totalMonths % 12;
 
     const parts: string[] = [];
-    if (years > 0) {
-        parts.push(years === 1 ? "1 yr" : `${years} yrs`);
-    }
-    if (months > 0) {
-        parts.push(months === 1 ? "1 mo" : `${months} mos`);
-    }
+    if (years > 0) parts.push(years === 1 ? "1 yr" : `${years} yrs`);
+    if (months > 0) parts.push(months === 1 ? "1 mo" : `${months} mos`);
 
-    return parts.length > 0 ? parts.join(" ") : null;
+    const duration = parts.join(" ");
+    return duration ? `${rangeStr} · ${duration}` : rangeStr;
 }
 
-export default function QualificationTimelineItemDate({ dates }: { dates: string[] }): JSX.Element {
+export default function QualificationTimelineItemDate({ date }: { date: TimelineDate }): JSX.Element {
     return (
         <div className="item-date">
-            {dates.map((date: string, index: number) => {
-                const duration = formatDuration(date);
-                return (
-                    <div key={index}>
-                        <i className="uil uil-calender" /> {date}
-                        {duration && ` · ${duration}`}
-                    </div>
-                );
-            })}
+            <div>
+                <i className="uil uil-calender" /> {formatTimelineDate(date)}
+            </div>
         </div>
     );
 }
