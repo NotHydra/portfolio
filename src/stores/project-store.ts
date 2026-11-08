@@ -137,6 +137,28 @@ const useProjectStore = create<ProjectState>((set) => ({
             ],
         },
         {
+            title: "Portable Flame Detector",
+            image: "image/project/portable-flame-detector.webp",
+            url: "https://github.com/IEEE-ITK-SB/portable-flame-detector",
+            subtitle: "Interactive IoT System at",
+            link: {
+                name: "IEEE ITK Student Branch",
+                url: "https://linktr.ee/ieee.itksb",
+            },
+            description:
+                "A real-time flame hazard monitoring system streaming multi-node ESP32 telemetry over authenticated WebSockets to a live Next.js dashboard with stale device detection.",
+            badges: [
+                badges.cpp, //
+                badges.espressif,
+                badges.nodeJS,
+                badges.expressJS,
+                badges.typeScript,
+                badges.nextJS,
+                badges.tailwindCSS,
+                badges.shadcnUI,
+            ],
+        },
+        {
             title: "DermaScope",
             image: "image/project/dermascope.webp",
             subtitle: "AI Capstone Project at",
