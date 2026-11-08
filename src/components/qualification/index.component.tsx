@@ -232,6 +232,17 @@ const projectExperience: TimelineEntry[] = [
         ],
     },
     {
+        title: "Portable Flame Detector",
+        subtitle: "Interactive IoT Demonstration at IEEE ITK Student Branch",
+        link: "https://github.com/IEEE-ITK-SB/portable-flame-detector",
+        date: { start: new Date(2025, 6, 1), end: new Date(2025, 7, 1) },
+        highlights: [
+            "Built multi-node ESP32 firmware in C++ with optical flame sensors, piezo buzzers, and automated WebSocket reconnect loops.",
+            "Engineered an authenticated Node.js gateway server with Zod schema validation, API key authorization, and structured event logging.",
+            "Developed a real-time monitoring dashboard in Next.js and shadcn/ui featuring live multi-device state tracking and automated stale-device disconnection alerts.",
+        ],
+    },
+    {
         title: "ITK's SIMPAS LPPM",
         subtitle: "Research Project at Kalimantan's Institute of Technology",
         link: "https://itk.ac.id",
@@ -273,6 +284,22 @@ const projectExperience: TimelineEntry[] = [
             "Built the NestJS and PostgreSQL API across 8 resource modules.",
             "Implemented citizen reports, operator feedback, status workflows, and analytics endpoints.",
             "Prototyped ESP32 firmware for trash bin capacity measurements.",
+        ],
+    },
+];
+
+const organizationalExperience: TimelineEntry[] = [
+    {
+        title: "Head of Academic and Project Department",
+        subtitle: "At IEEE ITK Student Branch",
+        link: "https://linktr.ee/ieee.itksb",
+        date: { start: new Date(2025, 0, 1), end: new Date(2025, 11, 1) },
+        overview:
+            "Led the Academic and Project Department in promoting applied IoT technology, engineering interactive hardware prototypes, and launching digital platforms to foster technical capabilities across the student body.",
+        highlights: [
+            "Directed the end-to-end design and implementation of the Portable Flame Detector, an interactive multi-node ESP32 IoT system streaming real-time hazard telemetry via WebSockets to a Next.js dashboard.",
+            "Led on-the-ground technical operations at the SPIn ETAm orientation expo, establishing an isolated local network, active-standby battery power rotations, and optical sensor calibration against solar infrared interference.",
+            "Initialized and maintained the official IEEE ITK Student Branch web platform using Laravel, Inertia.js, and Vue 3, reviewing pull requests and mentoring department members on frontend and backend features.",
         ],
     },
 ];
@@ -517,6 +544,7 @@ export default function Qualification(): JSX.Element {
         <div id="qualification">
             <TimelineSection title="WORK EXPERIENCE" entries={workExperience} />
             <TimelineSection title="PROJECT & RESEARCH" subtitle="EXPERIENCE" entries={projectExperience} />
+            <TimelineSection title="ORGANIZATIONAL EXPERIENCE" entries={organizationalExperience} />
             <TimelineSection title="TEACHING EXPERIENCE" entries={volunteering} />
             <TimelineSection title="PROFESSIONAL CERTIFICATION" entries={certifications} showDuration={false} />
             <TimelineSection title="FORMAL & NON-FORMAL EDUCATION" entries={education} />
