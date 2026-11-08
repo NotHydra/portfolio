@@ -16,6 +16,10 @@ Rizky Irswanda is a Computer Science student and software engineer experienced i
 - PrimaCare ERP: Enterprise web platform built with Domain-Driven Design and distributed microservices
 - SmartMedGuard: IoT hospital ward environmental monitoring system with multi-sensor telemetry over MQTT
 - Web Penjaminan Mutu FSTI: Quality assurance platform for Kalimantan's Institute of Technology
+- Portable Flame Detector: Real-time multi-node ESP32 flame hazard detection system with WebSocket streaming
+
+## Organizational & Leadership Experience
+- Head of Academic and Project Department at IEEE ITK Student Branch (Jan 2025 - Dec 2025): Directed applied IoT projects including a real-time Portable Flame Detector for orientation expos and initialized the branch web platform.
 
 ## Verification and Contact
 - Website: https://irswanda.com

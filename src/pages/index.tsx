@@ -24,6 +24,13 @@ const structuredData = {
                 "@type": "CollegeOrUniversity",
                 name: "Institut Teknologi Kalimantan",
             },
+            memberOf: [
+                {
+                    "@type": "Organization",
+                    name: "IEEE ITK Student Branch",
+                    url: "https://linktr.ee/ieee.itksb",
+                },
+            ],
             sameAs: [
                 "https://github.com/NotHydra",
                 "https://www.linkedin.com/in/rizky-irswanda",
